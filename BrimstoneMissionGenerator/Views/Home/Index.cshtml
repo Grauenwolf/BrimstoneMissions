@@ -2,8 +2,9 @@
     ViewBag.Title = "Home Page";
 }
 
+<h2>Shadows of Brimstone Mission Generator</h2>
 <div class="row">
-    @using (Html.BeginForm("MIssion", "Home", FormMethod.Post))
+    @using (Html.BeginForm("Mission", "Home", FormMethod.Post))
     {
         <div>
             @foreach (BrimstoneMissionGenerator.Models.CheckList item in Model)

@@ -1,0 +1,53 @@
+﻿@model System.Collections.Generic.IList<BrimstoneMissionGenerator.Models.MissionsSet>
+@{
+    ViewBag.Title = "Mission List";
+}
+
+
+@foreach (var set in Model)
+{
+
+
+    <h2>@(set.Name)</h2>
+
+    <div>
+            @if (!string.IsNullOrEmpty(set.DownloadUrl))
+            {
+                <a href="@set.DownloadUrl">Download</a>
+                <br />
+            }
+        <ul>
+
+            @foreach (var mission in set.Mission)
+            {
+                <li>
+                    @if (mission.NumberSpecified)
+                    {
+                        <text>
+                            #@(mission.Number) @(mission.Name)
+                        </text>
+                    }
+                    else
+                    {
+                        <text>
+                            @(mission.Name)
+                        </text>
+                    }
+                    @if (!string.IsNullOrEmpty(mission.Location))
+                    {
+                        <text>
+                            (@(mission.Location.Replace(",", ", ")))
+                        </text>
+                    }
+                    @if (!string.IsNullOrEmpty(mission.Notes))
+                    {
+                        <text>
+                            @(mission.Notes)
+                        </text>
+                    }
+                </li>
+            }
+        </ul>
+    </div>
+
+}

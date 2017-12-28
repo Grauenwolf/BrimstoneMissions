@@ -1,0 +1,224 @@
+﻿<Missions>
+  <Set Name="Shadows of Brimstone" Id="1">
+    <Mission Number="1" Name="For a Few Dark Stone More" Location="Mine" />
+    <Mission Number="2" Name="Exploration" Location="Mine" />
+    <Mission Number="3" Name="Seal the Void Gate" Location="Mine" />
+    <Mission Number="4" Name="Search Party" Location="Mine" />
+    <Mission Number="5" Name="Escape" Location="Mine" />
+    <Mission Number="6" Name="Blow the Mine" Location="Mine" />
+  </Set>
+  <Set Name="Swamps of Death" Id="2">
+    <Mission Number="1" Name="Night of the Dead" Location="Mine" />
+    <Mission Number="2" Name="Seal the Hell Pit" Location="Mine" Notes="Fixed Map" />
+    <Mission Number="3" Name="The Lost Journal" Location="Mine" Notes="Fixed Map" />
+    <Mission Number="4" Name="Swamps of Death" Location="Mine,Jargono" />
+    <Mission Number="5" Name="Cursed Idol" Location="Mine,Jargono" />
+    <Mission Number="6" Name="Temple of Dread" Location="Mine,Jargono" />
+  </Set>
+  <Set Name="City of the Ancients" Id="3">
+    <Mission Number="1" Name="Terror in The Night" Location="Mine" />
+    <Mission Number="2" Name="Stop the Ritual" Location="Mine" Notes="Fixed Map" />
+    <Mission Number="3" Name="Last Stand" Location="Mine" Notes="Fixed Map" />
+    <Mission Number="4" Name="City of the Ancients" Location="Mine,Targa" />
+    <Mission Number="5" Name="Overload" Location="Targa" />
+    <Mission Number="6" Name="Frozen Expedition" Location="Mine,Targa" />
+  </Set>
+  <Set Name="The Caverns of Cynder" Id="4">
+    <Mission Number="1" Name="Cracks in Reality" Location="Mine" />
+    <Mission Number="2" Name="Defend the Bridge" Location="Mine" Notes="Fixed Map" />
+    <Mission Number="3" Name="Dark Deal" Location="Mine" />
+    <Mission Number="4" Name="Fire and Ash" Location="Mine,Cynder" />
+    <Mission Number="5" Name="Hunt for The Dark Stone" Location="Mine,Cynder" />
+    <Mission Number="6" Name="Broken Seals" Location="Cynder" />
+  </Set>
+  <Set Name="Frontier Town" Id="5">
+    <Mission Number="1" Name="Shootout in the Streets" Location="Town" />
+    <Mission Number="2" Name="Hanging High" Location="Town" />
+    <Mission Number="3" Name="Bank Robbery" Location="Town" />
+    <Mission Number="4" Name="Jail Break" Location="Town" />
+    <Mission Number="5" Name="Town Overrun" Location="Town" />
+    <Mission Number="6" Name="High Noon Duel" Location="Town" Notes="Solo" />
+  </Set>
+  <Set Name="Trederra" Id="6">
+    <Mission Number="1" Name="Foothold" Location="Mine" />
+    <Mission Number="2" Name="Toxic Purge" Location="Mine,Trederra" />
+    <Mission Number="3" Name="Battlefield Recon" Location="Mine,Trederra" />
+    <Mission Number="4" Name="Front Lines" Location="Trederra" />
+    <Mission Number="5" Name="Guns of War" Location="Trederra" />
+    <Mission Number="6" Name="Doomsday" Location="Trederra,Target World*" />
+  </Set>
+  <Set Name="Derelict Ship" Id="7">
+    <Mission Number="1" Name="Time's Echo" Location="Mine" />
+    <Mission Number="2" Name="Collapse the Vortex" Location="Mine" />
+    <Mission Number="3" Name="Lost in Space" Location="Mine,Ship" />
+    <Mission Number="4" Name="The Captain's Log" Location="Ship" Notes="Fixed Map" />
+    <Mission Number="5" Name="Voyage of the Dead" Location="Ship" />
+    <Mission Number="6" Name="Reactor Breach" Location="Ship" />
+  </Set>
+  <Set Name="Blasted Wastes" Id="8">
+    <Mission Number="1" Name="Missing Patrol" Location="Canyon" />
+    <Mission Number="2" Name="Ghosts in the Dark" Location="Canyon,Mines" />
+    <Mission Number="3" Name="Across the Desert Dunes" Location="Mines,Blasted Wastes" />
+    <Mission Number="4" Name="Starfall" Location="Blasted Wastes" Notes="Fixed Map" />
+    <Mission Number="5" Name="Water of Life" Location="Blasted Wastes" />
+    <Mission Number="6" Name="Warmaster's Fury" Location="Blasted Wastes" />
+  </Set>
+  <Set Name="Werewolf Feral Kin" Id="9">
+    <Mission Number="1" Name="First Blood" Location="Mines" />
+    <Mission Number="2" Name="Full Moon" Location="Mines" Notes="or- Canyons" />
+    <Mission Number="3" Name="Cleansing Ritual" Location="Mines" />
+    <Mission Number="4" Name="Hunting Ground" Location="Mines" />
+  </Set>
+  <Set Name="Hellfire Succubi" Id="10">
+    <Mission Number="1" Name="Deadly Dreams" Location="Mines" />
+    <Mission Number="2" Name="Seeds of Evil" Location="Mines,Cynder" />
+    <Mission Number="3" Name="Shadow and Flame" Location="Mines" />
+    <Mission Number="4" Name="Hell on Earth" Location="Mines" />
+  </Set>
+  <Set Name="Feral Vampires" Id="11">
+    <Mission Name="Feral Vampires" />
+  </Set>
+  <Set Name="Feral Vampires Mission Pack" Id="12">
+    <Mission Number="1" Name="Find the Coffins" Location="Mines" />
+    <Mission Number="2" Name="Once Bitten" Location="Mines" />
+    <Mission Number="3" Name="The Lost Tomb" Location="Mines" />
+    <Mission Number="4" Name="Lair of the Vampire" Location="Mines" />
+  </Set>
+  <Set Name="Order of the Crimson Hand" Id="13">
+    <Mission Number="1" Name="Black Ritual" Location="Mines" />
+    <Mission Number="2" Name="Captured" Location="Mines" />
+    <Mission Number="3" Name="Race for the Relics" Location="Mines,3 Random Other Worlds" />
+    <Mission Number="4" Name="Feeding the Beast" Location="Mines" />
+  </Set>
+  <Set Name="Black Fang Tribe" Id="14">
+    <Mission Number="1" Name="Blood Harvest" Location="Mines" />
+    <Mission Number="2" Name="Rain Dance" Location="Mines" Notes="or- Canyons" />
+    <Mission Number="3" Name="Tribal Relics" Location="Mines,2 Random Other Worlds" />
+    <Mission Number="4" Name="The Vengeful Spirit" Location="Mines" />
+  </Set>
+  <Set Name="The Lost Army" Id="15">
+    <Mission Number="1" Name="Supply Chain" Location="Mines" />
+    <Mission Number="2" Name="Under Siege" Location="Mines" />
+    <Mission Number="3" Name="Burning Souls" Location="Mines" />
+    <Mission Number="4" Name="Revenge of the Lost Army" Location="Mines" />
+  </Set>
+  <Set Name="Masters of the Void" Id="16">
+    <Mission Number="1" Name="Hunted" Location="Mine" />
+    <Mission Number="2" Name="Call of the Void" Location="Mine" />
+  </Set>
+  <Set Name="Serpentmen of Jargono" Id="17">
+    <Mission Number="1" Name="Human Sacrifice" Location="Mine,Jargono" />
+    <Mission Number="2" Name="Warring Tribes" Location="Jargono" />
+  </Set>
+  <Set Name="Undead Outlaws" Id="18">
+    <Mission Number="1" Name="Wanted: Undead or Alive" Location="Mine" />
+    <Mission Number="2" Name="Revenge of the Dead" Location="Mine" />
+  </Set>
+  <Set Name="The Scafford Gang" Id="19">
+    <Mission Number="1" Name="They're Getting Away" Location="Mine" />
+    <Mission Number="2" Name="Most Wanted" Location="Mine" />
+  </Set>
+  <Set Name="Flesh Stalker and Flesh Drones" Id="20">
+    <Mission Number="1" Name="Experimentation" Location="Mine" />
+    <Mission Number="2" Name="Out of Time" Location="Mine,Other" />
+  </Set>
+  <Set Name="Beli'al, Last of the Shadow Kings" Id="21">
+    <Mission Number="1" Name="Avatar of Evil" Location="Mine" />
+    <Mission Number="2" Name="Lost Soul" Location="Mine" />
+  </Set>
+  <Set Name="The Ancient One" Id="22">
+    <Mission Number="1" Name="Ancient Awakening" Location="Mines,Random OtherWorlds" />
+  </Set>
+  <Set Name="The Burrower" Id="23">
+    <Mission Number="1" Name="This is no Cave" Location="Mine" />
+  </Set>
+  <Set Name="The Sand Kraken" Id="24">
+    <Mission Number="1" Name="Release the Kraken" Location="Mine" />
+  </Set>
+  <Set Name="Doomsday Device and Shield Generators" Id="25">
+    <Mission Number="1" Name="Countdown to Destruction" Location="Mine" />
+  </Set>
+  <Set Name="One Way Ticket" Id="26" DownloadUrl="https://boardgamegeek.com/filepage/113668/sob-campaign-one-way-ticket-7-missions-tiles-cards">
+    <Mission Number="1" Name="One Way Ticket" />
+    <Mission Number="2" Name="Through Hell and High Water" />
+    <Mission Number="3" Name="The Hut in the Swamps" />
+    <Mission Number="4" Name="A Long Way Home" />
+    <Mission Number="5" Name="River of No Return" />
+    <Mission Number="6" Name="The Temple of the Black Goat" />
+    <Mission Number="7" Name="Rollercoaster Ride" />
+  </Set>
+  <Set Name="Treasures of the Void" Id="27" DownloadUrl="https://boardgamegeek.com/filepage/110712/opals-custom-mission-1-treasures-void">
+    <Mission Name="Treasures of the Void" />
+  </Set>
+  <Set Name="Vermin Overrun" Id="28" DownloadUrl="https://boardgamegeek.com/filepage/111109/opals-custom-mission-2-vermin-overrun">
+    <Mission Name="Vermin Overrun" />
+  </Set>
+  <Set Name="The Headless Horseman" Id="29" DownloadUrl="https://boardgamegeek.com/filepage/111391/shadows-brimstone-campaign-headless-horseman">
+    <Mission Number="1" Name="In the Western Wood" />
+    <Mission Number="2" Name="Indian Trail" />
+    <Mission Number="3" Name="The Tree of The Dead" />
+    <Mission Number="4" Name="The Archer House Ruins" />
+    <Mission Number="5" Name="The Horseman Comes" />
+    <Mission Number="6" Name="The Witch’s Cave" />
+    <Mission Number="7" Name="The Church Bridge" />
+  </Set>
+  <Set Name="The Ballad of Jane Cobb" Id="30" DownloadUrl="https://boardgamegeek.com/filepage/110779/custom-adventure-ballad-jane-cobb-three-part-adven">
+    <Mission Number="1" Name="The Ballad of Jane Cobb pt 1" />
+    <Mission Number="2" Name="The Ballad of Jane Cobb pt 2" />
+    <Mission Number="3" Name="The Ballad of Jane Cobb pt 3" />
+  </Set>
+  <Set Name="The Story of Josie the Giant" Id="31" DownloadUrl="https://boardgamegeek.com/filepage/110747/custom-adventure-monster-story-josie-giant-v12">
+    <Mission Name="The Story of Josie the Giant" />
+  </Set>
+  <Set Name="The Darkstone Must Flow" Id="32" DownloadUrl="https://boardgamegeek.com/filepage/110620/custom-adventure-monster-darkstone-must-flow-v-14">
+    <Mission Name="The Darkstone Must Flow" />
+  </Set>
+  <Set Name="Barrels of Fun" Id="33" DownloadUrl="https://boardgamegeek.com/filepage/129952/barrels-fun-custom-mission">
+    <Mission Name="Barrels of Fun" />
+  </Set>
+  <Set Name="Played Out Mine" Id="34" DownloadUrl="https://boardgamegeek.com/filepage/119681/played-out-mine-campaign">
+    <Mission Number="1" Name="Played out Mine pt.1" />
+    <Mission Number="2" Name="Played out Mine pt.2" />
+    <Mission Number="3" Name="Played out Mine pt.3" />
+    <Mission Number="4" Name="Played out Mine pt.4" />
+    <Mission Number="5" Name="Played out Mine pt.5" />
+  </Set>
+  <Set Name="Cooter and Poot go to White Castle" Id="35" DownloadUrl="https://boardgamegeek.com/filepage/126257/cooter-and-poot-go-white-castle-and-other-missions">
+    <Mission Number="1" Name="Nexus of the Worlds" />
+    <Mission Number="2" Name="Clash of the Titans" />
+    <Mission Number="3" Name="Cooter and Poot go to White Castle" />
+  </Set>
+  <Set Name="Treasure Hunt Through The Void" Id="36" DownloadUrl="https://boardgamegeek.com/filepage/109559/mission-treasure-hunt-through-void">
+    <Mission Name="Treasure Hunt Through The Void" />
+  </Set>
+  <Set Name="The Heist" Id="37" DownloadUrl="https://boardgamegeek.com/filepage/108521/sob-scenario-heist">
+    <Mission Name="The Heist" />
+  </Set>
+  <Set Name="Don't Shoot Yourself in the Foot" Id="38" DownloadUrl="https://boardgamegeek.com/filepage/112610/dont-shoot-yourself-foot-fan-made-adventure-module">
+    <Mission Name="Don't Shoot Yourself in the Foot" />
+  </Set>
+  <Set Name="Treasure Hunt and Rivers of Jargono" Id="39" DownloadUrl="https://boardgamegeek.com/filepage/131689/two-new-missions-shadows-brimstone">
+    <Mission Number="1" Name="Treasure Hunt" />
+    <Mission Number="2" Name="Rivers of Jargono" />
+  </Set>
+  <Set Name="Stagecoach" Id="40" DownloadUrl="https://boardgamegeek.com/filepage/131758/stagecoach-mission">
+    <Mission Name="Stagecoach" />
+  </Set>
+  <Set Name="Legends of the West" Id="41" DownloadUrl="https://boardgamegeek.com/filepage/119239/legends-west">
+    <Mission Number="1" Name="Legends of the West" />
+    <Mission Number="2" Name="The Blood Ritual" />
+    <Mission Number="3" Name="Elder Terror" />
+    <Mission Number="4" Name="The Possession of Brimstone" />
+    <Mission Number="5" Name="Showdown" />
+    <Mission Number="6" Name="The Darkest Hour Comes Before the Dawn" />
+  </Set>
+  <Set Name="Targa Pass" Id="42" DownloadUrl="https://boardgamegeek.com/filepage/145162/targa-pass-mission-hexcrawl">
+    <Mission Name="Targa Pass" />
+  </Set>
+  <Set Name="The Void Between The Worlds" Id="43" DownloadUrl="https://boardgamegeek.com/filepage/149372/void-between-worlds-mini-otherworld">
+    <Mission Number="1" Name="Negotiating The Void" />
+  </Set>
+  <Set Name="Investigation" Id="44" DownloadUrl="https://boardgamegeek.com/filepage/156095/custom-mission-investigation-page-1" >
+    <Mission Name="Investigation" />
+  </Set>
+</Missions>

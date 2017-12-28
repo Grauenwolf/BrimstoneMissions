@@ -1,0 +1,34 @@
+﻿@model BrimstoneMissionGenerator.Models.MissionPicker
+@{
+    ViewBag.Title = "Mission";
+}
+
+<h2>@Model.Mission.Name</h2>
+
+<div>
+    @if (Model.Mission.NumberSpecified)
+    {
+        <text>
+            Mission #@(Model.Mission.Number) from @(Model.MissionsSet.Name)
+        </text>
+    }
+    @if (!string.IsNullOrEmpty(Model.MissionsSet.DownloadUrl))
+    {
+        <a href="@Model.MissionsSet.DownloadUrl">Download</a>
+    }
+    <br />
+    @if (!string.IsNullOrEmpty(Model.Mission.Location)) {
+        <text>
+        Locations: @(Model.Mission.Location.Replace(",", ", "))
+        </text>
+    <br />
+    }
+    @if (!string.IsNullOrEmpty(Model.Mission.Notes)) {
+        <text>
+        Notes: @(Model.Mission.Notes)
+        </text>
+    <br />
+    }
+
+</div>
+

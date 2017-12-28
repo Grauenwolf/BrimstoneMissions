@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    @using (Html.BeginForm("MIssion", "Home", FormMethod.Post))
+    {
+        <div>
+            @foreach (BrimstoneMissionGenerator.Models.CheckList item in Model)
+            {
+
+                
+                    <label>
+                        @Html.CheckBox("Mission_" + item.MissionsSet.Id, item.Available )
+                            @item.MissionsSet.Name
+                        @if(!string.IsNullOrEmpty(item.MissionsSet.DownloadUrl))
+                        {
+                            <a href="@item.MissionsSet.DownloadUrl">Download</a>
+                        }
+                    </label>
+          <br/>      
+            }
+        </div>
+        <input type="submit" class="submit" value="Create Mission" />
+    }
+</div>

@@ -8,14 +8,28 @@
 {
 
 
-    <h2>@(set.Name)</h2>
+    <h2>
+        @if (!string.IsNullOrEmpty(set.BggUrl))
+        {
+            <a href="@set.BggUrl" target="_blank">@(set.Name)</a>
+        }
+        else
+        {
+            @(set.Name)
+        }
+        @(set.ProductHtml)
+    </h2>
 
     <div>
-            @if (!string.IsNullOrEmpty(set.DownloadUrl))
-            {
-                <a href="@set.DownloadUrl">Download</a>
-                <br />
-            }
+        @if (!string.IsNullOrEmpty(set.DownloadUrl))
+        {
+            <a href="@set.DownloadUrl">Download</a>
+            <br />
+        }
+        @if (set.ProductHtml != null)
+        {
+
+        }
         <ul>
 
             @foreach (var mission in set.Mission)

@@ -7,7 +7,7 @@
     <Mission Number="5" Name="Escape" Location="Mine" />
     <Mission Number="6" Name="Blow the Mine" Location="Mine" />
   </Set>
-  <Set Name="Swamps of Death" Id="2">
+  <Set Name="Swamps of Death" Id="2" BggUrl="https://boardgamegeek.com/boardgame/150997/shadows-brimstone-swamps-death">
     <Mission Number="1" Name="Night of the Dead" Location="Mine" />
     <Mission Number="2" Name="Seal the Hell Pit" Location="Mine" Notes="Fixed Map" />
     <Mission Number="3" Name="The Lost Journal" Location="Mine" Notes="Fixed Map" />
@@ -15,7 +15,7 @@
     <Mission Number="5" Name="Cursed Idol" Location="Mine,Jargono" />
     <Mission Number="6" Name="Temple of Dread" Location="Mine,Jargono" />
   </Set>
-  <Set Name="City of the Ancients" Id="3">
+  <Set Name="City of the Ancients" Id="3" BggUrl="https://boardgamegeek.com/boardgame/146791/shadows-brimstone-city-ancients">
     <Mission Number="1" Name="Terror in The Night" Location="Mine" />
     <Mission Number="2" Name="Stop the Ritual" Location="Mine" Notes="Fixed Map" />
     <Mission Number="3" Name="Last Stand" Location="Mine" Notes="Fixed Map" />
@@ -23,7 +23,7 @@
     <Mission Number="5" Name="Overload" Location="Targa" />
     <Mission Number="6" Name="Frozen Expedition" Location="Mine,Targa" />
   </Set>
-  <Set Name="The Caverns of Cynder" Id="4">
+  <Set Name="The Caverns of Cynder" Id="4" BggUrl="https://boardgamegeek.com/boardgameexpansion/178820/shadows-brimstone-caverns-cynder-expansion">
     <Mission Number="1" Name="Cracks in Reality" Location="Mine" />
     <Mission Number="2" Name="Defend the Bridge" Location="Mine" Notes="Fixed Map" />
     <Mission Number="3" Name="Dark Deal" Location="Mine" />
@@ -31,7 +31,7 @@
     <Mission Number="5" Name="Hunt for The Dark Stone" Location="Mine,Cynder" />
     <Mission Number="6" Name="Broken Seals" Location="Cynder" />
   </Set>
-  <Set Name="Frontier Town" Id="5">
+  <Set Name="Frontier Town" Id="5" BggUrl="https://boardgamegeek.com/boardgameexpansion/183017/shadows-brimstone-frontier-town-expansion">
     <Mission Number="1" Name="Shootout in the Streets" Location="Town" />
     <Mission Number="2" Name="Hanging High" Location="Town" />
     <Mission Number="3" Name="Bank Robbery" Location="Town" />
@@ -39,7 +39,7 @@
     <Mission Number="5" Name="Town Overrun" Location="Town" />
     <Mission Number="6" Name="High Noon Duel" Location="Town" Notes="Solo" />
   </Set>
-  <Set Name="Trederra" Id="6">
+  <Set Name="Trederra" Id="6" BggUrl="https://boardgamegeek.com/boardgameexpansion/181561/shadows-brimstone-trederra-other-worlds-deluxe-exp">
     <Mission Number="1" Name="Foothold" Location="Mine" />
     <Mission Number="2" Name="Toxic Purge" Location="Mine,Trederra" />
     <Mission Number="3" Name="Battlefield Recon" Location="Mine,Trederra" />
@@ -47,7 +47,7 @@
     <Mission Number="5" Name="Guns of War" Location="Trederra" />
     <Mission Number="6" Name="Doomsday" Location="Trederra,Target World*" />
   </Set>
-  <Set Name="Derelict Ship" Id="7">
+  <Set Name="Derelict Ship" Id="7" BggUrl="https://boardgamegeek.com/boardgameexpansion/181563/shadows-brimstone-derelict-ship-otherworld-expansi">
     <Mission Number="1" Name="Time's Echo" Location="Mine" />
     <Mission Number="2" Name="Collapse the Vortex" Location="Mine" />
     <Mission Number="3" Name="Lost in Space" Location="Mine,Ship" />
@@ -55,7 +55,7 @@
     <Mission Number="5" Name="Voyage of the Dead" Location="Ship" />
     <Mission Number="6" Name="Reactor Breach" Location="Ship" />
   </Set>
-  <Set Name="Blasted Wastes" Id="8">
+  <Set Name="Blasted Wastes" Id="8" BggUrl="https://boardgamegeek.com/boardgameexpansion/181562/shadows-brimstone-blasted-wastes-otherworld-expans">
     <Mission Number="1" Name="Missing Patrol" Location="Canyon" />
     <Mission Number="2" Name="Ghosts in the Dark" Location="Canyon,Mines" />
     <Mission Number="3" Name="Across the Desert Dunes" Location="Mines,Blasted Wastes" />
@@ -63,79 +63,79 @@
     <Mission Number="5" Name="Water of Life" Location="Blasted Wastes" />
     <Mission Number="6" Name="Warmaster's Fury" Location="Blasted Wastes" />
   </Set>
-  <Set Name="Werewolf Feral Kin" Id="9">
+  <Set Name="Werewolf Feral Kin" Id="9" >
     <Mission Number="1" Name="First Blood" Location="Mines" />
     <Mission Number="2" Name="Full Moon" Location="Mines" Notes="or- Canyons" />
     <Mission Number="3" Name="Cleansing Ritual" Location="Mines" />
     <Mission Number="4" Name="Hunting Ground" Location="Mines" />
   </Set>
-  <Set Name="Hellfire Succubi" Id="10">
+  <Set Name="Hellfire Succubi" Id="10" BggUrl="https://boardgamegeek.com/boardgameexpansion/181566/shadows-brimstone-hellfire-succubi-mission-pack">
     <Mission Number="1" Name="Deadly Dreams" Location="Mines" />
     <Mission Number="2" Name="Seeds of Evil" Location="Mines,Cynder" />
     <Mission Number="3" Name="Shadow and Flame" Location="Mines" />
     <Mission Number="4" Name="Hell on Earth" Location="Mines" />
   </Set>
-  <Set Name="Feral Vampires" Id="11">
+  <Set Name="Feral Vampires" Id="11" >
     <Mission Name="Feral Vampires" />
   </Set>
-  <Set Name="Feral Vampires Mission Pack" Id="12">
+  <Set Name="Feral Vampires Mission Pack" Id="12" >
     <Mission Number="1" Name="Find the Coffins" Location="Mines" />
     <Mission Number="2" Name="Once Bitten" Location="Mines" />
     <Mission Number="3" Name="The Lost Tomb" Location="Mines" />
     <Mission Number="4" Name="Lair of the Vampire" Location="Mines" />
   </Set>
-  <Set Name="Order of the Crimson Hand" Id="13">
+  <Set Name="Order of the Crimson Hand" Id="13" BggUrl="https://boardgamegeek.com/boardgameexpansion/181565/shadows-brimstone-cult-crimson-hand-mission-pack">
     <Mission Number="1" Name="Black Ritual" Location="Mines" />
     <Mission Number="2" Name="Captured" Location="Mines" />
     <Mission Number="3" Name="Race for the Relics" Location="Mines,3 Random Other Worlds" />
     <Mission Number="4" Name="Feeding the Beast" Location="Mines" />
   </Set>
-  <Set Name="Black Fang Tribe" Id="14">
+  <Set Name="Black Fang Tribe" Id="14" BggUrl="https://boardgamegeek.com/boardgameexpansion/181564/shadows-brimstone-black-fang-tribe-mission-pack">
     <Mission Number="1" Name="Blood Harvest" Location="Mines" />
     <Mission Number="2" Name="Rain Dance" Location="Mines" Notes="or- Canyons" />
     <Mission Number="3" Name="Tribal Relics" Location="Mines,2 Random Other Worlds" />
     <Mission Number="4" Name="The Vengeful Spirit" Location="Mines" />
   </Set>
-  <Set Name="The Lost Army" Id="15">
+  <Set Name="The Lost Army" Id="15" BggUrl="https://boardgamegeek.com/boardgameexpansion/181567/shadows-brimstone-lost-army-mission-pack">
     <Mission Number="1" Name="Supply Chain" Location="Mines" />
     <Mission Number="2" Name="Under Siege" Location="Mines" />
     <Mission Number="3" Name="Burning Souls" Location="Mines" />
     <Mission Number="4" Name="Revenge of the Lost Army" Location="Mines" />
   </Set>
-  <Set Name="Masters of the Void" Id="16">
+  <Set Name="Masters of the Void" Id="16" BggUrl="https://boardgamegeek.com/boardgameexpansion/178564/shadows-brimstone-masters-void-deluxe-enemy-pack">
     <Mission Number="1" Name="Hunted" Location="Mine" />
     <Mission Number="2" Name="Call of the Void" Location="Mine" />
   </Set>
-  <Set Name="Serpentmen of Jargono" Id="17">
+  <Set Name="Serpentmen of Jargono" Id="17" BggUrl="https://boardgamegeek.com/boardgameexpansion/178563/shadows-brimstone-serpentmen-jargono-deluxe-enemy">
     <Mission Number="1" Name="Human Sacrifice" Location="Mine,Jargono" />
     <Mission Number="2" Name="Warring Tribes" Location="Jargono" />
   </Set>
-  <Set Name="Undead Outlaws" Id="18">
+  <Set Name="Undead Outlaws" Id="18" BggUrl="https://boardgamegeek.com/boardgameexpansion/196947/shadows-brimstone-undead-outlaws-deluxe-enemy-pack">
     <Mission Number="1" Name="Wanted: Undead or Alive" Location="Mine" />
     <Mission Number="2" Name="Revenge of the Dead" Location="Mine" />
   </Set>
-  <Set Name="The Scafford Gang" Id="19">
+  <Set Name="The Scafford Gang" Id="19" BggUrl="https://boardgamegeek.com/boardgameexpansion/196946/shadows-brimstone-scafford-gang-deluxe-enemy-pack">
     <Mission Number="1" Name="They're Getting Away" Location="Mine" />
     <Mission Number="2" Name="Most Wanted" Location="Mine" />
   </Set>
-  <Set Name="Flesh Stalker and Flesh Drones" Id="20">
+  <Set Name="Flesh Stalker and Flesh Drones" Id="20" BggUrl="https://boardgamegeek.com/boardgameexpansion/206377/shadows-brimstone-flesh-stalker-flesh-drones-delux">
     <Mission Number="1" Name="Experimentation" Location="Mine" />
     <Mission Number="2" Name="Out of Time" Location="Mine,Other" />
   </Set>
-  <Set Name="Beli'al, Last of the Shadow Kings" Id="21">
+  <Set Name="Beli'al, Last of the Shadow Kings" Id="21" BggUrl="https://boardgamegeek.com/boardgameexpansion/196954/shadows-brimstone-belial-last-shadow-kings-xxl-ene">
     <Mission Number="1" Name="Avatar of Evil" Location="Mine" />
     <Mission Number="2" Name="Lost Soul" Location="Mine" />
   </Set>
-  <Set Name="The Ancient One" Id="22">
+  <Set Name="The Ancient One" Id="22" BggUrl="https://boardgamegeek.com/boardgameexpansion/233596/shadows-brimstone-ancient-one">
     <Mission Number="1" Name="Ancient Awakening" Location="Mines,Random OtherWorlds" />
   </Set>
-  <Set Name="The Burrower" Id="23">
+  <Set Name="The Burrower" Id="23" BggUrl="https://boardgamegeek.com/boardgameexpansion/181102/shadows-brimstone-burrower-xxl-enemy">
     <Mission Number="1" Name="This is no Cave" Location="Mine" />
   </Set>
-  <Set Name="The Sand Kraken" Id="24">
+  <Set Name="The Sand Kraken" Id="24" BggUrl="https://boardgamegeek.com/boardgameexpansion/213555/shadows-brimstone-sand-kraken-xxl-enemy-pack">
     <Mission Number="1" Name="Release the Kraken" Location="Mine" />
   </Set>
-  <Set Name="Doomsday Device and Shield Generators" Id="25">
+  <Set Name="Doomsday Device and Shield Generators" Id="25" >
     <Mission Number="1" Name="Countdown to Destruction" Location="Mine" />
   </Set>
   <Set Name="One Way Ticket" Id="26" DownloadUrl="https://boardgamegeek.com/filepage/113668/sob-campaign-one-way-ticket-7-missions-tiles-cards">

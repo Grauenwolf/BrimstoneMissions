@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Web.Mvc;
 using System.Xml.Serialization;
 
 namespace BrimstoneMissionGenerator.Models
@@ -41,6 +42,10 @@ namespace BrimstoneMissionGenerator.Models
         public string DownloadUrl { get; set; }
         [XmlAttribute()]
         public int Id { get; set; }
+
+        /// <remarks/>
+        [XmlAttribute()]
+        public string BggUrl { get; set; }
     }
 
     /// <remarks/>

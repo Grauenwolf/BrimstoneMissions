@@ -57,50 +57,50 @@
   </Set>
   <Set Name="Blasted Wastes" Id="8" BggUrl="https://boardgamegeek.com/boardgameexpansion/181562/shadows-brimstone-blasted-wastes-otherworld-expans">
     <Mission Number="1" Name="Missing Patrol" Location="Canyon" />
-    <Mission Number="2" Name="Ghosts in the Dark" Location="Canyon,Mines" />
-    <Mission Number="3" Name="Across the Desert Dunes" Location="Mines,Blasted Wastes" />
+    <Mission Number="2" Name="Ghosts in the Dark" Location="Canyon,Mine" />
+    <Mission Number="3" Name="Across the Desert Dunes" Location="Mine,Blasted Wastes" />
     <Mission Number="4" Name="Starfall" Location="Blasted Wastes" Notes="Fixed Map" />
     <Mission Number="5" Name="Water of Life" Location="Blasted Wastes" />
     <Mission Number="6" Name="Warmaster's Fury" Location="Blasted Wastes" />
   </Set>
   <Set Name="Werewolf Feral Kin" Id="9" >
-    <Mission Number="1" Name="First Blood" Location="Mines" />
-    <Mission Number="2" Name="Full Moon" Location="Mines" Notes="or- Canyons" />
-    <Mission Number="3" Name="Cleansing Ritual" Location="Mines" />
-    <Mission Number="4" Name="Hunting Ground" Location="Mines" />
+    <Mission Number="1" Name="First Blood" Location="Mine" />
+    <Mission Number="2" Name="Full Moon" Location="Mine" Notes="or- Canyons" />
+    <Mission Number="3" Name="Cleansing Ritual" Location="Mine" />
+    <Mission Number="4" Name="Hunting Ground" Location="Mine" />
   </Set>
   <Set Name="Hellfire Succubi" Id="10" BggUrl="https://boardgamegeek.com/boardgameexpansion/181566/shadows-brimstone-hellfire-succubi-mission-pack">
-    <Mission Number="1" Name="Deadly Dreams" Location="Mines" />
-    <Mission Number="2" Name="Seeds of Evil" Location="Mines,Cynder" />
-    <Mission Number="3" Name="Shadow and Flame" Location="Mines" />
-    <Mission Number="4" Name="Hell on Earth" Location="Mines" />
+    <Mission Number="1" Name="Deadly Dreams" Location="Mine" />
+    <Mission Number="2" Name="Seeds of Evil" Location="Mine,Cynder" />
+    <Mission Number="3" Name="Shadow and Flame" Location="Mine" />
+    <Mission Number="4" Name="Hell on Earth" Location="Mine" />
   </Set>
   <Set Name="Feral Vampires" Id="11" >
     <Mission Name="Feral Vampires" />
   </Set>
   <Set Name="Feral Vampires Mission Pack" Id="12" >
-    <Mission Number="1" Name="Find the Coffins" Location="Mines" />
-    <Mission Number="2" Name="Once Bitten" Location="Mines" />
-    <Mission Number="3" Name="The Lost Tomb" Location="Mines" />
-    <Mission Number="4" Name="Lair of the Vampire" Location="Mines" />
+    <Mission Number="1" Name="Find the Coffins" Location="Mine" />
+    <Mission Number="2" Name="Once Bitten" Location="Mine" />
+    <Mission Number="3" Name="The Lost Tomb" Location="Mine" />
+    <Mission Number="4" Name="Lair of the Vampire" Location="Mine" />
   </Set>
   <Set Name="Order of the Crimson Hand" Id="13" BggUrl="https://boardgamegeek.com/boardgameexpansion/181565/shadows-brimstone-cult-crimson-hand-mission-pack">
-    <Mission Number="1" Name="Black Ritual" Location="Mines" />
-    <Mission Number="2" Name="Captured" Location="Mines" />
-    <Mission Number="3" Name="Race for the Relics" Location="Mines,3 Random Other Worlds" />
-    <Mission Number="4" Name="Feeding the Beast" Location="Mines" />
+    <Mission Number="1" Name="Black Ritual" Location="Mine" />
+    <Mission Number="2" Name="Captured" Location="Mine" />
+    <Mission Number="3" Name="Race for the Relics" Location="Mine,3 Random Other Worlds" />
+    <Mission Number="4" Name="Feeding the Beast" Location="Mine" />
   </Set>
   <Set Name="Black Fang Tribe" Id="14" BggUrl="https://boardgamegeek.com/boardgameexpansion/181564/shadows-brimstone-black-fang-tribe-mission-pack">
-    <Mission Number="1" Name="Blood Harvest" Location="Mines" />
-    <Mission Number="2" Name="Rain Dance" Location="Mines" Notes="or- Canyons" />
-    <Mission Number="3" Name="Tribal Relics" Location="Mines,2 Random Other Worlds" />
-    <Mission Number="4" Name="The Vengeful Spirit" Location="Mines" />
+    <Mission Number="1" Name="Blood Harvest" Location="Mine" />
+    <Mission Number="2" Name="Rain Dance" Location="Mine" Notes="or- Canyons" />
+    <Mission Number="3" Name="Tribal Relics" Location="Mine,2 Random Other Worlds" />
+    <Mission Number="4" Name="The Vengeful Spirit" Location="Mine" />
   </Set>
   <Set Name="The Lost Army" Id="15" BggUrl="https://boardgamegeek.com/boardgameexpansion/181567/shadows-brimstone-lost-army-mission-pack">
-    <Mission Number="1" Name="Supply Chain" Location="Mines" />
-    <Mission Number="2" Name="Under Siege" Location="Mines" />
-    <Mission Number="3" Name="Burning Souls" Location="Mines" />
-    <Mission Number="4" Name="Revenge of the Lost Army" Location="Mines" />
+    <Mission Number="1" Name="Supply Chain" Location="Mine" />
+    <Mission Number="2" Name="Under Siege" Location="Mine" />
+    <Mission Number="3" Name="Burning Souls" Location="Mine" />
+    <Mission Number="4" Name="Revenge of the Lost Army" Location="Mine" />
   </Set>
   <Set Name="Masters of the Void" Id="16" BggUrl="https://boardgamegeek.com/boardgameexpansion/178564/shadows-brimstone-masters-void-deluxe-enemy-pack">
     <Mission Number="1" Name="Hunted" Location="Mine" />
@@ -127,7 +127,7 @@
     <Mission Number="2" Name="Lost Soul" Location="Mine" />
   </Set>
   <Set Name="The Ancient One" Id="22" BggUrl="https://boardgamegeek.com/boardgameexpansion/233596/shadows-brimstone-ancient-one">
-    <Mission Number="1" Name="Ancient Awakening" Location="Mines,Random OtherWorlds" />
+    <Mission Number="1" Name="Ancient Awakening" Location="Mine,Random OtherWorlds" />
   </Set>
   <Set Name="The Burrower" Id="23" BggUrl="https://boardgamegeek.com/boardgameexpansion/181102/shadows-brimstone-burrower-xxl-enemy">
     <Mission Number="1" Name="This is no Cave" Location="Mine" />
@@ -139,86 +139,90 @@
     <Mission Number="1" Name="Countdown to Destruction" Location="Mine" />
   </Set>
   <Set Name="One Way Ticket" Id="26" DownloadUrl="https://boardgamegeek.com/filepage/113668/sob-campaign-one-way-ticket-7-missions-tiles-cards">
-    <Mission Number="1" Name="One Way Ticket" />
-    <Mission Number="2" Name="Through Hell and High Water" />
-    <Mission Number="3" Name="The Hut in the Swamps" />
-    <Mission Number="4" Name="A Long Way Home" />
-    <Mission Number="5" Name="River of No Return" />
-    <Mission Number="6" Name="The Temple of the Black Goat" />
-    <Mission Number="7" Name="Rollercoaster Ride" />
+    <Mission Number="1" Name="One Way Ticket" Location="Train" Intro="After days spent exploring the mines Brimstone, you decide to have good time in town. Traveling by stagecoach is too hazardous in this hostile land and you choose to travel by train. Sitting comfortably in a ﬁrst-class railcar; you admire the landscape when something seems weird." />
+    <Mission Number="2" Name="Through Hell and High Water" Location="Jargono" Intro="No more railroad, no desert landscape, no cactus,.. only moisture, suffocating heat and insects. The train finally stopped in an unexpected place.. water; vines and tropical plants surround the engine. It must have gone through another dimension gate." />
+    <Mission Number="3" Name="The Hut in the Swamps" Location="Jargono" Intro="Itzel leads the Heroes in the green maze and her presence comforts them. She speaks a few English words, learned form a lost and now dead explorer: She doesn’t seem to be bothered by the giant insects, the knee-deep murky water and the wild roar of predators. As the posse walks in the swamps, they hear tribal drums in the distance They should be approaching Itzel’s village. She promised they could have some rest and would be safe in this place." />
+    <Mission Number="4" Name="A Long Way Home" Location="Jargono" Intro="The Heroes could have some rest in Itzel’s village. The Villa were welcoming, and the Heroes managing to learn a few things from them. They were not the ﬁrst explorers to come to Jargono and usually they don’t grow old in this hostile land." />
+    <Mission Number="5" Name="River of No Return" Location="River" Intro="The posse continues its journey in the terrible swamps of Jargono. After a fierce ﬁght with a Dark Shaman, the Heroes will have to face their worst enemy: the rapids of the river Nahuatl Miquizlti. The river is more dangerous than a swarm of Hellbats and according to the tribal beliefs, the spirits of the drowned haunt this place But unfortunately; at this time of the year; the river is the only access to the ancient temple and to the Heroes homeland." />
+    <Mission Number="6" Name="The Temple of the Black Goat" Location="Temple of the Black Goat" Intro="The Heroes ﬁnally reach the temple they were looking for. It is hidden in by dense vegitation and growing vines but they manage to find the entrance." />
+    <Mission Number="7" Name="Rollercoaster Ride" Location="Mine" Intro="The feeling was weird but you managed to pass the portal. Shovels, pikes, mine rails, minecarts and an old lantem hanng on a wall: it seems that you are had: homem unless it is another dimension looking like Brimstone mines."/>
   </Set>
   <Set Name="Treasures of the Void" Id="27" DownloadUrl="https://boardgamegeek.com/filepage/110712/opals-custom-mission-1-treasures-void">
-    <Mission Name="Treasures of the Void" />
+    <Mission Name="Treasures of the Void" Location="Mine" Intro="A rumor started to spread around the Frontier of an appearance of strange floating creatures. They seem to appear from the shimmering portals looking for dark stone and something else. One of the prospectors in a tavern swears that when he peaked through such portal, he saw a vast treasure hoard guarded by a large floating monstrous head. The head turned and a red penetrating eye gazed upon the prospector. He claims that he awoken hours later in the mine, shivering and dazed. You listen to this story and wonder how much of it can be true." />
   </Set>
   <Set Name="Vermin Overrun" Id="28" DownloadUrl="https://boardgamegeek.com/filepage/111109/opals-custom-mission-2-vermin-overrun">
-    <Mission Name="Vermin Overrun" />
+    <Mission Name="Vermin Overrun" Location="Mine" Intro="At the local drinking hole you hear that a nearby frontier mining town of Dry Rock is overrun by giant rats. The desperate sheriff offers a fortune of dark stone to any adventurers who can exterminate the vermin. You decide to try your luck and travel to the Dry Rock town. You find it on a brink of famine as rats have stolen most of the town food supplies. Poisons and traps don’t seem to make much difference as more and more rats appear from a local abandoned mine entrance and head directly into the town. Locals swear that rats know exactly where food is hidden and how to get it. Several groups of people already went into the mines in hopes of stopping the vermin, only to run out screaming and half-mad, or never come out at all. Next morning you cautiously venture into the mine." />
   </Set>
   <Set Name="The Headless Horseman" Id="29" DownloadUrl="https://boardgamegeek.com/filepage/111391/shadows-brimstone-campaign-headless-horseman">
-    <Mission Number="1" Name="In the Western Wood" />
-    <Mission Number="2" Name="Indian Trail" />
-    <Mission Number="3" Name="The Tree of The Dead" />
-    <Mission Number="4" Name="The Archer House Ruins" />
-    <Mission Number="5" Name="The Horseman Comes" />
-    <Mission Number="6" Name="The Witch’s Cave" />
-    <Mission Number="7" Name="The Church Bridge" />
+    <Mission Number="1" Name="In the Western Wood" Location="Mine" Intro="The Horseman was a cavalry soldier, he lived in Sleepy Hallow area and left to ﬁght in the Civil War. But unlike his compatriots, who fought for honor duty of country, Horseman came for love of war. He lost his life in the forests to the west of Atlanta. It is said his soul returned to his home. Even to this day; the Western Woods is a haunted place... where brave men will not venture. For what was planted in the ground that day was a seed of evil." Page="6"/>
+    <Mission Number="2" Name="Indian Trail" Location="Mine" Page="7" Intro="You seek the Horseman bathed in blood. Follow the Indian Trail to where the sun dies. Beware the night and it's haunted cries. The Shadows live and stalk the living. Continue on to the Tree of the Dead, the Horseman's resting place." />
+    <Mission Number="3" Name="The Tree of The Dead" Location="Mine" Page="8" Intro="The body of Levi Stanton revealed the resting place of the 
+Horseman. From his notes it is called the Tree of the Dead and is afoul place. Stanton had gone on to write that the bones of the Horseman would make him pause at their site It is clear the Preacher was on his way here when he was overcome. But it appears the Posse is too late. A grave is dug up and its coffin torn asunder. The Horseman rests here no more. As the Heroes look for any information that will lead them to the Horseman they are attacked by creatures of the Void. It was a trap all along! There is no doubt now that the Horseman is following their every move."/>
+    <Mission Number="4" Name="The Archer House Ruins" Location="Mine" Page="9" Intro="It is said the Horseman lived in a cottage not far from here. When he left for the war his father died, and the landlord who had received many years of loyal service from the family, evicted the wife and their daughter. No one in this God-fearing town would take the destitute family in, because the woman was suspected of witchcraft. But she schooled her daughter well, while they lived as outcasts in the Western Woods. It is said that there lies a diary of the Horseman's mother and within the secret to stopping him."/>
+    <Mission Number="5" Name="The Horseman Comes" Location="Mine" Intro="
+And tonight he comes for you! Your investigations has finally roused the Horseman. You set out to continue the quest, and find one more item that will add you greatly in defeating the Horseman, The Cross of Father Stanton. Rumored to be an artifact of great power, you believe the Horseman had Father Stanton killed and his cross hidden in order to prevent anyone from stopping his murderous ride. Yet just as you are ready to enter the last known cave compels Father Stanton explored, the Horseman when he gives chase." Page="10"/>
+    <Mission Number="6" Name="The Witch’s Cave" Location="Mine" Intro="It has been said that deep in the Western Woods there is an old crone whose sorcerous ways can control the Horseman. It has been said that she was not always a witch, but that she was born into a different station in life. Her caves, like many others in the area, are a rich source of darkstone." Page="11"/>
+    <Mission Number="7" Name="The Church Bridge" Location="Jargono" Intro="One of the council members told a story told of a meeting he had had with the Horseman, racing his horse against that of the Horseman until at the church bridge, the Horseman tuned, vanishing in a ﬂash of fire. It is at the witching time of night that your Posse, heading towards camp, approaching that very bridge. The horseman appears and gives chase! You ride hard diving through trees, brush, and all manners of vegetation until suddenly you find yourself elsewhere." Page="12"/>
   </Set>
   <Set Name="The Ballad of Jane Cobb" Id="30" DownloadUrl="https://boardgamegeek.com/filepage/110779/custom-adventure-ballad-jane-cobb-three-part-adven">
-    <Mission Number="1" Name="The Ballad of Jane Cobb pt 1" />
-    <Mission Number="2" Name="The Ballad of Jane Cobb pt 2" />
-    <Mission Number="3" Name="The Ballad of Jane Cobb pt 3" />
+    <Mission Number="1" Name="The Ballad of Jane Cobb pt 1" Location="Mine" Intro="Jane! The outlaw they call Jane! She robbed from the rich to help out the poor! Stood up to the man and gave him what for. Our love for her now, ain't hard to explain, The hero of Canton, the outlaw they call Jane!" />
+    <Mission Number="2" Name="The Ballad of Jane Cobb pt 2" Location="Town" Intro="When Jane Cobb vanished after hiding the Darkstone, most folks reckoned they'd never see her again on account of her becoming an outlaw; but lately, Jane's turned up whenever folks were in distress... or what was left of her anyway. Turns out old Jane Cobb died out on the trail, but even death couldn't keep her down. The undead outlaw was even quicker on the draw than when she was alive. Jane rescued folks, and all she asked in return was their Darkstone; and nobody was stupid enough to object." />
+    <Mission Number="3" Name="The Ballad of Jane Cobb pt 3" Location="Mine" Intro="The undead outlaw Jane Cobb escaped with the Darkstone after the gunfight, and her intentions weren't as noble as the folk song about her suggested. Fortunately for the town of Canton, a cattle driver saw Jane enter an abandoned mine with her haul. It's up to the posse to discover what Jane Cobb is up to." />
   </Set>
   <Set Name="The Story of Josie the Giant" Id="31" DownloadUrl="https://boardgamegeek.com/filepage/110747/custom-adventure-monster-story-josie-giant-v12">
-    <Mission Name="The Story of Josie the Giant" />
+    <Mission Name="The Story of Josie the Giant" Location="Mine" Intro="Josephine Beauregard was a saloon girl of some renown. A short, firecracker of a woman, Josie (as she's called on the •saloon circuit), masked her pain about her height with a quick wit. Maturity gave her a lovely singing voice, which along with her repertoire of jokes, made Josie a' natural for the job of saloon girl and traveling entertainer." />
   </Set>
   <Set Name="The Darkstone Must Flow" Id="32" DownloadUrl="https://boardgamegeek.com/filepage/110620/custom-adventure-monster-darkstone-must-flow-v-14">
-    <Mission Name="The Darkstone Must Flow" />
+    <Mission Name="The Darkstone Must Flow" Location="Mine" Intro="You've seen your share of boom towns, and this one's no different; a hastily erected hodge-podge of buildings catering to the every need and whim of the miners who keep the town going. Judging by the railroad tracks nearby, this one was more successful than most, but the near-empty streets suggest that the mine's dried up." />
   </Set>
   <Set Name="Barrels of Fun" Id="33" DownloadUrl="https://boardgamegeek.com/filepage/129952/barrels-fun-custom-mission">
-    <Mission Name="Barrels of Fun" />
+    <Mission Name="Barrels of Fun" Location="Mine" Intro="Holroyd “Silver Dollar” Washburn was known to have the best goods around. He had contracts with a weekly caravan to restock his general store. Last week, the caravan never made it. Silver Dollar was furious! When two of the surviving guards stumbled into town days later, talking about gates to another world and undead bandits, Silver Dollar decided he needed some extra help to get his goods back. He’s offering quite the bargain - recover his barrels of goods, and he’ll let you take of few of the items - free!" />
   </Set>
   <Set Name="Played Out Mine" Id="34" DownloadUrl="https://boardgamegeek.com/filepage/119681/played-out-mine-campaign">
-    <Mission Number="1" Name="Played out Mine pt.1" />
-    <Mission Number="2" Name="Played out Mine pt.2" />
-    <Mission Number="3" Name="Played out Mine pt.3" />
-    <Mission Number="4" Name="Played out Mine pt.4" />
-    <Mission Number="5" Name="Played out Mine pt.5" />
+    <Mission Number="1" Name="Mine Session 1" Intro="Head to the 'Played Out Mine' and search the barrels." Location="Mine" Page="3" />
+    <Mission Number="2" Name="Mine Session 2" Intro="Locate the rich Mother Lode of Dark Stone" Location="Mine" Page="5" />
+    <Mission Number="3" Name="Back to the Mother Lode" Location="Mine" Intro="The Posse is eager to return to the Mother Lode Mine to extract more of the Dark Stone that was so abundant in the Quarry. However, as they near the mine, they hear screams and gunfire. As they reach the mine, theysee a man stagger out of the mine and collapse on the ground. They quickly reach him." Page="6" />
+    <Mission Number="4" Name="Into the Swamps" Location="Mine, Jargono" Intro="Slim's friend has provided directions to the mine where he and Slim had found the native woman. He wishes your Posse well, and explains that his obligation to Slim has been fulfilled." Page="8" />
+    <Mission Number="5" Name="Exploring the Swamps" Location="Jargono" Page="10" Intro="After the Posse helps the native man and stayed in the Jargono Swamp Village, they leave the Village, eager to explore and see if what they thought they learned in the village is true or not."/>
   </Set>
   <Set Name="Cooter and Poot go to White Castle" Id="35" DownloadUrl="https://boardgamegeek.com/filepage/126257/cooter-and-poot-go-white-castle-and-other-missions">
-    <Mission Number="1" Name="Nexus of the Worlds" />
-    <Mission Number="2" Name="Clash of the Titans" />
-    <Mission Number="3" Name="Cooter and Poot go to White Castle" />
+    <Mission Number="1" Name="Nexus of the Worlds" Intro="You feel it in your bones. Somethin' just ain't right. For two days you have traveled to this spot. You don'/ know why. Yet, here you stand at the mouth of the old mine. Inspecting the passage, you are startled by a rush Of air from within. Was that a burst of cold air - or was it as sweltering as the fires Of Hell? You can't seem to wrap your head around anything now - except for the unmistaken pull to enter that gaping hole into the darkness. As you step into the entrance to the tunnel, a quake rocks the ground beneath your feet. You watch the entrance disappear in a rush of rubble and dirt. Turning, a gate appears before your eyes. Only one way to go from here..." Location="Mine" />
+    <Mission Number="2" Name="Clash of the Titans" Intro="Giant demons... One incredibly muscular with massive tentacles. The Other a horned, winged beast swooping silently from the sky. They were really going at it, killing or destroying anything in their paths to get to one another... They won't stop until One of them is dead." Location="Mine"/>
+    <Mission Number="3" Name="Cooter and Poot go to White Castle" Location="Mine" Intro="Ever since Uncle Cooter found that wicked book, he wasn't the same. And his son, my cousin Poof, with that dark antique. Said they were priceless treasures. explained the indifferent barkeep. They used to be respectable prospectors. They went and holed themselves up in Castle Rock. Word is, they started practicing the dark magic from that book. people Say all the color's been drained from the stone and rock in them parts. Looks like some dismal, white castle at the entrance. Haven't seen them fellars in ages." />
   </Set>
-  <Set Name="Treasure Hunt Through The Void" Id="36" DownloadUrl="https://boardgamegeek.com/filepage/109559/mission-treasure-hunt-through-void">
-    <Mission Name="Treasure Hunt Through The Void" />
+  <Set Name="Brimstone Mission Flowchart" Id="36" DownloadUrl="https://www.boardgamegeek.com/filepage/151145/brimstone-mission-flowchart">
+    <Mission Number="1" Name="Treasure Hunt Through The Void" Page="6" Location="Mine" Intro="The heroes have lady luck on their side this time. After numerous rumors of riches, they finally see some evidence with their own eyes. At the camp of Flarebat, the heroes are shown a big pile of gold recovered from a bandit. The gold was found on the last member of the Badrage Bandits, lying dead near the mines. From what the heroes gather, the mine was used as a hideout for the Badrage bandits. However, after the outbreak of otherworld creatures the bandit group were wiped out. There should still be plenty of loot left in the mine, just ripe for the taking!" />
+    <Mission Number="1" Name="Blow Up The Command Center" Page="24" Location="Trederra" Intro="The time has finally come to put an end to those Trederran dogs. After a long discussion at the local saloon, where you have studied the Trederran map inside and out, you have finally come up with a plan. You are going to blow up their command center. If you manage to set those thermal charges ablaze at the right place all their information about earth will be blown to smithereens. The only thing left to do is all the work…"/>
+    <Mission Number="2" Name="Fight Back The Opressors" Page="42" Location="Trederra" Intro="Since the three eyed aliens first came to earth, darkstones have become even more valuable and thus even more dangerous. The Trederran soldiers have managed to find a stable gate to earth from which they make countless raids. The nearby towns are blead dry of darkstone by Trederran raiders. If nothing is done there won’t be any darkstone left in Brimstone. One night at the saloon, you finally had enough. Someone must do something and that someone is you. With a bashing hangover and a whole town counting on you, you start to wonder if this was such a god idea...." />
   </Set>
   <Set Name="The Heist" Id="37" DownloadUrl="https://boardgamegeek.com/filepage/108521/sob-scenario-heist">
-    <Mission Name="The Heist" />
+    <Mission Name="The Heist" Location="Town" Intro="Something stole something important from somewhere! The Heroes are tasked with its recovery…but can they be trusted? An eyewitness claims to have seen the shadowy varmints run off towards the mines not far from town, but surely they’ll go to ground soon!" />
   </Set>
   <Set Name="Don't Shoot Yourself in the Foot" Id="38" DownloadUrl="https://boardgamegeek.com/filepage/112610/dont-shoot-yourself-foot-fan-made-adventure-module">
-    <Mission Name="Don't Shoot Yourself in the Foot" />
+    <Mission Name="Don't Shoot Yourself in the Foot" Location="Town, Mines" Intro="" />
   </Set>
   <Set Name="Treasure Hunt and Rivers of Jargono" Id="39" DownloadUrl="https://boardgamegeek.com/filepage/131689/two-new-missions-shadows-brimstone">
-    <Mission Number="1" Name="Treasure Hunt" />
-    <Mission Number="2" Name="Rivers of Jargono" />
+    <Mission Number="1" Name="Treasure Hunt" Intro="During your last adventure you came upon an old dying prospector. The old man begged you for some water and when you gave him some he thanked you for your kindness and procured a crumpled, blood-stained map from his boot. “Take this” he said with a trembling voice. “T’is the only thing I have left in this world, but seeing as my days are numbered I have no use for it anymore. May it bring you more luck and fortune than it has me.” With that the old man crumples and dies much to the delight of the buzzards circling above." Location="Mine" Page="1" />
+    <Mission Number="2" Name="Rivers of Jargono" Page="3" Location="Jargono" Intro="Tales of a vast river system running through all of Jargono has been reported by nearly all of the survivors who have returned from that horrible place. Local authorities have offered a sizeable reward to anyone that can procure a map of the river to help future expeditions navigate that dreadful dimension." />
   </Set>
   <Set Name="Stagecoach" Id="40" DownloadUrl="https://boardgamegeek.com/filepage/131758/stagecoach-mission">
-    <Mission Name="Stagecoach" />
+    <Mission Name="Stagecoach" Location="Town" Intro="A large shipment of Darkstone is set to be transported by stage coach to a nearby city. You have been tasked with protecting the shipment as there are rumours of bandit activity along the nearby countryside. You take position on the stagecoach and set off onto the rugged roads." />
   </Set>
   <Set Name="Legends of the West" Id="41" DownloadUrl="https://boardgamegeek.com/filepage/119239/legends-west">
-    <Mission Number="1" Name="Legends of the West" />
-    <Mission Number="2" Name="The Blood Ritual" />
-    <Mission Number="3" Name="Elder Terror" />
-    <Mission Number="4" Name="The Possession of Brimstone" />
-    <Mission Number="5" Name="Showdown" />
-    <Mission Number="6" Name="The Darkest Hour Comes Before the Dawn" />
+    <Mission Number="1" Name="Legends of the West" Intro="Arriving at the Remnants of Brimstone, the heroes find a town in a state of dismay. Not knowing who to ask for work they head for the local saloon." Location="Mine"/>
+    <Mission Number="2" Name="The Blood Ritual" Intro="The heroes really have taken a liking to this town. Some enjoy the tranquility while others enjoy the action, which there is no lack of. A couple even got distant relatives living here." Location="Mine" />
+    <Mission Number="3" Name="Elder Terror" Location="Mine" Intro="After many passing days, Casey Blossom, the young girl the heroes rescued, finally awakens. The news she brings are truly ominous however, for she has seen a glimpse of a plan most sinister."/>
+    <Mission Number="4" Name="The Possession of Brimstone" Intro="The heroes can curse their luck! Before the posse could finish of the Elder Terror it fled into a summoned portal!" Location="Other World" />
+    <Mission Number="5" Name="Showdown" Intro="That's it!!! No more running. Having successfully escaped the Brimstone Darkness, the Heroes are ready to face the Elder Terror. ' This time there will be no escape It's about time they show that creature what happens, when you mess with the Heroes of Brimstone. All the sacrifices, all the abductions of the innocents, it ends today Heading further into the Void, the Posse are about to reveal What a true legend is made of They will hold nothing back, its time for the final showdown." Location="Other World"/>
+    <Mission Number="6" Name="The Darkest Hour Comes Before the Dawn" Location="Town" Intro="With a great roar the Elder Terror falls before the might of the Heroes. Relieved that the menace is finally gone the Heroes head back to the Remnants of Brimstone through a nearby portal." />
   </Set>
   <Set Name="Targa Pass" Id="42" DownloadUrl="https://boardgamegeek.com/filepage/145162/targa-pass-mission-hexcrawl">
-    <Mission Name="Targa Pass" />
+    <Mission Name="Targa Pass" Intro="A few nights ago 'Old Ed' (vas found in the foothills outside of West Witold disoriented and hobbling on a makeshift crutch of some Strange light metal According to the doc, he got a good case of frostbite in his extremities and other effects only explained by extreme cold exposure. .. a might odd round these here parts. But the stranger part Of his tale is his claim to have started out that mornin' working his mine out near Seto's Mill.. a good weeks ride no matter how you go 'about it' He stepped through one of those swirly gates and soon, found-himself running for his life through hip deep snow in an ancient city of ruins, with strange contraptions and critters Said he dove, through another swirly gate which brung him to those hills up yonder we call The Devils Fingers'. His story checks out too We telegraphed Seto's Mill and confirmed with his kin... he'd set out that day at dam." />
   </Set>
   <Set Name="The Void Between The Worlds" Id="43" DownloadUrl="https://boardgamegeek.com/filepage/149372/void-between-worlds-mini-otherworld">
-    <Mission Number="1" Name="Negotiating The Void" />
+    <Mission Number="1" Name="Negotiating The Void" Intro="That old veteran you met at the saloon was correct. His map led you straight to an old mine that seems to hunt with some dark force or energy. You glance back and forth at your companions and take a deep beneath &quot;This is the only we can bring back our posse member, we have to fry and hope he is not already devoured or consumed by the Void itself..&quot;" Page="3" />
   </Set>
   <Set Name="Investigation" Id="44" DownloadUrl="https://boardgamegeek.com/filepage/156095/custom-mission-investigation-page-1" >
-    <Mission Name="Investigation" />
+    <Mission Name="Investigation" Intro="Rumors are spreading of the Crimson Hand's infiltrction of a local town. They seem to have their fingers everywhere, and corruption is rampant." Location="Town" />
   </Set>
 </Missions>

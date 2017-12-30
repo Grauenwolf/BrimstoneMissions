@@ -6,7 +6,7 @@
 
 @foreach (var set in Model)
 {
-
+    var missionIndex = 0;
 
     <h2>
         @if (!string.IsNullOrEmpty(set.BggUrl))
@@ -34,7 +34,8 @@
 
             @foreach (var mission in set.Mission)
             {
-                <li>
+                <li title="@(mission.Intro)">
+                    <a href="/Home/Mission/@(set.Id)/@(missionIndex)">
                     @if (mission.NumberSpecified)
                     {
                         <text>
@@ -59,6 +60,14 @@
                             @(mission.Notes)
                         </text>
                     }
+                    @if (mission.PageSpecified)
+                    {
+                        <text>
+                            Page @(mission.Page)
+                        </text>
+                    }
+                        </a>
+                    @{  missionIndex += 1; }
                 </li>
             }
         </ul>

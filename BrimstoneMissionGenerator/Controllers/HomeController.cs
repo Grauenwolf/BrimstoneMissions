@@ -8,6 +8,7 @@ using Tortuga.Anchor;
 
 namespace BrimstoneMissionGenerator.Controllers
 {
+    [RoutePrefix("Home")]
     public class HomeController : Controller
     {
         private const string MissionsCookieName = "missions";
@@ -73,6 +74,15 @@ namespace BrimstoneMissionGenerator.Controllers
 
             return View(selectedMission);
         }
+
+        [HttpGet]
+        [Route("Mission/{setting}/{mission}")]
+        public ActionResult Mission(int setting, int mission)
+        {
+            var set = Application.Missions.Set.Single(x => x.Id == setting);
+            return View(new MissionPicker() { MissionsSet = set, Mission = set.Mission[mission] });
+        }
+
         [HttpGet]
         public ActionResult AllMissions()
         {

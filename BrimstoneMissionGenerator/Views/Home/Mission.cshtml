@@ -5,30 +5,40 @@
 
 <h2>@Model.Mission.Name</h2>
 
-<div>
+<p>
     @if (Model.Mission.NumberSpecified)
     {
         <text>
             Mission #@(Model.Mission.Number) from @(Model.MissionsSet.Name)
         </text>
+        if (Model.Mission.PageSpecified)
+        {
+            <text>
+                on page @(Model.Mission.Page)
+            </text>
+        }
     }
     @if (!string.IsNullOrEmpty(Model.MissionsSet.DownloadUrl))
     {
         <a href="@Model.MissionsSet.DownloadUrl">Download</a>
     }
     <br />
-    @if (!string.IsNullOrEmpty(Model.Mission.Location)) {
+    @if (!string.IsNullOrEmpty(Model.Mission.Location))
+    {
         <text>
-        Locations: @(Model.Mission.Location.Replace(",", ", "))
+            Locations: @(Model.Mission.Location.Replace(",", ", "))
         </text>
-    <br />
+        <br />
     }
-    @if (!string.IsNullOrEmpty(Model.Mission.Notes)) {
+    @if (!string.IsNullOrEmpty(Model.Mission.Notes))
+    {
         <text>
-        Notes: @(Model.Mission.Notes)
+            Notes: @(Model.Mission.Notes)
         </text>
-    <br />
+        <br />
     }
-
-</div>
+</p>
+<p>
+    <span style="font-style:italic">   @(Model.Mission.Intro)</span>
+</p>
 

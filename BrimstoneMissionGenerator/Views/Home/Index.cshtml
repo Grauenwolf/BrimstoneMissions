@@ -3,6 +3,7 @@
 }
 
 <h2>Shadows of Brimstone Mission Generator</h2>
+
 <div class="row">
     @using (Html.BeginForm("Mission", "Home", FormMethod.Post))
     {
@@ -11,12 +12,18 @@
             {
 
                 
-                    <label>
+                    <label title="@(item.MissionsSet.MissionNameHtml)">
                         @Html.CheckBox("Mission_" + item.MissionsSet.Id, item.Available )
                             @item.MissionsSet.Name
+                        @if(!string.IsNullOrEmpty(item.MissionsSet.Locations))
+                        {
+                            <text>
+                            (@item.MissionsSet.Locations)
+                            </text>
+                        }
                         @if(!string.IsNullOrEmpty(item.MissionsSet.DownloadUrl))
                         {
-                            <a href="@item.MissionsSet.DownloadUrl">Download</a>
+                            <a target="_blank" href="@item.MissionsSet.DownloadUrl">Download</a>
                         }
                     </label>
           <br/>      

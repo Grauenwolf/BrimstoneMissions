@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Web.Mvc;
 using System.Xml.Serialization;
 
 namespace BrimstoneMissionGenerator.Models
@@ -57,7 +56,7 @@ namespace BrimstoneMissionGenerator.Models
 
         /// <remarks/>
         [XmlAttribute()]
-        public byte Number { get; set; }
+        public int Number { get; set; }
 
         /// <remarks/>
         [XmlIgnore()]
@@ -74,6 +73,18 @@ namespace BrimstoneMissionGenerator.Models
         /// <remarks/>
         [XmlAttribute()]
         public string Notes { get; set; }
+
+        /// <remarks/>
+        [XmlAttribute()]
+        public int Page { get; set; }
+
+        /// <remarks/>
+        [XmlIgnore()]
+        public bool PageSpecified { get; set; }
+
+        /// <remarks/>
+        [XmlAttribute()]
+        public string Intro { get; set; }
     }
 
 

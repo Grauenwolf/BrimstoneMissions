@@ -30,6 +30,13 @@
         </text>
         <br />
     }
+    @if (Model.OtherWorlds.Count > 0)
+    {
+        <text>
+            Random Locations: @(string.Join(", ", Model.OtherWorlds))
+        </text>
+        <br />
+    }
     @if (!string.IsNullOrEmpty(Model.Mission.Notes))
     {
         <text>

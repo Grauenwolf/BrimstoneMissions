@@ -1,5 +1,5 @@
 ﻿<Missions>
-  <Set Name="Shadows of Brimstone" Id="1">
+  <Set Name="Shadows of Brimstone" Id="1" OtherWorld="Mine">
     <Mission Number="1" Name="For a Few Dark Stone More" Location="Mine" />
     <Mission Number="2" Name="Exploration" Location="Mine" />
     <Mission Number="3" Name="Seal the Void Gate" Location="Mine" />
@@ -7,7 +7,7 @@
     <Mission Number="5" Name="Escape" Location="Mine" />
     <Mission Number="6" Name="Blow the Mine" Location="Mine" />
   </Set>
-  <Set Name="Swamps of Death" Id="2" BggUrl="https://boardgamegeek.com/boardgame/150997/shadows-brimstone-swamps-death">
+  <Set Name="Swamps of Death" Id="2" OtherWorld="Jargono" BggUrl="https://boardgamegeek.com/boardgame/150997/shadows-brimstone-swamps-death">
     <Mission Number="1" Name="Night of the Dead" Location="Mine" />
     <Mission Number="2" Name="Seal the Hell Pit" Location="Mine" Notes="Fixed Map" />
     <Mission Number="3" Name="The Lost Journal" Location="Mine" Notes="Fixed Map" />
@@ -15,7 +15,7 @@
     <Mission Number="5" Name="Cursed Idol" Location="Mine,Jargono" />
     <Mission Number="6" Name="Temple of Dread" Location="Mine,Jargono" />
   </Set>
-  <Set Name="City of the Ancients" Id="3" BggUrl="https://boardgamegeek.com/boardgame/146791/shadows-brimstone-city-ancients">
+  <Set Name="City of the Ancients" OtherWorld="Targa" Id="3" BggUrl="https://boardgamegeek.com/boardgame/146791/shadows-brimstone-city-ancients">
     <Mission Number="1" Name="Terror in The Night" Location="Mine" />
     <Mission Number="2" Name="Stop the Ritual" Location="Mine" Notes="Fixed Map" />
     <Mission Number="3" Name="Last Stand" Location="Mine" Notes="Fixed Map" />
@@ -23,7 +23,7 @@
     <Mission Number="5" Name="Overload" Location="Targa" />
     <Mission Number="6" Name="Frozen Expedition" Location="Mine,Targa" />
   </Set>
-  <Set Name="The Caverns of Cynder" Id="4" BggUrl="https://boardgamegeek.com/boardgameexpansion/178820/shadows-brimstone-caverns-cynder-expansion">
+  <Set Name="The Caverns of Cynder" Id="4" OtherWorld="Cynder" BggUrl="https://boardgamegeek.com/boardgameexpansion/178820/shadows-brimstone-caverns-cynder-expansion">
     <Mission Number="1" Name="Cracks in Reality" Location="Mine" />
     <Mission Number="2" Name="Defend the Bridge" Location="Mine" Notes="Fixed Map" />
     <Mission Number="3" Name="Dark Deal" Location="Mine" />
@@ -39,15 +39,15 @@
     <Mission Number="5" Name="Town Overrun" Location="Town" />
     <Mission Number="6" Name="High Noon Duel" Location="Town" Notes="Solo" />
   </Set>
-  <Set Name="Trederra" Id="6" BggUrl="https://boardgamegeek.com/boardgameexpansion/181561/shadows-brimstone-trederra-other-worlds-deluxe-exp">
+  <Set Name="Trederra" Id="6" OtherWorld="Trederra" BggUrl="https://boardgamegeek.com/boardgameexpansion/181561/shadows-brimstone-trederra-other-worlds-deluxe-exp">
     <Mission Number="1" Name="Foothold" Location="Mine" />
     <Mission Number="2" Name="Toxic Purge" Location="Mine,Trederra" />
     <Mission Number="3" Name="Battlefield Recon" Location="Mine,Trederra" />
     <Mission Number="4" Name="Front Lines" Location="Trederra" />
     <Mission Number="5" Name="Guns of War" Location="Trederra" />
-    <Mission Number="6" Name="Doomsday" Location="Trederra,Target World*" />
+    <Mission Number="6" Name="Doomsday" Location="Trederra,Target World" RandomWorlds="1" />
   </Set>
-  <Set Name="Derelict Ship" Id="7" BggUrl="https://boardgamegeek.com/boardgameexpansion/181563/shadows-brimstone-derelict-ship-otherworld-expansi">
+  <Set Name="Derelict Ship" Id="7" OtherWorld="Ship" BggUrl="https://boardgamegeek.com/boardgameexpansion/181563/shadows-brimstone-derelict-ship-otherworld-expansi">
     <Mission Number="1" Name="Time's Echo" Location="Mine" />
     <Mission Number="2" Name="Collapse the Vortex" Location="Mine" />
     <Mission Number="3" Name="Lost in Space" Location="Mine,Ship" />
@@ -55,7 +55,7 @@
     <Mission Number="5" Name="Voyage of the Dead" Location="Ship" />
     <Mission Number="6" Name="Reactor Breach" Location="Ship" />
   </Set>
-  <Set Name="Blasted Wastes" Id="8" BggUrl="https://boardgamegeek.com/boardgameexpansion/181562/shadows-brimstone-blasted-wastes-otherworld-expans">
+  <Set Name="Blasted Wastes" Id="8" OtherWorld="Canyon,Blasted Wastes" BggUrl="https://boardgamegeek.com/boardgameexpansion/181562/shadows-brimstone-blasted-wastes-otherworld-expans">
     <Mission Number="1" Name="Missing Patrol" Location="Canyon" />
     <Mission Number="2" Name="Ghosts in the Dark" Location="Canyon,Mine" />
     <Mission Number="3" Name="Across the Desert Dunes" Location="Mine,Blasted Wastes" />
@@ -65,7 +65,7 @@
   </Set>
   <Set Name="Werewolf Feral Kin" Id="9" >
     <Mission Number="1" Name="First Blood" Location="Mine" />
-    <Mission Number="2" Name="Full Moon" Location="Mine" Notes="or- Canyons" />
+    <Mission Number="2" Name="Full Moon" Location="Mine,Canyons" />
     <Mission Number="3" Name="Cleansing Ritual" Location="Mine" />
     <Mission Number="4" Name="Hunting Ground" Location="Mine" />
   </Set>
@@ -87,13 +87,13 @@
   <Set Name="Order of the Crimson Hand" Id="13" BggUrl="https://boardgamegeek.com/boardgameexpansion/181565/shadows-brimstone-cult-crimson-hand-mission-pack">
     <Mission Number="1" Name="Black Ritual" Location="Mine" />
     <Mission Number="2" Name="Captured" Location="Mine" />
-    <Mission Number="3" Name="Race for the Relics" Location="Mine,3 Random Other Worlds" />
+    <Mission Number="3" Name="Race for the Relics" Location="Mine,3 Random Other Worlds" RandomWorlds="3"/>
     <Mission Number="4" Name="Feeding the Beast" Location="Mine" />
   </Set>
   <Set Name="Black Fang Tribe" Id="14" BggUrl="https://boardgamegeek.com/boardgameexpansion/181564/shadows-brimstone-black-fang-tribe-mission-pack">
     <Mission Number="1" Name="Blood Harvest" Location="Mine" />
-    <Mission Number="2" Name="Rain Dance" Location="Mine" Notes="or- Canyons" />
-    <Mission Number="3" Name="Tribal Relics" Location="Mine,2 Random Other Worlds" />
+    <Mission Number="2" Name="Rain Dance" Location="Mine, Canyons" />
+    <Mission Number="3" Name="Tribal Relics" Location="Mine,2 Random Other Worlds" RandomWorlds="2"/>
     <Mission Number="4" Name="The Vengeful Spirit" Location="Mine" />
   </Set>
   <Set Name="The Lost Army" Id="15" BggUrl="https://boardgamegeek.com/boardgameexpansion/181567/shadows-brimstone-lost-army-mission-pack">
@@ -120,14 +120,14 @@
   </Set>
   <Set Name="Flesh Stalker and Flesh Drones" Id="20" BggUrl="https://boardgamegeek.com/boardgameexpansion/206377/shadows-brimstone-flesh-stalker-flesh-drones-delux">
     <Mission Number="1" Name="Experimentation" Location="Mine" />
-    <Mission Number="2" Name="Out of Time" Location="Mine,Other" />
+    <Mission Number="2" Name="Out of Time" Location="Mine,Other" RandomWorlds="1" />
   </Set>
   <Set Name="Beli'al, Last of the Shadow Kings" Id="21" BggUrl="https://boardgamegeek.com/boardgameexpansion/196954/shadows-brimstone-belial-last-shadow-kings-xxl-ene">
     <Mission Number="1" Name="Avatar of Evil" Location="Mine" />
     <Mission Number="2" Name="Lost Soul" Location="Mine" />
   </Set>
   <Set Name="The Ancient One" Id="22" BggUrl="https://boardgamegeek.com/boardgameexpansion/233596/shadows-brimstone-ancient-one">
-    <Mission Number="1" Name="Ancient Awakening" Location="Mine,Random OtherWorlds" />
+    <Mission Number="1" Name="Ancient Awakening" Location="Mine,Random OtherWorlds" RandomWorlds="1"/>
   </Set>
   <Set Name="The Burrower" Id="23" BggUrl="https://boardgamegeek.com/boardgameexpansion/181102/shadows-brimstone-burrower-xxl-enemy">
     <Mission Number="1" Name="This is no Cave" Location="Mine" />

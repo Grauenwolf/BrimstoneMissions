@@ -13,32 +13,6 @@ namespace BrimstoneMissionGenerator.Controllers
     {
         private const string MissionsCookieName = "missions";
 
-        public ActionResult Index()
-        {
-            var sets = FindSets();
-
-            return View(sets);
-        }
-
-        private List<CheckList> FindSets()
-        {
-            var sets = Application.Missions.Set.Select(x => new CheckList() { MissionsSet = x }).ToList();
-
-            if (Request.Cookies[MissionsCookieName] != null && !string.IsNullOrEmpty(Request.Cookies[MissionsCookieName].Value))
-            {
-                var list = Request.Cookies[MissionsCookieName].Value.Split(',').Select(x => int.Parse(x)).ToList();
-                foreach (var set in sets)
-                {
-                    if (list.Contains(set.MissionsSet.Id))
-                        set.Available = true;
-                }
-            }
-
-            if (!sets.Any(x => x.Available))
-                sets[0].Available = true;
-            return sets;
-        }
-
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -46,7 +20,18 @@ namespace BrimstoneMissionGenerator.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult AllMissions()
+        {
+            return View(Application.Missions.Set);
+        }
 
+        public ActionResult Index()
+        {
+            var sets = FindSets();
+
+            return View(sets);
+        }
 
         [HttpPost]
         public ActionResult Mission(FormCollection formData)
@@ -71,6 +56,7 @@ namespace BrimstoneMissionGenerator.Controllers
             var dice = new RandomExtended();
             var selectedMission = dice.Choose(missions);
 
+            Fixup(dice, sets, selectedMission);
 
             return View(selectedMission);
         }
@@ -80,14 +66,47 @@ namespace BrimstoneMissionGenerator.Controllers
         public ActionResult Mission(int setting, int mission)
         {
             var set = Application.Missions.Set.Single(x => x.Id == setting);
-            return View(new MissionPicker() { MissionsSet = set, Mission = set.Mission[mission] });
+            var selectedMission = new MissionPicker() { MissionsSet = set, Mission = set.Mission[mission] };
+
+            Fixup(new RandomExtended(), FindSets().Where(x => x.Available == true).ToList(), selectedMission);
+
+            return View(selectedMission);
         }
 
-        [HttpGet]
-        public ActionResult AllMissions()
+        private List<CheckList> FindSets()
         {
-            return View(Application.Missions.Set);
-        }
+            var sets = Application.Missions.Set.Select(x => new CheckList() { MissionsSet = x }).ToList();
 
+            if (Request.Cookies[MissionsCookieName] != null && !string.IsNullOrEmpty(Request.Cookies[MissionsCookieName].Value))
+            {
+                var list = Request.Cookies[MissionsCookieName].Value.Split(',').Select(x => int.Parse(x)).ToList();
+                foreach (var set in sets)
+                {
+                    if (list.Contains(set.MissionsSet.Id))
+                        set.Available = true;
+                }
+            }
+
+            if (!sets.Any(x => x.Available))
+                sets[0].Available = true;
+            return sets;
+        }
+        void Fixup(RandomExtended dice, List<CheckList> sets, MissionPicker missionPicker)
+        {
+            if (missionPicker.Mission.RandomWorlds > 0)
+            {
+                var myWorlds = sets.Where(x => !string.IsNullOrEmpty(x.MissionsSet.OtherWorld)).Select(x => x.MissionsSet.OtherWorld.Split(',')).SelectMany(x => x).Select(x => x.Trim()).Distinct().ToList();
+
+                var missionWorlds = missionPicker.Mission.Location.Split(',').Select(x => x.Trim()).Distinct().ToList();
+                myWorlds = myWorlds.Where(x => !missionWorlds.Contains(x)).ToList();
+
+                if (myWorlds.Count > missionPicker.Mission.RandomWorlds)
+                    missionPicker.OtherWorlds.AddRange(dice.Choose(myWorlds, missionPicker.Mission.RandomWorlds, false)); //no duplicates
+                else if (myWorlds.Count > 0)
+                    missionPicker.OtherWorlds.AddRange(dice.Choose(myWorlds, missionPicker.Mission.RandomWorlds)); //duplicates needed
+
+
+            }
+        }
     }
 }

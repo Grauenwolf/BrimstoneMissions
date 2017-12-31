@@ -45,6 +45,11 @@ namespace BrimstoneMissionGenerator.Models
         /// <remarks/>
         [XmlAttribute()]
         public string BggUrl { get; set; }
+
+        /// <remarks/>
+        [XmlAttribute()]
+        public string OtherWorld { get; set; }
+
     }
 
     /// <remarks/>
@@ -61,6 +66,14 @@ namespace BrimstoneMissionGenerator.Models
         /// <remarks/>
         [XmlIgnore()]
         public bool NumberSpecified { get; set; }
+
+        /// <remarks/>
+        [XmlAttribute()]
+        public int RandomWorlds { get; set; }
+
+        /// <remarks/>
+        [XmlIgnore()]
+        public bool RandomWorldsSpecified { get; set; }
 
         /// <remarks/>
         [XmlAttribute()]

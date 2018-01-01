@@ -1,4 +1,4 @@
-﻿@model System.Collections.Generic.IList<BrimstoneMissionGenerator.Models.MissionsSet>
+﻿@model System.Collections.Generic.IList<BrimstoneMissionGenerator.Models.Product>
 @{
     ViewBag.Title = "Mission List";
 }
@@ -32,11 +32,11 @@
         }
         <ul>
 
-            @foreach (var mission in set.Mission)
+            @foreach (var mission in set.Missions)
             {
                 <li title="@(mission.Intro)">
                     <a href="/Home/Mission/@(set.Id)/@(missionIndex)">
-                    @if (mission.NumberSpecified)
+                    @if (mission.Number.HasValue)
                     {
                         <text>
                             #@(mission.Number) @(mission.Name)
@@ -48,10 +48,10 @@
                             @(mission.Name)
                         </text>
                     }
-                    @if (!string.IsNullOrEmpty(mission.Location))
+                    @if (mission.Locations.Count > 0)
                     {
                         <text>
-                            (@(mission.Location.Replace(",", ", ")))
+                            (@(mission.Locations))
                         </text>
                     }
                     @if (!string.IsNullOrEmpty(mission.Notes))
@@ -60,7 +60,7 @@
                             @(mission.Notes)
                         </text>
                     }
-                    @if (mission.PageSpecified)
+                    @if (mission.Page.HasValue)
                     {
                         <text>
                             Page @(mission.Page)

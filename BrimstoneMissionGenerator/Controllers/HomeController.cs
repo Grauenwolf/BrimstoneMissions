@@ -23,7 +23,7 @@ namespace BrimstoneMissionGenerator.Controllers
         [HttpGet]
         public ActionResult AllMissions()
         {
-            return View(Application.Missions.Set);
+            return View(Application.Sets);
         }
 
         public ActionResult Index()
@@ -50,7 +50,7 @@ namespace BrimstoneMissionGenerator.Controllers
             var sets = FindSets().Where(x => x.Available == true).ToList();
             var missions = new List<MissionPicker>();
             foreach (var set in sets)
-                foreach (var mission in set.MissionsSet.Mission)
+                foreach (var mission in set.MissionsSet.Missions)
                     missions.Add(new MissionPicker() { MissionsSet = set.MissionsSet, Mission = mission });
 
             var dice = new RandomExtended();
@@ -65,8 +65,8 @@ namespace BrimstoneMissionGenerator.Controllers
         [Route("Mission/{setting}/{mission}")]
         public ActionResult Mission(int setting, int mission)
         {
-            var set = Application.Missions.Set.Single(x => x.Id == setting);
-            var selectedMission = new MissionPicker() { MissionsSet = set, Mission = set.Mission[mission] };
+            var set = Application.Sets.Single(x => x.Id == setting);
+            var selectedMission = new MissionPicker() { MissionsSet = set, Mission = set.Missions[mission] };
 
             Fixup(new RandomExtended(), FindSets().Where(x => x.Available == true).ToList(), selectedMission);
 
@@ -75,7 +75,7 @@ namespace BrimstoneMissionGenerator.Controllers
 
         private List<CheckList> FindSets()
         {
-            var sets = Application.Missions.Set.Select(x => new CheckList() { MissionsSet = x }).ToList();
+            var sets = Application.Sets.Select(x => new CheckList() { MissionsSet = x }).ToList();
 
             if (Request.Cookies[MissionsCookieName] != null && !string.IsNullOrEmpty(Request.Cookies[MissionsCookieName].Value))
             {
@@ -97,13 +97,13 @@ namespace BrimstoneMissionGenerator.Controllers
             {
                 var myWorlds = sets.Where(x => !string.IsNullOrEmpty(x.MissionsSet.OtherWorld)).Select(x => x.MissionsSet.OtherWorld.Split(',')).SelectMany(x => x).Select(x => x.Trim()).Distinct().ToList();
 
-                var missionWorlds = missionPicker.Mission.Location.Split(',').Select(x => x.Trim()).Distinct().ToList();
+                var missionWorlds = missionPicker.Mission.Locations.ToList();
                 myWorlds = myWorlds.Where(x => !missionWorlds.Contains(x)).ToList();
 
                 if (myWorlds.Count > missionPicker.Mission.RandomWorlds)
-                    missionPicker.OtherWorlds.AddRange(dice.Choose(myWorlds, missionPicker.Mission.RandomWorlds, false)); //no duplicates
+                    missionPicker.OtherWorlds.AddRange(dice.Choose(myWorlds, missionPicker.Mission.RandomWorlds.Value, false)); //no duplicates
                 else if (myWorlds.Count > 0)
-                    missionPicker.OtherWorlds.AddRange(dice.Choose(myWorlds, missionPicker.Mission.RandomWorlds)); //duplicates needed
+                    missionPicker.OtherWorlds.AddRange(dice.Choose(myWorlds, missionPicker.Mission.RandomWorlds.Value)); //duplicates needed
 
 
             }

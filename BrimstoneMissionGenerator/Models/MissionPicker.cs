@@ -4,8 +4,8 @@ namespace BrimstoneMissionGenerator.Models
 {
     public class MissionPicker
     {
-        public MissionsSet MissionsSet { get; set; }
-        public MissionsSetMission Mission { get; set; }
+        public Product MissionsSet { get; set; }
+        public Mission Mission { get; set; }
 
         public List<string> OtherWorlds { get; } = new List<string>();
     }

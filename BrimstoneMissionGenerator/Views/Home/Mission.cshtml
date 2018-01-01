@@ -6,12 +6,12 @@
 <h2>@Model.Mission.Name</h2>
 
 <p>
-    @if (Model.Mission.NumberSpecified)
+    @if (Model.Mission.Number.HasValue)
     {
         <text>
             Mission #@(Model.Mission.Number) from @(Model.MissionsSet.Name)
         </text>
-        if (Model.Mission.PageSpecified)
+        if (Model.Mission.Page.HasValue)
         {
             <text>
                 on page @(Model.Mission.Page)
@@ -23,10 +23,10 @@
         <a href="@Model.MissionsSet.DownloadUrl">Download</a>
     }
     <br />
-    @if (!string.IsNullOrEmpty(Model.Mission.Location))
+    @if (Model.Mission.Locations.Count>0)
     {
         <text>
-            Locations: @(Model.Mission.Location.Replace(",", ", "))
+            Locations: @(Model.Mission.Locations)
         </text>
         <br />
     }

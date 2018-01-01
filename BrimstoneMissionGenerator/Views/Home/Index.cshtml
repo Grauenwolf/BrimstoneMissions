@@ -12,7 +12,7 @@
             {
 
                 
-                    <label title="@(item.MissionsSet.MissionNameHtml)">
+                    <label title="@(item.MissionsSet.MissionNamesHtml)">
                         @Html.CheckBox("Mission_" + item.MissionsSet.Id, item.Available )
                             @item.MissionsSet.Name
                         @if(!string.IsNullOrEmpty(item.MissionsSet.Locations))

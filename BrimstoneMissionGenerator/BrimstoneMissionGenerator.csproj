@@ -155,9 +155,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Mission.cs" />
     <Compile Include="Models\MissionPicker.cs" />
-    <Compile Include="Models\MissionXml.cs" />
-    <Compile Include="Models\MissionsSet.cs" />
+    <Compile Include="Models\Xml\MissionXml.cs" />
+    <Compile Include="Models\Set.cs" />
+    <Compile Include="Models\StringCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,8 +1,9 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Web.Mvc;
 using System.Xml.Serialization;
 
-namespace BrimstoneMissionGenerator.Models
+namespace BrimstoneMissionGenerator.Models.Xml
 {
 
 
@@ -102,3 +103,4 @@ namespace BrimstoneMissionGenerator.Models
 
 
 }
+

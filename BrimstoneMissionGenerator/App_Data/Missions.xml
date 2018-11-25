@@ -226,4 +226,18 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
   <Set Name="Investigation" Id="44" DownloadUrl="https://boardgamegeek.com/filepage/156095/custom-mission-investigation-page-1" >
     <Mission Name="Investigation" Intro="Rumors are spreading of the Crimson Hand's infiltrction of a local town. They seem to have their fingers everywhere, and corruption is rampant." Location="Town" />
   </Set>
+  <Set Name="A Bad Patch" Id="45" DownloadUrl="https://boardgamegeek.com/filepage/171431/shadow-brimstone-halloween-adventure-bad-patch" >
+    <Mission Name="A Bad Patch" Intro="A large crowd has gathered at the edge of town to gape at a farmers pumpkin patch. Appearing overnight the farmer exclaims, “ I plowed the field with Dark Stone and these pumpkins ate it up. Never seen nothing grow so fast, never seen nothing like it.” You can see the Dark Stone breaking through the meat of each pumpkin. and you become transfixed and filled with an urge to eat one. You begin to approach the patch but snap free from the evil hypnosis. Others in the crowd however have already picked up pumpkins. As they stare at them their bodies begin to distort and twist, shriveling up and turning orange, finally rounding out into little pumpkins of themselves. Half the folks run off at the sight while the other half continue to walk into the patch. You notice vines running off towards the local mine. You better track down the source before it’s too late for everyone." Location="Town"/>
+  </Set>
+  <Set Name="Elusive Artifact" Id="46" DownloadUrl="https://boardgamegeek.com/filepage/149854/shadows-brimstone-frontier-town-special-mission-el">
+    <Mission Name="Elusive Artifact" Intro="You’ve traveled to this town looking for a peddler who is rumored to be selling a powerful artifact. But when you arrive, the town is under attack by all manner of foul creatures!" Location="Town"/>
+  </Set>
+  <Set Name="Cursed Conquistadors" Id="47" DownloadUrl="https://boardgamegeek.com/filepage/147476/cursed-conquistadors-first-100-fanmade-deluxe-enem
+">
+    <Mission Name="Montezuma’s Lost Treasure" Number="1" Page="4" Intro="The rumors are true. They have got to be true. The Lost Treasure of Montezuma is hidden in one of the mines near town. Otherwise why would these weird men with their funny helmets and their paranoid looks roam in there ?" Location="Mine"/>
+    <Mission Name="Montezuma’s Gold Mission" Number="2" Page="5" Intro="We found it! The map to Montezuma’s treasure. No one seems to know what it is, but by the way everyone speaks about it, it has to be big. Didn’t take long to form the posse and get to the mine that is said to lead to the treasure." Location="Mine"/>
+  </Set>
+  <Set Name="Posse Hideout" Id="48" DownloadUrl="https://boardgamegeek.com/filepage/146461/bootleggers-campaign-system-posse-hideout-pdf">
+    <Mission  Name="Posse Hideout" Intro="While in town an elegantly well dressed woman approaches you in the hotel. She laments to you the sad story about her missing husband and the gold claim he was trying to survey. One month ago her husband left as he did every morning to go explore his new gold claim. Later that night he didn’t return. Aﬁer several days of the wife pleading with the sheriff to ﬁnd her missing husband a posse was ﬁnally dispatched." Location="Mine" />
+  </Set>
 </Missions>

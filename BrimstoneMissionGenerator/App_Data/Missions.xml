@@ -296,6 +296,6 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
     <Mission Name="Riders of the Storm" Number="1" Page="29" Intro="Thunder roars in the distance and brilliant lightning flashes across the sky as a heavy rain pelts the roof of the tavern. Getting up to order another drink, you are approached at the bar by a cloaked figure. &quot;It is your choice,&quot; he says in a hushed tone.&#xA;&quot;What's that old man?&quot; You lean in closer, straining to hear.&#xA;&quot;It is your choice...to live under the Dragon's rule, or to give your lives to the fight against tyranny.&quot;&#xA;Enthralled by the strangers tone, he tells you a tale of a lost relic; one of the few ancient items left that could help to defeat the great Dragon King, Sho-Riu.&#xA;As your group intently listens to the old Yamabushi Master, lightning crashes again, and the walls of the tavern shake from the rolling thunder. &quot;They're getting closer, the Raijin. They too know that the relic is near. They also search for it, to protect their Dragon masters. You must find it first!&quot;" />
   </Set>
   <Set Name="Gastral Tyrant" OtherWorld="Belly of the Beast,Derelict Ship" Id="60">
-    <Mission Name="Deadly Harvest" Number="1" Page="33" />
+    <Mission Name="Deadly Harvest" Number="1" Page="33" Intro="Lost in a maze of steam-filled chambers, you quickly realize that you are not alone!" />
   </Set>
 </Missions>

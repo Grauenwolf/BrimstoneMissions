@@ -271,31 +271,31 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
     <Mission Name="Power of the Shogun" Number="6" Page="11" Location="Forbidden Fortress" />
   </Set>
   <Set Name="Shadow Clan Ninja" OtherWorld="Forbidden Fortress" Id="53">
-    <Mission Name="Shadow War" Number="1" Page="7" />
-    <Mission Name="Master of Death" Number="2" Page="8" />
+    <Mission Name="Shadow War" Number="1" Page="7" Intro="A local Daimyo has come to you in secret because he fears that one of the Ninja Shadow Clans is plotting the downfall of his house! &quot;You must help me, or my Clan will only be the first to fall to their treachery!&quot;" />
+    <Mission Name="Master of Death" Number="2" Page="8" Intro="Following rumors and clues you have discovered the location of one of the Shadow Clans' hidden Ninja Castles. This is the time to Strike! If you act quickly, you may be able to catch the villains and their leader offguard But this is no ordinary castle. It is said the Ninja Castles of the Shadow Clans are filled with hidden passages and deadly traps to kill any that would dare enter uninvited!" />
   </Set>
   <Set Name="Jorogumo Spider Queen" OtherWorld="Forbidden Fortress" Id="54">
-    <Mission Name="A Tangled Web" Number="1" Page="13" />
+    <Mission Name="A Tangled Web" Number="1" Page="13"  Intro="A Spider Queen hos consumed one of the local Samurai Clans and is spreading evil magik from within its tainted halls. You must find her lair and burn it!" />
   </Set>
   <Set Name="Sho-Riu, The Dragon King" OtherWorld="Forbidden Fortress" Id="55">
-    <Mission Name="Shadow of the Dragon" Number="1" Page="18" />
-    <Mission Name="Fury and Flame" Number="2" Page="19" />
+    <Mission Name="Shadow of the Dragon" Number="1" Page="18" Intro="An Elemental Dragon has been terrorizing all of the local villages in the region, swooping down from the skies to smash buildings and crush townsfolk with its sweeping body! Its lair must be close Trucking the beast to a nearby castle, if you sneak in undetected, you may have a chance to put on end to the tyranny!" />
+    <Mission Name="Fury and Flame" Number="2" Page="19" Intro="This is it! The Dragon King's army has amassed on the field of battle and is sweeping across the land consuming all in its wake! Many Ninja died to bring you word that Sho-Riu...the Dragon King himself, is commanding his forces from the ruins of d once great Samurai fortress at the base of the Sacred Mountain.&#xA;You have one chance to stop this tyrant before all the world is covered in darkness, Perhaps a small band of daring Heroes can do what an entire army of soldiers could not. By sneaking post the rampaging hordes and getting close enough to fight your way through the Dragon's personal guards, you may be able to defeat him before his power is too great to overcome!" />
   </Set>
   <Set Name="Onmorake Carrion Phoenix" OtherWorld="Forbidden Fortress" Id="56">
-    <Mission Name="Plague Wind" Number="1" Page="7" />
-    <Mission Name="The Burning Beast" Number="2" Page="8" />
+    <Mission Name="Plague Wind" Number="1" Page="7" Intro="A Deadly mist covers the land, necrotizing flesh and withering the trees. If the source of this plaque wind isn't found and stopped soon, death will spread across the land, consuming all within its corrupting reach!" />
+    <Mission Name="The Burning Beast" Number="2" Page="8" Intro="A fierce Onmorake Carrion Phoenix has been burning the local villages with its deadly fire every night, raising the scorched villagers back as Scourge Dead. The terrified villagers have come to you seeking your help.&#xA;&quot;If you do not stop this burning beast, the deathly files will consume us all! You must help us! Find its burial mound and destroy it! Or the flames of decay will continue to spread!&quot;" />
   </Set>
   <Set Name="Court of the Fallen Shogun" OtherWorld="Forbidden Fortress" Id="57">
-    <Mission Name="Holding Court" Number="1" Page="16" />
-    <Mission Name="Stolen Soul" Number="2" Page="17" />
+    <Mission Name="Holding Court" Number="1" Page="16" Intro="Lightning flashes across the sky and a supernatural storm begins to churn in the heavens as a group of sinister Takobake sorcerers performs a dark ritual to harness the power of the Void!" />
+    <Mission Name="Stolen Soul" Number="2" Page="17" Intro="As you sit in the local tavern, you begin to realize that one of the other Heroes is not acting like themselves - rude, crude, and generally terrible. Soon word spreads that a powerful summoner in the castle on the hill has been stealing souls from the living to fuel his dark magik!" />
   </Set>
   <Set Name="Legendary Villains" OtherWorld="Forbidden Fortress" Id="58">
-    <Mission Name="Showdown" Number="1" Page="24" />
+    <Mission Name="Showdown" Number="1" Page="24" Intro="All of the villages in the area have been ransacked and raided by the armies of a legendary villain. Now the Surviving townspeople have gathered together a large reward to pay any Heroes brave enough to hunt down and stop the fiend from continuing his reign of terror.&#xA;The last several groups of Heroes that embarked on this mission have not been heard from, since, but good news...the reward is still unclaimed!" />
   </Set>
   <Set Name="Raijin Thunder Warriors" OtherWorld="Forbidden Fortress" Id="59">
-    <Mission Name="Riders of the Storm" Number="1" Page="29" />
+    <Mission Name="Riders of the Storm" Number="1" Page="29" Intro="Thunder roars in the distance and brilliant lightning flashes across the sky as a heavy rain pelts the roof of the tavern. Getting up to order another drink, you are approached at the bar by a cloaked figure. &quot;It is your choice,&quot; he says in a hushed tone.&#xA;&quot;What's that old man?&quot; You lean in closer, straining to hear.&#xA;&quot;It is your choice...to live under the Dragon's rule, or to give your lives to the fight against tyranny.&quot;&#xA;Enthralled by the strangers tone, he tells you a tale of a lost relic; one of the few ancient items left that could help to defeat the great Dragon King, Sho-Riu.&#xA;As your group intently listens to the old Yamabushi Master, lightning crashes again, and the walls of the tavern shake from the rolling thunder. &quot;They're getting closer, the Raijin. They too know that the relic is near. They also search for it, to protect their Dragon masters. You must find it first!&quot;" />
   </Set>
-  <Set Name="Gastral Tyrant" OtherWorld="Belly of the Beast,Derelict Ship" Id="59">
+  <Set Name="Gastral Tyrant" OtherWorld="Belly of the Beast,Derelict Ship" Id="60">
     <Mission Name="Deadly Harvest" Number="1" Page="33" />
   </Set>
 </Missions>

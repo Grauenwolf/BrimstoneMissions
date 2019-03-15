@@ -289,12 +289,87 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
     <Mission Name="If it Bleeds..." Number="6" Page="25" Intro="Writhing their way through a tear in the fabric of space and time, the massive tendrils of an interdimensional beast have burst into our world! Smashing and devouring everything they come into contact with! The gaping maws of the creature are toothy doorways into its unfathomably enormous body. To attack this beast from the outside would be useless. Only by venturing inside the creature can you hope to find some of its more sensitive areas and attack them, hopefully forcing it to withdraw back into its own dimension." Location="Belly of the Beast" />
   </Set>
   <Set Name="Forest of the Dead" Id="51" OtherWorld="Forbidden Fortress,Forest of the Dead">
-    <Mission Name="A Haunting" Number="1" Page="9" Location="Forbidden Fortress" Intro="Sitting at the local tavern, you are approached by a frazzled-looking soldier. VVith deep, black circles under his eyes and his armor disheveled and stained, he implores you to help.&#xA;&quot;I have heard tales of your exploits...you must...you must do something! You must help us!&quot;&#xA;With a stiff drink in his shaking hands, he proceeds to tell you of the torment his clan has suffered at the hands of a malevolent spectre and its supernatural host. What first began as an oddity of scrolls and furniture moving on their own has become a full blown haunting of deadly magnitude! The Daimvo's son has been killed and the clan has been forced to abandon their ancestral castle.&#xA;&quot;You're our only hope! VVhile this spectre haunts our castle, our clan is in ruins!&quot;" />
-    <Mission Name="Overgrown" Number="2" Page="10" Location="Forbidden Fortress" Intro="The village streets are crowded with refugees as you push your way through. It seems that a nearby fortress has been infested with a dark heart of evil, overgrown with twisting vines and living brambles! Spreading with every passing moment, the brambles are now threatening to overtake the local villages as well!" />
-    <Mission Name="Into the Shadow Realm" Number="3" Page="11" Location="Forbidden Fortress,Forest of the Dead" Intro="Rumors have been swirling that the abandoned fortress on the hilltop overlooking the valley is home to a stable gateway that leads into a dark, expansive forest, where the shambling corpses and spectres of the dead roam freely amongst the trees! Though most who have ventured into this forsaken world have never returned, those few who have speak of powerful relics and hordes of riches buried in the black soil with the bones of those fallen explorers consumed by their own greed.&#xA;If you can fend off the dark spirits and savage inhabitants of this haunted wood, traverse the twisting maze of decayed trees and crumbling ruins, and find your way through the cold and bitter fog of the eternal night there, you may just bring back treasures beyond your wildest dreams!" />
-    <Mission Name="Spectres of the Past" Number="4" Page="12" Location="Forest of the Dead" Intro="Kneeling in the local shrine to pay your respects, you are approached by a frail old man, a look of anguish etched onto his drawn, wrinkled face.&#xA;&quot;I know you have many things that demand your attention, and I am just a simple fanner. But I am tormented by the screams of my ancestors. They haunt my dreams and have grown only louder as the days go by I cannot take it any longer: They are trapped in the deathly forest beyond the shadows. I have heard that you are brave Heroes. Is there anything that you can do to help me... to help free them? I fear that soon I will go mad from their screams. Then I too will join them in their eternal torment!&quot;" />
-    <Mission Name="Broken Amulet" Number="5" Page="14" Location="Forest of the Dead" Intro="Legend tells of a mystic amulet that once had the key to immortality. After warring over this powerful relic for decades, the four noble tribes that laid claim to it had nearly exhausted their forces in the prolonged conflict. When a truce was called, the four Warlords made a pact to shatter the Amulet, each taking one fragment and going their separate ways. Now countless centuries later, the sacred Yamabushi monks have divined the locations of these four lost fragments. If they can be found and reforged into a single piece… it could change the fortunes in the wars to come!" />
-    <Mission Name="Once a Hero" Number="6" Page="17" Location="Forbidden Fortress" Intro="With all four fragments of the mystic Amulet recovered and restored, the Yamabushi monks of the mountain village have set their plans in motion. If the war against the great Dragon King, Sho-Riu, is to have any chance of victory, the forces of light will need powerful champions to lead the charge. Though many brave new Heroes have risen to the challenge in these dark days, legend tells of one such Hero that would be a great allv to the cause. Killed in battle, the spirit of this fallen Hero still lingers in the shadow between worlds - the Forest of the Dead! With the power of the Amulet, it may be possible to bring them back to the world of the living." />
+    <Mission Name="A Haunting" Number="1" Page="9" Location="Forbidden Fortress" Intro="Sitting at the local tavern, you are approached by a frazzled-looking soldier. With deep, black circles under his eyes and his armor disheveled and stained, he implores you to help.&#xA;&quot;I have heard tales of your exploits...you must...you must do something! You must help us!&quot;&#xA;With a stiff drink in his shaking hands, he proceeds to tell you of the torment his clan has suffered at the hands of a malevolent spectre and its supernatural host. What first began as an oddity of scrolls and furniture moving on their own has become a full blown haunting of deadly magnitude! The Daimyo's son has been killed and the clan has been forced to abandon their ancestral castle.&#xA;&quot;You're our only hope! While this spectre haunts our castle, our clan is in ruins!&quot;">
+      <EnemyTheme Name="Undead" />
+      <Rule Name="No Gates" />
+      <Rule Name="Angry Dead" />
+      <Objective Name="Finding the Third Clue" />
+      <EnemyTheme Name="Ghostly Host (Boss)" />
+    </Mission>
+    <Mission Name="Overgrown" Number="2" Page="10" Location="Forbidden Fortress" Intro="The village streets are crowded with refugees as you push your way through. It seems that a nearby fortress has been infested with a dark heart of evil, overgrown with twisting vines and living brambles! Spreading with every passing moment, the brambles are now threatening to overtake the local villages as well!">
+      <Rule Name="No Gates" />
+      <Rule Name="Hard to Hold Back the Darkness" />
+      <Rule Name="Explosive Growth" />
+      <Rule Name="Living Brambles" />
+      <Rule Name="Twisting Tendrils of Darkness" />
+      <Token Name="Brambles" />
+      <Token Name="Decayed Tree" />
+      <Objective Name="Finding the Dark Well" />
+      <EnemyTheme Name="Objective Room" />
+    </Mission>
+    <Mission Name="Into the Shadow Realm" Number="3" Page="11" Location="Forbidden Fortress,Forest of the Dead" Intro="Rumors have been swirling that the abandoned fortress on the hilltop overlooking the valley is home to a stable gateway that leads into a dark, expansive forest, where the shambling corpses and spectres of the dead roam freely amongst the trees! Though most who have ventured into this forsaken world have never returned, those few who have speak of powerful relics and hordes of riches buried in the black soil with the bones of those fallen explorers consumed by their own greed.&#xA;If you can fend off the dark spirits and savage inhabitants of this haunted wood, traverse the twisting maze of decayed trees and crumbling ruins, and find your way through the cold and bitter fog of the eternal night there, you may just bring back treasures beyond your wildest dreams!">
+      <Rule Name="All Gates Lead to the Forest of the Dead" />
+      <Rule Name="Fortress Clues Add a Gate" />
+      <Objective Name="The Second Clue in the Forest of the Dead" />
+    </Mission>
+    <Mission Name="Spectres of the Past" Number="4" Page="12" Location="Forest of the Dead" Intro="Kneeling in the local shrine to pay your respects, you are approached by a frail old man, a look of anguish etched onto his drawn, wrinkled face.&#xA;&quot;I know you have many things that demand your attention, and I am just a simple fanner. But I am tormented by the screams of my ancestors. They haunt my dreams and have grown only louder as the days go by I cannot take it any longer: They are trapped in the deathly forest beyond the shadows. I have heard that you are brave Heroes. Is there anything that you can do to help me... to help free them? I fear that soon I will go mad from their screams. Then I too will join them in their eternal torment!&quot;">
+      <Rule Name="Fixed Map" />
+      <Rule Name="Hard to Hold Back the Darkness" />
+      <Rule Name="Immediate Dread" />
+      <Rule Name="Haunting Tokens" />
+      <Rule Name="Lonely Spirits" />
+      <Rule Name="Grave Statues" />
+      <Token Name="Haunting" />
+      <Token Name="Lonely Spirit" />
+      <Token Name="Grave Statue" />
+      <Objective Name="Go to the Light" />
+    </Mission>
+
+    <Mission Name="Broken Amulet - The Vikings Tomb" Number="5" Page="14" Location="Forest of the Dead" Intro="Legend tells of a mystic amulet that once had the key to immortality. After warring over this powerful relic for decades, the four noble tribes that laid claim to it had nearly exhausted their forces in the prolonged conflict. When a truce was called, the four Warlords made a pact to shatter the Amulet, each taking one fragment and going their separate ways. Now countless centuries later, the sacred Yamabushi monks have divined the locations of these four lost fragments. If they can be found and reforged into a single piece… it could change the fortunes in the wars to come!">
+      <Rule Name="No Gates" />
+      <Rule Name="Hungry Darkness" />
+      <Objective Name="Finding the Location of the Amulet Fragment" />
+      <Objective Name="Objective Room" />
+
+      <Rule Name="Jarl's Pride" />
+      <Rule Name="Odin's Watchful Eye" />
+    </Mission>
+
+    <Mission Name="Broken Amulet - Den of the Goryu" Number="5" Page="14" Location="Forest of the Dead" Intro="Legend tells of a mystic amulet that once had the key to immortality. After warring over this powerful relic for decades, the four noble tribes that laid claim to it had nearly exhausted their forces in the prolonged conflict. When a truce was called, the four Warlords made a pact to shatter the Amulet, each taking one fragment and going their separate ways. Now countless centuries later, the sacred Yamabushi monks have divined the locations of these four lost fragments. If they can be found and reforged into a single piece… it could change the fortunes in the wars to come!">
+      <Rule Name="No Gates" />
+      <Rule Name="Hungry Darkness" />
+      <Objective Name="Finding the Location of the Amulet Fragment" />
+      <Objective Name="Objective Room" />
+      <EnemyTheme Name="Goryu" />
+      <Rule Name="Shredded Bodies" />
+    </Mission>
+
+    <Mission Name="Broken Amulet - Consumed by Shadows" Number="5" Page="14" Location="Forest of the Dead" Intro="Legend tells of a mystic amulet that once had the key to immortality. After warring over this powerful relic for decades, the four noble tribes that laid claim to it had nearly exhausted their forces in the prolonged conflict. When a truce was called, the four Warlords made a pact to shatter the Amulet, each taking one fragment and going their separate ways. Now countless centuries later, the sacred Yamabushi monks have divined the locations of these four lost fragments. If they can be found and reforged into a single piece… it could change the fortunes in the wars to come!">
+      <Rule Name="No Gates" />
+      <Rule Name="Hungry Darkness" />
+      <Objective Name="Finding the Location of the Amulet Fragment" />
+      <Objective Name="Objective Room" />
+      <Rule Name="Screams of Torment" />
+      <Rule Name="By the Lantern's Light" />
+    </Mission>
+
+    <Mission Name="Broken Amulet - Bloodbane" Number="5" Page="14" Location="Forest of the Dead" Intro="Legend tells of a mystic amulet that once had the key to immortality. After warring over this powerful relic for decades, the four noble tribes that laid claim to it had nearly exhausted their forces in the prolonged conflict. When a truce was called, the four Warlords made a pact to shatter the Amulet, each taking one fragment and going their separate ways. Now countless centuries later, the sacred Yamabushi monks have divined the locations of these four lost fragments. If they can be found and reforged into a single piece… it could change the fortunes in the wars to come!">
+      <Rule Name="No Gates" />
+      <Rule Name="Hungry Darkness" />
+      <Objective Name="Finding the Location of the Amulet Fragment" />
+      <Objective Name="Objective Room" />
+      <EnemyTheme Name="Nure-Omna Vampires" />
+      <Rule Name="Brood Hunting Ground" />
+      <Rule Name="Fresh Blood to Feed" />
+    </Mission>
+
+    <Mission Name="Once a Hero" Number="6" Page="17" Location="Forbidden Fortress" Intro="With all four fragments of the mystic Amulet recovered and restored, the Yamabushi monks of the mountain village have set their plans in motion. If the war against the great Dragon King, Sho-Riu, is to have any chance of victory, the forces of light will need powerful champions to lead the charge. Though many brave new Heroes have risen to the challenge in these dark days, legend tells of one such Hero that would be a great ally to the cause. Killed in battle, the spirit of this fallen Hero still lingers in the shadow between worlds - the Forest of the Dead! With the power of the Amulet, it may be possible to bring them back to the world of the living.">
+      <Rule Name="All Gates Lead to the Forest of the Dead" />
+      <Rule Name="Fortress Clues Add a Gate" />
+      <Rule Name="Haunting Voices" />
+      <Objective Name="Finding the Fallen Hero's Grave" />
+      <EnemyTheme Name="Legendary Spectre (Boss)" />
+    </Mission>
   </Set>
   <Set Name="Temple of Shadows" OtherWorld="Forbidden Fortress,Belly of the Beast" Id="52">
     <Mission Name="Cursed Temple" Number="1" Page="5" Location="Forbidden Fortress" Intro="Strolling through the local market, a strange old man watching you catches your eye. Following him down a back alley; he vanishes. As you turn to leave, he is there behind you, waiting! &quot;You and your companions have been chosen. Only you can cleanse a great evil that infests this land.&quot; Handing you a set of Yamabushi charms, he tells you of a cursed temple near here that must be cleansed of evil...before it spreads.">
@@ -393,20 +468,91 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
     </Mission>
   </Set>
   <Set Name="Onmorake Carrion Phoenix" OtherWorld="Forbidden Fortress" Id="56">
-    <Mission Name="Plague Wind" Number="1" Page="7" Intro="A Deadly mist covers the land, necrotizing flesh and withering the trees. If the source of this plaque wind isn't found and stopped soon, death will spread across the land, consuming all within its corrupting reach!" />
-    <Mission Name="The Burning Beast" Number="2" Page="8" Intro="A fierce Onmorake Carrion Phoenix has been burning the local villages with its deadly fire every night, raising the scorched villagers back as Scourge Dead. The terrified villagers have come to you seeking your help.&#xA;&quot;If you do not stop this burning beast, the deathly files will consume us all! You must help us! Find its burial mound and destroy it! Or the flames of decay will continue to spread!&quot;" />
+    <Mission Name="Plague Wind" Number="1" Page="7" Intro="A Deadly mist covers the land, necrotizing flesh and withering the trees. If the source of this plaque wind isn't found and stopped soon, death will spread across the land, consuming all within its corrupting reach!">
+      <Rule Name="Corrupted Dead" />
+      <Rule Name="Spreading Plagues" />
+      <Rule Name="Decayed Bodies" />
+      <Objective Name="Following the Path of Decay" />
+      <Objective Name="Finding the Source" />
+      <Objective Name="Stopping the Plague" />
+    </Mission>
+    <Mission Name="The Burning Beast" Number="2" Page="8" Intro="A fierce Onmorake Carrion Phoenix has been burning the local villages with its deadly fire every night, raising the scorched villagers back as Scourge Dead. The terrified villagers have come to you seeking your help.&#xA;&quot;If you do not stop this burning beast, the deathly files will consume us all! You must help us! Find its burial mound and destroy it! Or the flames of decay will continue to spread!&quot;">
+      <Rule Name="Burning Bodies" />
+      <Rule Name="Mounds of Gore" />
+      <Objective Name="Finding the First Clue" />
+      <Objective Name="Locating the Burial Mound" />
+      <EnemyTheme Name="Onmorake (Boss)" />
+    </Mission>
   </Set>
   <Set Name="Court of the Fallen Shogun" OtherWorld="Forbidden Fortress" Id="57">
-    <Mission Name="Holding Court" Number="1" Page="16" Intro="Lightning flashes across the sky and a supernatural storm begins to churn in the heavens as a group of sinister Takobake sorcerers performs a dark ritual to harness the power of the Void!" />
-    <Mission Name="Stolen Soul" Number="2" Page="17" Intro="As you sit in the local tavern, you begin to realize that one of the other Heroes is not acting like themselves - rude, crude, and generally terrible. Soon word spreads that a powerful summoner in the castle on the hill has been stealing souls from the living to fuel his dark magik!" />
+    <Mission Name="Holding Court" Number="1" Page="16" Intro="Lightning flashes across the sky and a supernatural storm begins to churn in the heavens as a group of sinister Takobake sorcerers performs a dark ritual to harness the power of the Void!">
+      <Rule Name="No Gates" />
+      <Rule Name="Channeling Void Energy" />
+      <Rule Name="Coruscating Void Lightning" />
+      <Objective Name="Finding the Sorcerers" />
+      <EnemyTheme Name="Fallen Sorcerer (Boss)" />
+    </Mission>
+    <Mission Name="Stolen Soul" Number="2" Page="17" Intro="As you sit in the local tavern, you begin to realize that one of the other Heroes is not acting like themselves - rude, crude, and generally terrible. Soon word spreads that a powerful summoner in the castle on the hill has been stealing souls from the living to fuel his dark magik!">
+      <Rule Name="Fast Darkness" />
+      <Rule Name="Sociopath (Souless Hero)" />
+      <Objective Name="Fifth Exploration Token" />
+      <EnemyTheme Name="Spirit Warden (Boss)" />
+      <Token Name="Souless" />
+    </Mission>
   </Set>
   <Set Name="Legendary Villains" OtherWorld="Forbidden Fortress" Id="58">
-    <Mission Name="Showdown" Number="1" Page="24" Intro="All of the villages in the area have been ransacked and raided by the armies of a legendary villain. Now the Surviving townspeople have gathered together a large reward to pay any Heroes brave enough to hunt down and stop the fiend from continuing his reign of terror.&#xA;The last several groups of Heroes that embarked on this mission have not been heard from, since, but good news...the reward is still unclaimed!" />
+    <Mission Name="Showdown - Undead Daimyo" Number="1" Page="24" Intro="All of the villages in the area have been ransacked and raided by the armies of a legendary villain. Now the Surviving townspeople have gathered together a large reward to pay any Heroes brave enough to hunt down and stop the fiend from continuing his reign of terror.&#xA;The last several groups of Heroes that embarked on this mission have not been heard from, since, but good news...the reward is still unclaimed!">
+      <EnemyTheme Name="Dishonored Dead" />
+      <EnemyTheme Name="Undead Daimyo (Boss)" />
+      <Rule Name="Loyal Bodyguards" />
+      <Rule Name="Fast Darkness" />
+      <Rule Name="Thrill of the Hunt" />
+      <Rule Name="Fields of the Dead" />
+    </Mission>
+
+    <Mission Name="Showdown - Tengu Blind Master" Number="1" Page="24" Intro="All of the villages in the area have been ransacked and raided by the armies of a legendary villain. Now the Surviving townspeople have gathered together a large reward to pay any Heroes brave enough to hunt down and stop the fiend from continuing his reign of terror.&#xA;The last several groups of Heroes that embarked on this mission have not been heard from, since, but good news...the reward is still unclaimed!">
+      <EnemyTheme Name="Tengu" />
+      <EnemyTheme Name="Tengu Blind Master (Boss)" />
+      <Rule Name="Loyal Bodyguards" />
+      <Rule Name="Fast Darkness" />
+      <Rule Name="Thrill of the Hunt" />
+      <Rule Name="Towering Perch" />
+    </Mission>
+
+    <Mission Name="Showdown - Red Ronin" Number="1" Page="24" Intro="All of the villages in the area have been ransacked and raided by the armies of a legendary villain. Now the Surviving townspeople have gathered together a large reward to pay any Heroes brave enough to hunt down and stop the fiend from continuing his reign of terror.&#xA;The last several groups of Heroes that embarked on this mission have not been heard from, since, but good news...the reward is still unclaimed!">
+      <EnemyTheme Name="Red Ronin (Boss)" />
+      <Rule Name="Loyal Bodyguards" />
+      <Rule Name="Fast Darkness" />
+      <Rule Name="Thrill of the Hunt" />
+      <Rule Name="Hunter or Hunted" />
+    </Mission>
+
+    <Mission Name="Showdown - Nobu Taskmaster" Number="1" Page="24" Intro="All of the villages in the area have been ransacked and raided by the armies of a legendary villain. Now the Surviving townspeople have gathered together a large reward to pay any Heroes brave enough to hunt down and stop the fiend from continuing his reign of terror.&#xA;The last several groups of Heroes that embarked on this mission have not been heard from, since, but good news...the reward is still unclaimed!">
+      <EnemyTheme Name="Oni" />
+      <EnemyTheme Name="Nobu Taskmaster (Boss)" />
+      <Rule Name="Loyal Bodyguards" />
+      <Rule Name="Fast Darkness" />
+      <Rule Name="Thrill of the Hunt" />
+      <Rule Name="Slave Mines" />
+    </Mission>
   </Set>
   <Set Name="Raijin Thunder Warriors" OtherWorld="Forbidden Fortress" Id="59">
-    <Mission Name="Riders of the Storm" Number="1" Page="29" Intro="Thunder roars in the distance and brilliant lightning flashes across the sky as a heavy rain pelts the roof of the tavern. Getting up to order another drink, you are approached at the bar by a cloaked figure. &quot;It is your choice,&quot; he says in a hushed tone.&#xA;&quot;What's that old man?&quot; You lean in closer, straining to hear.&#xA;&quot;It is your choice...to live under the Dragon's rule, or to give your lives to the fight against tyranny.&quot;&#xA;Enthralled by the strangers tone, he tells you a tale of a lost relic; one of the few ancient items left that could help to defeat the great Dragon King, Sho-Riu.&#xA;As your group intently listens to the old Yamabushi Master, lightning crashes again, and the walls of the tavern shake from the rolling thunder. &quot;They're getting closer, the Raijin. They too know that the relic is near. They also search for it, to protect their Dragon masters. You must find it first!&quot;" />
+    <Mission Name="Riders of the Storm" Number="1" Page="29" Intro="Thunder roars in the distance and brilliant lightning flashes across the sky as a heavy rain pelts the roof of the tavern. Getting up to order another drink, you are approached at the bar by a cloaked figure. &quot;It is your choice,&quot; he says in a hushed tone.&#xA;&quot;What's that old man?&quot; You lean in closer, straining to hear.&#xA;&quot;It is your choice...to live under the Dragon's rule, or to give your lives to the fight against tyranny.&quot;&#xA;Enthralled by the strangers tone, he tells you a tale of a lost relic; one of the few ancient items left that could help to defeat the great Dragon King, Sho-Riu.&#xA;As your group intently listens to the old Yamabushi Master, lightning crashes again, and the walls of the tavern shake from the rolling thunder. &quot;They're getting closer, the Raijin. They too know that the relic is near. They also search for it, to protect their Dragon masters. You must find it first!&quot;">
+      <EnemyTheme Name="Hunted by Storm Lords" />
+      <Rule Name="Dread Storm" />
+      <Objective Name="Finding the Lost Relic" />
+    </Mission>
   </Set>
   <Set Name="Gastral Tyrant" OtherWorld="Belly of the Beast,Derelict Ship" Id="60">
-    <Mission Name="Deadly Harvest" Number="1" Page="33" Intro="Lost in a maze of steam-filled chambers, you quickly realize that you are not alone!" />
+    <Mission Name="Deadly Harvest" Number="1" Page="33" Intro="Lost in a maze of steam-filled chambers, you quickly realize that you are not alone!">
+      <Rule Name="No Gates" />
+      <Rule Name="Hard to Hold Back the Darkness" />
+      <Rule Name="Humid Fog" />
+      <Rule Name="Did you hear that?" />
+      <Rule Name="Treacherous Lair" />
+      <Objective Name="Finding Egg Nests" />
+      <Objective Name="Luring out the Gastral Tyrant" />
+      <EnemyTheme Name="Gastral Tyrant (Boss)" />
+    </Mission>
   </Set>
 </Missions>

@@ -101,8 +101,18 @@
     <Mission Number="4" Name="Revenge of the Lost Army" Location="Mine" Page="9" Intro="Tearing their way across the countryside, the Lost Army is an unstoppable force of death and destruction, building fortifications into the mountains and bombarding the local Towns into dust with their heavy Siege Cannons! The last of the US Cavalry in the area rode in to try and flush them out... but were decimated under a withering hail of fire!&#xA;Perhaps though, there is still hope. It's possible a small group could accomplish what a massed cavalry charge could not. If you can sneak in one of the side entrances to their fortifications, you may be able to fight your way to the cannons and take out the commander in charge of the gun battery. If you don't, they'll lay waste to every town in the region before their supernatural hatred is sated!" />
   </Set>
   <Set Name="Masters of the Void" Id="16" BggUrl="https://boardgamegeek.com/boardgameexpansion/178564/shadows-brimstone-masters-void-deluxe-enemy-pack">
-    <Mission Number="1" Name="Hunted" Location="Mine" Intro="As you sit in your campsite on the side of the trail, you can't shake the feeling that you are not alone. Something is out there... in the darkness. Watching... waiting... salivating at the though of tearing you apart and feasting on your soul. Somehow you've attracted the attention of a pack of Void Hounds, stalking you from the aether! If you can't find some way to drive them off, they'll keep hunting you. You have to sleep sometime." />
-    <Mission Number="2" Name="Call of the Void" Location="Mine" Intro="A booming voice rings in your head, commanding you to obey in an ancient, alien tongue that twists your mind into knots! It calls to you... beckoning you to return to the Void! The sounds are deafening... maddening... you must silence the call! Drawn to a nearby mine entrance, you know that whatever has gotten inside your mind is down there... waiting to embrace you in the abyss. Only by delving deep enough to reach the Darkness itself can you stop the voices." />
+    <Mission Number="1" Name="Hunted" Location="Mine" Intro="As you sit in your campsite on the side of the trail, you can't shake the feeling that you are not alone. Something is out there... in the darkness. Watching... waiting... salivating at the though of tearing you apart and feasting on your soul. Somehow you've attracted the attention of a pack of Void Hounds, stalking you from the aether! If you can't find some way to drive them off, they'll keep hunting you. You have to sleep sometime.">
+      <Rule Name="Immediate Dread" />
+      <Rule Name="Hunted by Void Hounds" />
+      <Objective Name="Finding the Book" />
+      <Objective Name="Luring out the Alpha" />
+      <EnemyTheme Name="Void Hounds (Boss)" />
+    </Mission>
+    <Mission Number="2" Name="Call of the Void" Location="Mine" Intro="A booming voice rings in your head, commanding you to obey in an ancient, alien tongue that twists your mind into knots! It calls to you... beckoning you to return to the Void! The sounds are deafening... maddening... you must silence the call! Drawn to a nearby mine entrance, you know that whatever has gotten inside your mind is down there... waiting to embrace you in the abyss. Only by delving deep enough to reach the Darkness itself can you stop the voices.">
+      <Rule Name="Corruption Within" />
+      <Rule Name="Maddening Voices" />
+      <Objective Name="Reaching the Darkness" />
+    </Mission>
   </Set>
   <Set Name="Serpentmen of Jargono" Id="17" BggUrl="https://boardgamegeek.com/boardgameexpansion/178563/shadows-brimstone-serpentmen-jargono-deluxe-enemy">
     <Mission Number="1" Name="Human Sacrifice" Location="Mine,Jargono" Intro="As you arrive in town there is much fuss about the streets! The shops are in disarray and the people are quite shaken.&#xA;&quot;Before we knew what was happening, they were on us! Slicing up folk with their axes and hissing at anyone that got in their way. And their leader... he was somethin' fierce! All covered in feathers and totems with lightning comin' from his hands! It just ain't right!! They took old Jeb's girl, dragged her off, still kicking. I hate to think what kind of terrible fate she has in store for her with those... snakes!&quot;" />
@@ -114,12 +124,32 @@
     <Mission Number="2" Name="Revenge of the Dead" Location="Mine" Intro="Back from the dead once more, The Undead Gunslinger has returned to spread a deathly Curse of Revenge across the land. As his legion of creatures and zombies are killed, they lash out from beyond the grave to syphon the souls of those that struck them down! If the Gunslinger isn't stopped before his curse has grown to full power, it would mean certain death to all who oppose him!" />
   </Set>
   <Set Name="The Scafford Gang" Id="19" BggUrl="https://boardgamegeek.com/boardgameexpansion/196946/shadows-brimstone-scafford-gang-deluxe-enemy-pack">
-    <Mission Number="1" Name="They're Getting Away" Location="Mine" Intro="&quot;It's them... The Scafford Gang!! They just robbed the bank, and now they're gettin' away!!!&quot;&#xA;Chasing the Scafford Gang out of town, you race through the canyons, hot on their heels. Turning a bend, you see them dismount from their Mutant horses and disappear in a mine entrance with their ill-gotten gains!" />
-    <Mission Number="2" Name="Most Wanted" Location="Mine" Intro="There is a hefty bounty on Colonel Scafford and his Scafford Gang, having robbed just about every bank and train in the area over the last few months. Following all the evidence and rumors have lead you to this mine. Their hideout must be inside here somewhere, you just need to find it and bring them to justice... and, of course, not stumble into too many traps along the way." />
+    <Mission Number="1" Name="They're Getting Away" Location="Mine" Intro="&quot;It's them... The Scafford Gang!! They just robbed the bank, and now they're gettin' away!!!&quot;&#xA;Chasing the Scafford Gang out of town, you race through the canyons, hot on their heels. Turning a bend, you see them dismount from their Mutant horses and disappear in a mine entrance with their ill-gotten gains!">
+      <Rule Name="Fleeing Darkness" />
+      <Rule Name="Gaining on Them" />
+      <EnemyTheme Name="Scafford" />
+      <Objective Name="Catching the Darkness" />
+    </Mission>
+    <Mission Number="2" Name="Most Wanted" Location="Mine" Intro="There is a hefty bounty on Colonel Scafford and his Scafford Gang, having robbed just about every bank and train in the area over the last few months. Following all the evidence and rumors have lead you to this mine. Their hideout must be inside here somewhere, you just need to find it and bring them to justice... and, of course, not stumble into too many traps along the way.">
+      <EnemyTheme Name="Colonel Scafford (Boss)" />
+      <Rule Name="Outlaw Traps" />
+      <Objective Name="Finding the Hideout" />
+    </Mission>
   </Set>
   <Set Name="Flesh Stalker and Flesh Drones" Id="20" BggUrl="https://boardgamegeek.com/boardgameexpansion/206377/shadows-brimstone-flesh-stalker-flesh-drones-delux">
-    <Mission Number="1" Name="Experimentation" Location="Mine" Intro="As you arrive in town, the shops are in disarray and the people are quite shaken by the recent series of attacks.&#xA;&quot;I know you can't call the crazy demons and creatures that usually cause us grief... 'Normal', but these last few days we've seen things like we never seen before! They're all sewed together with stitches and extra limbs... they look like some damn fool has been playin' mad scientist with 'em. And I tell you what... we all is scared... scared that we're next... to be taken and experimented on!!! Old Pete thinks he knows where they're comin' from. Tell 'em Old Pete!&quot;" />
-    <Mission Number="2" Name="Out of Time" Location="Mine,Other" RandomWorlds="1" Intro="Sitting at a table of the local saloon, spirits are high as you laugh and kick back a stiff drink. Cheering recent victories and drinking away fresh defeats... it seems things may have finally calmed down. Bursting through the door with a crash, a weary Traveler, ragged and limping, hurries over to your table. &quot;Not too Late! I'm not too late this time!&quot;&#xA;You are all taken aback by his crazed ramblings and aggressive nature as he grabs one of you by the scruff. It's like looking in a mirror as you realize the Traveler is a dirtier, terrified version of yourself!&#xA;Hissing a desperate warning, he looks around at the whole posse. &quot;I've come back! Everyone else is dead! YER ALL DEAD! I stole his time splicer! You've got to stop him!... the Flesh Stalker! You can't let him finish, or you're all going to DIE!&quot;" />
+    <Mission Number="1" Name="Experimentation" Location="Mine" Intro="As you arrive in town, the shops are in disarray and the people are quite shaken by the recent series of attacks.&#xA;&quot;I know you can't call the crazy demons and creatures that usually cause us grief... 'Normal', but these last few days we've seen things like we never seen before! They're all sewed together with stitches and extra limbs... they look like some damn fool has been playin' mad scientist with 'em. And I tell you what... we all is scared... scared that we're next... to be taken and experimented on!!! Old Pete thinks he knows where they're comin' from. Tell 'em Old Pete!&quot;">
+      <EnemyTheme Name="Flesh Stalker (Boss)" />
+      <Rule Name="All Worlds Lead to the Selected World" />
+      <Rule Name="Mine Clues add a Gate" />
+      <Rule Name="Experimentation Gone Made" />
+      <Rule Name="Hard to Hold Back the Darkness" />
+    </Mission>
+    <Mission Number="2" Name="Out of Time" Location="Mine,Other" RandomWorlds="1" Intro="Sitting at a table of the local saloon, spirits are high as you laugh and kick back a stiff drink. Cheering recent victories and drinking away fresh defeats... it seems things may have finally calmed down. Bursting through the door with a crash, a weary Traveler, ragged and limping, hurries over to your table. &quot;Not too Late! I'm not too late this time!&quot;&#xA;You are all taken aback by his crazed ramblings and aggressive nature as he grabs one of you by the scruff. It's like looking in a mirror as you realize the Traveler is a dirtier, terrified version of yourself!&#xA;Hissing a desperate warning, he looks around at the whole posse. &quot;I've come back! Everyone else is dead! YER ALL DEAD! I stole his time splicer! You've got to stop him!... the Flesh Stalker! You can't let him finish, or you're all going to DIE!&quot;">
+      <Rule Name="Clues add a Gate" />
+      <Rule Name="Temporal Distortions" />
+      <EnemyTheme Name="Flesh Drones" />
+      <EnemyTheme Name="Flesh Stalker (Boss)" />
+    </Mission>
   </Set>
   <Set Name="Beli'al, Last of the Shadow Kings" Id="21" BggUrl="https://boardgamegeek.com/boardgameexpansion/196954/shadows-brimstone-belial-last-shadow-kings-xxl-ene">
     <Mission Number="1" Name="Avatar of Evil" Location="Mine" Intro="The earth shakes and thunder roars across the sky as lightning crashes over the mountains! Something is wrong... very, very wrong! &quot;HE HAS RETURNED!&quot; The local Preacher bursts into flames, levitating up into the air above the dusty, night street in the town you were passing through. Waves of heat pour off his body, setting nearby buildings and hay bales ablaze! &quot;YOUR TIME IS AT AN END RE'ZZ'LUUUK FAAWTHWA!!! HA HA HA HA HA!!!!&quot; With that, he explodes, showering burning gore on all that witnessed his message! In the distant night sky, you see gouts of flame erupting from one of the mines set into the hillside. Somebody's going to have to go take a look." />
@@ -132,7 +162,11 @@
     <Mission Number="1" Name="This is no Cave" Location="Mine" Intro="&quot;When a new mine, rich in Dark Stone appeared up in the hills, all the local prospectors were overjoyed. No one bothered to ask where it came from. Damn greedy fools! But it soon became clear... anyone that went into that mine never came back out. Then the earthquakes started. I'm tellin' ya, that's no cave. There's somethin' inside that mountain and it's eating the world from the inside out!&quot;" />
   </Set>
   <Set Name="The Sand Kraken" Id="24" BggUrl="https://boardgamegeek.com/boardgameexpansion/213555/shadows-brimstone-sand-kraken-xxl-enemy-pack">
-    <Mission Number="1" Name="Release the Kraken" Location="Mine" Intro="&quot;There's something alive under that mountain... something ancient and terrible! And it's hungry. I seen it once; saw deep into its soulless eye, as it was tearing apart the stables and devouring the livestock. Never been the same since.&quot;" />
+    <Mission Number="1" Name="Release the Kraken" Location="Mine" Intro="&quot;There's something alive under that mountain... something ancient and terrible! And it's hungry. I seen it once; saw deep into its soulless eye, as it was tearing apart the stables and devouring the livestock. Never been the same since.&quot;">
+      <Rule Name="Blood-Chilling Roar" />
+      <Rule Name="Kraken Attack" />
+      <EnemyTheme Name="Sand Kraken (Boss)" />
+    </Mission>
   </Set>
   <Set Name="Doomsday Device and Shield Generators" Id="25">
     <Mission Number="1" Name="Countdown to Destruction" Location="Mine" Intro="The sinister soldiers of Trederra have set up a Doomsday Device in the nearby mine! If it explodes, it will destroy everything for miles, allowing their raiders to sift through the aftermath for precious Dark Stone." />
@@ -144,7 +178,7 @@
     <Mission Number="4" Name="A Long Way Home" Location="Jargono" Intro="The Heroes could have some rest in Itzel’s village. The Villa were welcoming, and the Heroes managing to learn a few things from them. They were not the ﬁrst explorers to come to Jargono and usually they don’t grow old in this hostile land." />
     <Mission Number="5" Name="River of No Return" Location="River" Intro="The posse continues its journey in the terrible swamps of Jargono. After a fierce ﬁght with a Dark Shaman, the Heroes will have to face their worst enemy: the rapids of the river Nahuatl Miquizlti. The river is more dangerous than a swarm of Hellbats and according to the tribal beliefs, the spirits of the drowned haunt this place But unfortunately; at this time of the year; the river is the only access to the ancient temple and to the Heroes homeland." />
     <Mission Number="6" Name="The Temple of the Black Goat" Location="Temple of the Black Goat" Intro="The Heroes ﬁnally reach the temple they were looking for. It is hidden in by dense vegitation and growing vines but they manage to find the entrance." />
-    <Mission Number="7" Name="Rollercoaster Ride" Location="Mine" Intro="The feeling was weird but you managed to pass the portal. Shovels, pikes, mine rails, minecarts and an old lantem hanng on a wall: it seems that you are had: homem unless it is another dimension looking like Brimstone mines." />
+    <Mission Number="7" Name="Rollercoaster Ride" Location="Mine" Intro="The feeling was weird but you managed to pass the portal. Shovels, pikes, mine rails, minecarts and an old lantern hung on a wall: it seems that you are heading home, unless it is another dimension looking like Brimstone mines." />
   </Set>
   <Set Name="Treasures of the Void" Id="27" DownloadUrl="https://boardgamegeek.com/filepage/110712/opals-custom-mission-1-treasures-void">
     <Mission Name="Treasures of the Void" Location="Mine" Intro="A rumor started to spread around the Frontier of an appearance of strange floating creatures. They seem to appear from the shimmering portals looking for dark stone and something else. One of the prospectors in a tavern swears that when he peaked through such portal, he saw a vast treasure hoard guarded by a large floating monstrous head. The head turned and a red penetrating eye gazed upon the prospector. He claims that he awoken hours later in the mine, shivering and dazed. You listen to this story and wonder how much of it can be true." />
@@ -169,7 +203,7 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
     <Mission Number="3" Name="The Ballad of Jane Cobb pt 3" Location="Mine" Intro="The undead outlaw Jane Cobb escaped with the Darkstone after the gunfight, and her intentions weren't as noble as the folk song about her suggested. Fortunately for the town of Canton, a cattle driver saw Jane enter an abandoned mine with her haul. It's up to the posse to discover what Jane Cobb is up to." />
   </Set>
   <Set Name="The Story of Josie the Giant" Id="31" DownloadUrl="https://boardgamegeek.com/filepage/110747/custom-adventure-monster-story-josie-giant-v12">
-    <Mission Name="The Story of Josie the Giant" Location="Mine" Intro="Josephine Beauregard was a saloon girl of some renown. A short, firecracker of a woman, Josie (as she's called on the •saloon circuit), masked her pain about her height with a quick wit. Maturity gave her a lovely singing voice, which along with her repertoire of jokes, made Josie a' natural for the job of saloon girl and traveling entertainer." />
+    <Mission Name="The Story of Josie the Giant" Location="Mine" Intro="Josephine Beauregard was a saloon girl of some renown. A short, firecracker of a woman, Josie (as she's called on the saloon circuit), masked her pain about her height with a quick wit. Maturity gave her a lovely singing voice, which along with her repertoire of jokes, made Josie a' natural for the job of saloon girl and traveling entertainer." />
   </Set>
   <Set Name="The Darkstone Must Flow" Id="32" DownloadUrl="https://boardgamegeek.com/filepage/110620/custom-adventure-monster-darkstone-must-flow-v-14">
     <Mission Name="The Darkstone Must Flow" Location="Mine" Intro="You've seen your share of boom towns, and this one's no different; a hastily erected hodge-podge of buildings catering to the every need and whim of the miners who keep the town going. Judging by the railroad tracks nearby, this one was more successful than most, but the near-empty streets suggest that the mine's dried up." />
@@ -263,23 +297,100 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
     <Mission Name="Once a Hero" Number="6" Page="17" Location="Forbidden Fortress" Intro="With all four fragments of the mystic Amulet recovered and restored, the Yamabushi monks of the mountain village have set their plans in motion. If the war against the great Dragon King, Sho-Riu, is to have any chance of victory, the forces of light will need powerful champions to lead the charge. Though many brave new Heroes have risen to the challenge in these dark days, legend tells of one such Hero that would be a great allv to the cause. Killed in battle, the spirit of this fallen Hero still lingers in the shadow between worlds - the Forest of the Dead! With the power of the Amulet, it may be possible to bring them back to the world of the living." />
   </Set>
   <Set Name="Temple of Shadows" OtherWorld="Forbidden Fortress,Belly of the Beast" Id="52">
-    <Mission Name="Cursed Temple" Number="1" Page="5" Location="Forbidden Fortress" Intro="Strolling through the local market, a strange old man watching you catches your eye. Following him down a back alley; he vanishes. As you turn to leave, he is there behind you, waiting! &quot;You and your companions have been chosen. Only you can cleanse a great evil that infests this land.&quot; Handing you a set of Yamabushi charms, he tells you of a cursed temple near here that must be cleansed of evil...before it spreads." />
-    <Mission Name="Sacred Relic" Number="2" Page="6" Location="Forbidden Fortress" Intro="Visiting the small Shrine at the outskirts of the village for a blessing on your travels, a nervous Brotherhood monk approaches you with a small scrap of rice paper. Passing it to you as he walks through the arched gate of the garden, the monk disappears into the trees.&#xA;Unfolding the note, it explains that there is a mystical relic discovered by a sect of the Brotherhood a century ago and safeguarded for generations in one of their secret mountain temples. Unfortunately, that temple has been overrun and the Brotherhood fears that the hiding place for the Relic will soon be discovered! It needs a new protector to recover the relic and keep its power safe from the shadows." />
-    <Mission Name="Enemy at the Gates" Number="3" Page="7" Location="Forbidden Fortress" Intro="Barring the massive front gates of the temple, you climb the castle wall to look out over the fields below. A sweeping army of Takobake soldiers, led by the Fallen Shogun himself has surrounded the temple! As you search desperately for another way out, the thundering sound of battering rams and splintering wood echoes through the halls." />
-    <Mission Name="Beast Beneath the World" Number="4" Page="8" Location="Belly of the Beast" Intro="Fleeing through the tunnels beneath the temple, you begin to realize that the walls of this passageway have a strange texture... and are drippings with goo! Something's not right here. But there's no time to stop, you can hear the armies of the Fallen Shogun busting through the barricades behind!&#xA;Pushing into the dark, you emerge into a living chamber, with sizzling acid pooled in depressed areas of the floor. You seem to have found your way into a living creature that resides deep underground, below the fortress. Who knows how long this beast has slumbered beneath the world.&#xA;Stepping further into the room, the floor rumbles and the sound of the soldiers that were chasing you is replaced with the gurgle and roar of rushing liquid! In the distant shadows behind, you can make out a roiling tidal wave of caustic acidic bile hurdling toward you. It's time to find a way out of here... any way out, and fast!" />
-    <Mission Name="Ancient Hunger" Number="5" Page="10" Location="Belly of Beast" Intro="The Beast beneath the world has stirred from its age-old slumber! Bursting up out of the Earth beneath the Temple, it is now on a rampage to feed it's ancient hunger. Still trapped inside the creature, you must find the Heart of the Beast to try and kill it before it consumes half the villages in the countryside, and beyond!" />
-    <Mission Name="Power of the Shogun" Number="6" Page="11" Location="Forbidden Fortress" Intro="Learning of a secret passage that leads deep into the heart of the Fallen Shogun's fortress, you know that this is your one best shot at defeating the master of the Takobake Clan for good! It may be a suicide mission if you are caught, but it is the only way to get close enough to end the Shogun's terrible rule once and for all. When the sun sets, you move out under the cover of night. With any luck, the Fallen Shogun will never see you coming." />
+    <Mission Name="Cursed Temple" Number="1" Page="5" Location="Forbidden Fortress" Intro="Strolling through the local market, a strange old man watching you catches your eye. Following him down a back alley; he vanishes. As you turn to leave, he is there behind you, waiting! &quot;You and your companions have been chosen. Only you can cleanse a great evil that infests this land.&quot; Handing you a set of Yamabushi charms, he tells you of a cursed temple near here that must be cleansed of evil...before it spreads.">
+      <Rule Name="No Gates" />
+      <Rule Name="Cursed Temple" />
+      <Rule Name="Immediate Dread" />
+      <Rule Name="Guiding Light" />
+      <Objective Name="Finding a Cursed Altar" />
+      <Objective Name="Infested by Evil Spirits" />
+      <Objective Name="Cleansing a Cursed Altar" />
+      <Token Name="Cursed Altar" />
+    </Mission>
+    <Mission Name="Sacred Relic" Number="2" Page="6" Location="Forbidden Fortress" Intro="Visiting the small Shrine at the outskirts of the village for a blessing on your travels, a nervous Brotherhood monk approaches you with a small scrap of rice paper. Passing it to you as he walks through the arched gate of the garden, the monk disappears into the trees.&#xA;Unfolding the note, it explains that there is a mystical relic discovered by a sect of the Brotherhood a century ago and safeguarded for generations in one of their secret mountain temples. Unfortunately, that temple has been overrun and the Brotherhood fears that the hiding place for the Relic will soon be discovered! It needs a new protector to recover the relic and keep its power safe from the shadows.">
+      <Rule Name="Focus of Evil" />
+      <Rule Name="Immediate Dread" />
+      <Rule Name="Breaking Through the Shadows" />
+      <Objective Name="Finding the Relic" />
+    </Mission>
+    <Mission Name="Enemy at the Gates" Number="3" Page="7" Location="Forbidden Fortress" Intro="Barring the massive front gates of the temple, you climb the castle wall to look out over the fields below. A sweeping army of Takobake soldiers, led by the Fallen Shogun himself has surrounded the temple! As you search desperately for another way out, the thundering sound of battering rams and splintering wood echoes through the halls.">
+      <EnemyTheme Name="Fallen Temple (Adventure Card)" />
+      <Rule Name="Fixed Lantern" />
+      <Rule Name="Hard to Hold Back the Darkness" />
+      <Rule Name="No Gates" />
+      <Rule Name="Immediate Dread" />
+      <Rule Name="May Not Flee" />
+      <Rule Name="Front Gate" />
+      <Rule Name="Desperate Search" />
+      <Rule Name="Siege Ladders" />
+      <Objective Name="Finding a Way Out" />
+      <Objective Name="Front Gate Destroyed" />
+      <Token Name="Lantern" />
+    </Mission>
+    <Mission Name="Beast Beneath the World" Number="4" Page="8" Location="Belly of the Beast" Intro="Fleeing through the tunnels beneath the temple, you begin to realize that the walls of this passageway have a strange texture... and are drippings with goo! Something's not right here. But there's no time to stop, you can hear the armies of the Fallen Shogun busting through the barricades behind!&#xA;Pushing into the dark, you emerge into a living chamber, with sizzling acid pooled in depressed areas of the floor. You seem to have found your way into a living creature that resides deep underground, below the fortress. Who knows how long this beast has slumbered beneath the world.&#xA;Stepping further into the room, the floor rumbles and the sound of the soldiers that were chasing you is replaced with the gurgle and roar of rushing liquid! In the distant shadows behind, you can make out a roiling tidal wave of caustic acidic bile hurdling toward you. It's time to find a way out of here... any way out, and fast!">
+      <Rule Name="Fixed Map" />
+      <Rule Name="Hero Party Marker in the Middle Stage" />
+      <Rule Name="Fixed Map: Passage Encounters" />
+      <Rule Name="Immediate Dread" />
+      <Rule Name="Wave of Acid Bile" />
+      <Rule Name="Buring Acid" />
+      <Rule Name="May Not Flee" />
+      <Objective Name="Escaping the Beast" />
+    </Mission>
+    <Mission Name="Ancient Hunger" Number="5" Page="10" Location="Belly of Beast" Intro="The Beast beneath the world has stirred from its age-old slumber! Bursting up out of the Earth beneath the Temple, it is now on a rampage to feed it's ancient hunger. Still trapped inside the creature, you must find the Heart of the Beast to try and kill it before it consumes half the villages in the countryside, and beyond!">
+      <Rule Name="No Gates" />
+      <Rule Name="Beating of the Heart" />
+      <Rule Name="Another Village Consumed" />
+      <Objective Name="Finding the Heart" />
+      <Objective Name="Objective Room" />
+      <Objective Name="Destroying the Heart" />
+      <Token Name="Heart Organ" />
+    </Mission>
+    <Mission Name="Power of the Shogun" Number="6" Page="11" Location="Forbidden Fortress" Intro="Learning of a secret passage that leads deep into the heart of the Fallen Shogun's fortress, you know that this is your one best shot at defeating the master of the Takobake Clan for good! It may be a suicide mission if you are caught, but it is the only way to get close enough to end the Shogun's terrible rule once and for all. When the sun sets, you move out under the cover of night. With any luck, the Fallen Shogun will never see you coming.">
+      <EnemyTheme Name="Fallen Temple (Adventure Card)" />
+      <Rule Name="No Gates" />
+      <Rule Name="Sneaking Past the Guards" />
+      <Rule Name="Raising the Alarm" />
+    </Mission>
   </Set>
   <Set Name="Shadow Clan Ninja" OtherWorld="Forbidden Fortress" Id="53">
-    <Mission Name="Shadow War" Number="1" Page="7" Intro="A local Daimyo has come to you in secret because he fears that one of the Ninja Shadow Clans is plotting the downfall of his house! &quot;You must help me, or my Clan will only be the first to fall to their treachery!&quot;" />
-    <Mission Name="Master of Death" Number="2" Page="8" Intro="Following rumors and clues you have discovered the location of one of the Shadow Clans' hidden Ninja Castles. This is the time to Strike! If you act quickly, you may be able to catch the villains and their leader offguard But this is no ordinary castle. It is said the Ninja Castles of the Shadow Clans are filled with hidden passages and deadly traps to kill any that would dare enter uninvited!" />
+    <Mission Name="Shadow War" Number="1" Page="7" Intro="A local Daimyo has come to you in secret because he fears that one of the Ninja Shadow Clans is plotting the downfall of his house! &quot;You must help me, or my Clan will only be the first to fall to their treachery!&quot;">
+      <EnemyTheme Name="Clan Ninja" />
+      <Rule Name="Immediate Dread" />
+      <Rule Name="Variable Length" />
+      <Objective Name="Ninja Masters on Deadly Mission" />
+      <Objective Name="Foiling the Shadow Clan's Plot" />
+    </Mission>
+    <Mission Name="Master of Death" Number="2" Page="8" Intro="Following rumors and clues you have discovered the location of one of the Shadow Clans' hidden Ninja Castles. This is the time to Strike! If you act quickly, you may be able to catch the villains and their leader offguard But this is no ordinary castle. It is said the Ninja Castles of the Shadow Clans are filled with hidden passages and deadly traps to kill any that would dare enter uninvited!">
+      <Rule Name="Ninja Castle Traps" />
+      <Objective Name="Finding the Shadow Clan War Room" />
+      <EnemyTheme Name="Kosugi Ninja Master (Boss)" />
+    </Mission>
   </Set>
   <Set Name="Jorogumo Spider Queen" OtherWorld="Forbidden Fortress" Id="54">
-    <Mission Name="A Tangled Web" Number="1" Page="13"  Intro="A Spider Queen hos consumed one of the local Samurai Clans and is spreading evil magik from within its tainted halls. You must find her lair and burn it!" />
+    <Mission Name="A Tangled Web" Number="1" Page="13"  Intro="A Spider Queen hos consumed one of the local Samurai Clans and is spreading evil magik from within its tainted halls. You must find her lair and burn it!">
+      <EnemyTheme Name="Spider Queen (Adventure Card)" />
+      <Rule Name="Hard to Hold Back the Darkness" />
+      <Rule Name="Treacherous Lair" />
+      <Rule Name="Caught in the Webs" />
+      <Objective Name="Finding the Lair" />
+    </Mission>
   </Set>
   <Set Name="Sho-Riu, The Dragon King" OtherWorld="Forbidden Fortress" Id="55">
-    <Mission Name="Shadow of the Dragon" Number="1" Page="18" Intro="An Elemental Dragon has been terrorizing all of the local villages in the region, swooping down from the skies to smash buildings and crush townsfolk with its sweeping body! Its lair must be close Trucking the beast to a nearby castle, if you sneak in undetected, you may have a chance to put on end to the tyranny!" />
-    <Mission Name="Fury and Flame" Number="2" Page="19" Intro="This is it! The Dragon King's army has amassed on the field of battle and is sweeping across the land consuming all in its wake! Many Ninja died to bring you word that Sho-Riu...the Dragon King himself, is commanding his forces from the ruins of d once great Samurai fortress at the base of the Sacred Mountain.&#xA;You have one chance to stop this tyrant before all the world is covered in darkness, Perhaps a small band of daring Heroes can do what an entire army of soldiers could not. By sneaking post the rampaging hordes and getting close enough to fight your way through the Dragon's personal guards, you may be able to defeat him before his power is too great to overcome!" />
+    <Mission Name="Shadow of the Dragon" Number="1" Page="18" Intro="An Elemental Dragon has been terrorizing all of the local villages in the region, swooping down from the skies to smash buildings and crush townsfolk with its sweeping body! Its lair must be close Trucking the beast to a nearby castle, if you sneak in undetected, you may have a chance to put on end to the tyranny!">
+      <Rule Name="No Gates" />
+      <Rule Name="Dragon Sightings" />
+      <Objective Name="Finding the Dragon Lair" />
+      <EnemyTheme Name="Elemental Dragon (Boss)" />
+    </Mission>
+    <Mission Name="Fury and Flame" Number="2" Page="19" Intro="This is it! The Dragon King's army has amassed on the field of battle and is sweeping across the land consuming all in its wake! Many Ninja died to bring you word that Sho-Riu...the Dragon King himself, is commanding his forces from the ruins of d once great Samurai fortress at the base of the Sacred Mountain.&#xA;You have one chance to stop this tyrant before all the world is covered in darkness, Perhaps a small band of daring Heroes can do what an entire army of soldiers could not. By sneaking post the rampaging hordes and getting close enough to fight your way through the Dragon's personal guards, you may be able to defeat him before his power is too great to overcome!">
+      <EnemyTheme Name="Dragon Army" />
+      <Rule Name="No Gates" />
+      <Rule Name="Dragon's Guard" />
+      <Rule Name="End Game" />
+      <Rule Name="Castle Ruins" />
+      <EnemyTheme Name="Sho-Riu (Boss)" />
+    </Mission>
   </Set>
   <Set Name="Onmorake Carrion Phoenix" OtherWorld="Forbidden Fortress" Id="56">
     <Mission Name="Plague Wind" Number="1" Page="7" Intro="A Deadly mist covers the land, necrotizing flesh and withering the trees. If the source of this plaque wind isn't found and stopped soon, death will spread across the land, consuming all within its corrupting reach!" />

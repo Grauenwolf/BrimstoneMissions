@@ -22,7 +22,6 @@ namespace BrimstoneMissionGenerator
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-
             var file = new FileInfo(Path.Combine(Server.MapPath("~/App_Data"), "Missions.xml"));
             var settingXmlSerializer = new XmlSerializer(typeof(Models.Xml.Missions));
 
@@ -36,16 +35,30 @@ namespace BrimstoneMissionGenerator
             foreach (var item in sets.Set)
             {
                 var product = products.Elements().SingleOrDefault(x => x.Attribute("Id").Value == item.Id.ToString());
-                MvcHtmlString productHtml = null;
-                if (product != null)
-                {
-                    productHtml = new MvcHtmlString(product.Value);
-                }
-                realSets.Add(new Product(item.Id, item.Name, item.Mission.Select(x => new Mission(x.Name, x.Number, x.Page, x.Location, x.RandomWorlds, x.Notes, x.Intro)).ToList(), item.BggUrl, item.DownloadUrl, item.OtherWorld, productHtml));
+
+                var productHtml = product != null ? new MvcHtmlString(product.Value) : null;
+
+                realSets.Add(new Product(item.Id,
+                                 item.Name,
+                                 item.Mission.Select(x => new Mission(x.Name,
+                                                              x.Number,
+                                                              x.Page,
+                                                              x.Location,
+                                                              x.RandomWorlds,
+                                                              x.Notes,
+                                                              x.Intro,
+                                                              x.EnemyTheme?.Select(y => y.Name) ?? Enumerable.Empty<string>(),
+                                                              x.Rule?.Select(y => y.Name) ?? Enumerable.Empty<string>(),
+                                                              x.Objective?.Select(y => y.Name) ?? Enumerable.Empty<string>(),
+                                                              x.Token?.Select(y => y.Name) ?? Enumerable.Empty<string>()
+                                                              )).ToList(),
+                                 item.BggUrl,
+                                 item.DownloadUrl,
+                                 item.OtherWorld,
+                                 productHtml));
             }
 
             Sets = new ReadOnlyCollection<Product>(realSets);
-
         }
     }
 }

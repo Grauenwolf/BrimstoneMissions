@@ -273,17 +273,65 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
     <Mission Name="Posse Hideout" Intro="While in town an elegantly well dressed woman approaches you in the hotel. She laments to you the sad story about her missing husband and the gold claim he was trying to survey. One month ago her husband left as he did every morning to go explore his new gold claim. Later that night he didn’t return. Aﬁer several days of the wife pleading with the sheriff to ﬁnd her missing husband a posse was ﬁnally dispatched." Location="Mine" />
   </Set>
   <Set Name="Shadows of Brimstone, Forbidden Fortress (Basic Missions)" Id="49" OtherWorld="Forbidden Fortress">
-    <Mission Name="Hunt for Dark Stone" Number="1" Page="12" Intro="Sitting in a tavern one afternoon, you overhear talk of an abandoned Fortress up in the hills that has a large stockpile of Dark Stone, just waiting for someone to come and claim it. It sounds too good to be true...and it probably is, but the haggered old soldier swears up and down that he would go claim it himself if he were twenty years younger. It’s not hard to figure out which Fortress he’s talking about based on the landmarks he mentions, and though the other patrons he tells just dismiss him, this could be the rich opportunity you’ve been looking for." Location="Forbidden Fortress" />
-    <Mission Name="Exploration" Number="2" Page="13" Intro="You have been hired by a local Samurai Warlord to investigate and clear out the home of one of his Daimyo lieutenants that was overrun by creatures in the night. He will pay you well to dispose of any remaining demons or evil spirits that haunt this small fortress. He assures you that it is a modest castle, and surely most of the creatures that killed his lieutenant have moved on by now. Sounds simple, right? It always does." Location="Forbidden Fortress" />
-    <Mission Name="Seal the Void Gate" Number="3" Page="14" Intro="A stable Void Gate has opened deep in a nearby Fortress and all manner of horrific monstrosities are pouring out! Finding a way to seal the gate within an ancient occult tome, one of the local monks lead a group into the Fortress a few days ago to try to put a stop to the rampage. They have not been heard from since, and the waves of creatures are getting stronger and more frequent. Something must be done, or this entire area will be overrun in a matter of days!" Location="Forbidden Fortress" />
-    <Mission Name="Search Party" Number="4" Page="15" Intro="Dragged off in the night, one of the local villagers has gone missing, and there are signs of a struggle leading through the gates of a fallen fortress. No one else around these parts is willing to do anything about it, as they are too terrified to enter the haunted castle! But you can’t bring yourselves to simply walk away. Not this time." Location="Forbidden Fortress" />
-    <Mission Name="Escape" Number="5" Page="16" Intro="Something went terribly wrong after that last mission and now you’re deep in the Fortress and surrounded! You must find a way out before you are overwhelmed and devoured by the Darkness that is chasing you!" Location="Forbidden Fortress" />
-    <Mission Name="Bring Down the Fortress" Number="6" Page="17" Intro="That’s it! There are just too many Gates opening up and creatures coming out of the local Fortress to handle. When one Gate closes, two more open up around it! There’s only one thing for it, you’ll have to blow the Fortress! Collecting up all the heavy-duty explosives the local village has to offer, you set off into the depths to find a couple of good spots to plant the charges that will collapse the entire fortress in on itself.Of course, the only trick is that you also have to get out before it blows. This one’s gonna be close!" Location="Forbidden Fortress" />
+    <Mission Name="Hunt for Dark Stone" Number="1" Page="12" Intro="Sitting in a tavern one afternoon, you overhear talk of an abandoned Fortress up in the hills that has a large stockpile of Dark Stone, just waiting for someone to come and claim it. It sounds too good to be true...and it probably is, but the haggered old soldier swears up and down that he would go claim it himself if he were twenty years younger. It’s not hard to figure out which Fortress he’s talking about based on the landmarks he mentions, and though the other patrons he tells just dismiss him, this could be the rich opportunity you’ve been looking for." Location="Forbidden Fortress">
+
+      <Rule Name="Variable Length" />
+    </Mission>
+    <Mission Name="Exploration" Number="2" Page="13" Intro="You have been hired by a local Samurai Warlord to investigate and clear out the home of one of his Daimyo lieutenants that was overrun by creatures in the night. He will pay you well to dispose of any remaining demons or evil spirits that haunt this small fortress. He assures you that it is a modest castle, and surely most of the creatures that killed his lieutenant have moved on by now. Sounds simple, right? It always does." Location="Forbidden Fortress">
+      <Rule Name="Limited Doors" />
+      <Rule Name="Dead End Showdowns" />
+      <Rule Name="Immediate Dread" />
+    </Mission>
+    <Mission Name="Seal the Void Gate" Number="3" Page="14" Intro="A stable Void Gate has opened deep in a nearby Fortress and all manner of horrific monstrosities are pouring out! Finding a way to seal the gate within an ancient occult tome, one of the local monks lead a group into the Fortress a few days ago to try to put a stop to the rampage. They have not been heard from since, and the waves of creatures are getting stronger and more frequent. Something must be done, or this entire area will be overrun in a matter of days!" Location="Forbidden Fortress">
+      <Rule Name="Leading Darkness" />
+      <Objective Name="Creature Summoning" />
+      <Objective Name="Sealing the Gate" />
+      <Objective Name="First Clue" />
+      <Objective Name="Second Clue" />
+      <Token Name="Book" />
+    </Mission>
+    <Mission Name="Search Party" Number="4" Page="15" Intro="Dragged off in the night, one of the local villagers has gone missing, and there are signs of a struggle leading through the gates of a fallen fortress. No one else around these parts is willing to do anything about it, as they are too terrified to enter the haunted castle! But you can’t bring yourselves to simply walk away. Not this time." Location="Forbidden Fortress">
+      <Objective Name="Third Clue" />
+    </Mission>
+    <Mission Name="Escape" Number="5" Page="16" Intro="Something went terribly wrong after that last mission and now you’re deep in the Fortress and surrounded! You must find a way out before you are overwhelmed and devoured by the Darkness that is chasing you!" Location="Forbidden Fortress">
+      <Rule Name="Surrounded by Darkness" />
+      <Rule Name="Immediate Dread" />
+      <Rule Name="May Not Flee" />
+      <Objective Name="Dangerous Escape" />
+      <Objective Name="Find the Fortress Entrance to Escape" />
+    </Mission>
+    <Mission Name="Bring Down the Fortress" Number="6" Page="17" Intro="That’s it! There are just too many Gates opening up and creatures coming out of the local Fortress to handle. When one Gate closes, two more open up around it! There’s only one thing for it, you’ll have to blow the Fortress! Collecting up all the heavy-duty explosives the local village has to offer, you set off into the depths to find a couple of good spots to plant the charges that will collapse the entire fortress in on itself.Of course, the only trick is that you also have to get out before it blows. This one’s gonna be close!" Location="Forbidden Fortress">
+      <Rule Name="Limited Doors" />
+      <Rule Name="Dead End Showdowns" />
+      <Rule Name="Immediate Dread" />
+      <Objective Name="Dangerous Escape" />
+      <Objective Name="Two Dead Ends" />
+      <Objective Name="Go Back to the Fortress Entrance" />
+    </Mission>
   </Set>
   <Set Name="Forbidden Fortress" Id="50" OtherWorld="Forbidden Fortress,Belly of the Beast" BggUrl="https://boardgamegeek.com/boardgame/212346/shadows-brimstone-forbidden-fortress">
-    <Mission Name="Castle of the Dead" Number="1" Page="18" Intro="Legend tells of a haunted castle, perched on the mountain top. Once home to a fearsome trio of sorcerous sisters, besieged by a jealous daimyo, it now holds little more than cold death... and the promise of unending torment to all the villages in the shadow of the mountain." Location="Forbidden Fortress" />
-    <Mission Name="The Sorcerer’s Library" Number="2" Page="20" Intro="Demons have been attacking the local village for days now, threatening to overrun the warrior monks who have sworn to defend it. This entire area was once protected by a powerful sorcerer, but he was consumed by the Darkness, and his temple fallen to shadow. The monks implore you for help to find the Sorcerer’s secret library, hidden within the tainted temple, and bring back a banishment Spell Scroll that will help them to defeat the demons. You’re their only hope!" Location="Forbidden Fortress" />
-    <Mission Name="Lost Explorer" Number="3" Page="22" Intro="Sitting in the local tavern, you are approached by a weary looking woman with a beaten down demeanor. She tells you of her master, an explorer of some renown, that has gone missing. It has been seven days since he set off on his journey into darkness and he has not returned. Fearing the worst, the woman is willing to pay dearly for the safe return of her mentor, or at least the knowledge of his ultimate fate." Location="Forbidden Fortress" />
+    <Mission Name="Castle of the Dead" Number="1" Page="18" Intro="Legend tells of a haunted castle, perched on the mountain top. Once home to a fearsome trio of sorcerous sisters, besieged by a jealous daimyo, it now holds little more than cold death... and the promise of unending torment to all the villages in the shadow of the mountain." Location="Forbidden Fortress">
+      <Rule Name="Variable Length" />
+      <Rule Name="No Gates" />
+      <Rule Name="Death Dwells Here" />
+      <Rule Name="No Rest for the Dead" />
+      <Objective Name="Witch" />
+      <Objective Name="Twins" />
+      <Objective Name="Three Sisters" />
+    </Mission>
+    <Mission Name="The Sorcerer’s Library" Number="2" Page="20" Intro="Demons have been attacking the local village for days now, threatening to overrun the warrior monks who have sworn to defend it. This entire area was once protected by a powerful sorcerer, but he was consumed by the Darkness, and his temple fallen to shadow. The monks implore you for help to find the Sorcerer’s secret library, hidden within the tainted temple, and bring back a banishment Spell Scroll that will help them to defeat the demons. You’re their only hope!" Location="Forbidden Fortress">
+      <Rule Name="Fixed Map" />
+      <Rule Name="Hero Party Marker Moves by Stages" />
+      <Objective Name="Objective Doors" />
+      <Objective Name="Library" />
+      <Objective Name="Escape" />
+    </Mission>
+    <Mission Name="Lost Explorer" Number="3" Page="22" Intro="Sitting in the local tavern, you are approached by a weary looking woman with a beaten down demeanor. She tells you of her master, an explorer of some renown, that has gone missing. It has been seven days since he set off on his journey into darkness and he has not returned. Fearing the worst, the woman is willing to pay dearly for the safe return of her mentor, or at least the knowledge of his ultimate fate." Location="Forbidden Fortress">
+      <Rule Name="Trail of Evidence" />
+      <Objective Name="First Clue - Gate and Evidence" />
+      <Objective Name="Second Clue - Evidence" />
+      <Objective Name="Third Clue - The Explorer is Found" />
+    </Mission>
     <Mission Name="A Living World" Number="4" Page="23" Intro="Stories have begun to spread of a fallen fortress that is home to a stable gateway leading to a strange living world! It is said that this world is full of terrifying wonders and hideous creatures, and that the very ground you walk on is alive. Some daring explorers have returned with what appears to be living artifacts and lost relics, pulled from the fleshy walls inside the Beast! But there are also tales of nightmare parasites of massive size, that dwell within the living tunnels, feeding on any foolish enough to enter the living world inside the Belly of the Beast!" Location="Forbidden Fortress,Belly of the Beast" />
     <Mission Name="Devoured by the Beast" Number="5" Page="24" Intro="Stumbling into the wrong area of the Beast, you find yourselves standing on a massive sphincter! Just as the horrible realization strikes your mind, it opens beneath your feet and you tumble down, down, down, splashing into a shallow pool of acidic bile deep below!" Location="Belly of the Beast" />
     <Mission Name="If it Bleeds..." Number="6" Page="25" Intro="Writhing their way through a tear in the fabric of space and time, the massive tendrils of an interdimensional beast have burst into our world! Smashing and devouring everything they come into contact with! The gaping maws of the creature are toothy doorways into its unfathomably enormous body. To attack this beast from the outside would be useless. Only by venturing inside the creature can you hope to find some of its more sensitive areas and attack them, hopefully forcing it to withdraw back into its own dimension." Location="Belly of the Beast" />
@@ -310,7 +358,7 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
     <Mission Name="Into the Shadow Realm" Number="3" Page="11" Location="Forbidden Fortress,Forest of the Dead" Intro="Rumors have been swirling that the abandoned fortress on the hilltop overlooking the valley is home to a stable gateway that leads into a dark, expansive forest, where the shambling corpses and spectres of the dead roam freely amongst the trees! Though most who have ventured into this forsaken world have never returned, those few who have speak of powerful relics and hordes of riches buried in the black soil with the bones of those fallen explorers consumed by their own greed.&#xA;If you can fend off the dark spirits and savage inhabitants of this haunted wood, traverse the twisting maze of decayed trees and crumbling ruins, and find your way through the cold and bitter fog of the eternal night there, you may just bring back treasures beyond your wildest dreams!">
       <Rule Name="All Gates Lead to the Forest of the Dead" />
       <Rule Name="Fortress Clues Add a Gate" />
-      <Objective Name="The Second Clue in the Forest of the Dead" />
+      <Objective Name="Second Clue in the Forest of the Dead" />
     </Mission>
     <Mission Name="Spectres of the Past" Number="4" Page="12" Location="Forest of the Dead" Intro="Kneeling in the local shrine to pay your respects, you are approached by a frail old man, a look of anguish etched onto his drawn, wrinkled face.&#xA;&quot;I know you have many things that demand your attention, and I am just a simple fanner. But I am tormented by the screams of my ancestors. They haunt my dreams and have grown only louder as the days go by I cannot take it any longer: They are trapped in the deathly forest beyond the shadows. I have heard that you are brave Heroes. Is there anything that you can do to help me... to help free them? I fear that soon I will go mad from their screams. Then I too will join them in their eternal torment!&quot;">
       <Rule Name="Fixed Map" />

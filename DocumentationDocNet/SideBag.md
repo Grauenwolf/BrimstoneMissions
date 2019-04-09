@@ -14,4 +14,5 @@ Gold is not considered a side bag token, though may be placed on the side bag fo
 * Tequila: Heals 2D6 Sanity
 * Fine Cigar: Armor 3+ until end of turn
 
+[TODO: Add the rest of the side bag tokens]
 

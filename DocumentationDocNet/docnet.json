@@ -1,12 +1,12 @@
 ﻿{
   "Name": "Shadows of Brimstone Reference Guide",
   "Source": ".",
-  "Destination": "..\\docs",
+  "Destination": "..\\BrimstoneMissionGenerator\\docs",
   "IncludeSource": "Includes",
   "Theme": "Light",
   "Footer": "Shadows of Brimstone. Copyright 2019 Flying Frog Productions. <a href='https://github.com/Grauenwolf/BrimstoneMissions/' target='_blank'>Visit us at GitHub</a>.",
   "Pages": {
-    "__index": "Introduction.md",
+    "__index": "Index.md",
     "Enemies": "Enemies.md",
     "Status and Status Tokens": "Statuses.md",
     "Side Bag": "SideBag.md",

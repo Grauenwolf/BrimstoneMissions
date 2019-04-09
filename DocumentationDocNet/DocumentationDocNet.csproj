@@ -49,7 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Enemies.md" />
-    <None Include="Introduction.md" />
+    <None Include="Index.md" />
     <None Include="docnet.json" />
     <None Include="OtherTokens.md" />
     <None Include="Statuses.md" />

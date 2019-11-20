@@ -2,10 +2,12 @@
 {
     public class CheckList
     {
-        public Product MissionsSet { get; set; }
+        public CheckList(MissionSet missionSet)
+        {
+            MissionsSet = missionSet;
+        }
+
+        public MissionSet MissionsSet { get; }
         public bool Available { get; set; }
     }
 }
-
-
-

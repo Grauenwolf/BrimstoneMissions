@@ -1,7 +1,7 @@
 ﻿{
   "Name": "Shadows of Brimstone Reference Guide",
   "Source": ".",
-  "Destination": "..\\BrimstoneMissionGenerator\\docs",
+  "Destination": "..\\BrimstoneMissionGenerator\\wwwroot\\docs",
   "IncludeSource": "Includes",
   "Theme": "Light",
   "Footer": "Shadows of Brimstone. Copyright 2019 Flying Frog Productions. <a href='https://github.com/Grauenwolf/BrimstoneMissions/' target='_blank'>Visit us at GitHub</a>.",

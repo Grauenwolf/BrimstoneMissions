@@ -1,0 +1,100 @@
+﻿@page "/mission/all"
+@inherits AllMissionsBase
+
+@foreach (var set in MissionService.Sets)
+{
+
+    <h2>
+        @if (!string.IsNullOrEmpty(set.BggUrl))
+        {
+            <a href="@set.BggUrl" target="_blank">@(set.Name)</a>
+        }
+        else
+        {
+            @(set.Name)
+        }
+        @if (set.ProductHtml != null)
+        {
+            @((MarkupString)(set.ProductHtml))
+        }
+    </h2>
+
+    <div>
+        @if (!string.IsNullOrEmpty(set.DownloadUrl))
+        {
+            <a href="@set.DownloadUrl">Download</a>
+            <br />
+        }
+
+        <ul>
+
+            @foreach (var mission in set.Missions)
+            {
+                <li title="@(mission.Intro)">
+                    <a style="font-size:large" href="/mission/@(set.Id)/@(mission.Number)">
+                        @if (mission.Number != 0)
+                        {
+                            <text>
+                                #@(mission.Number) @(mission.Name)
+                            </text>
+                        }
+                        else
+                        {
+                            <text>
+                                @(mission.Name)
+                            </text>
+                        }
+                        @if (mission.Locations.Count > 0)
+                        {
+                            <text>
+                                (@(mission.Locations))
+                            </text>
+                        }
+                        @if (!string.IsNullOrEmpty(mission.Notes))
+                        {
+                            <text>
+                                @(mission.Notes)
+                            </text>
+                        }
+                        @if (mission.Page.HasValue)
+                        {
+                            <text>
+                                Page @(mission.Page)
+                            </text>
+                        }
+                    </a>
+
+                    @if (mission.EnemyThemes.Count > 0)
+                    {
+                        <br />
+                        <text>
+                            <b>Enemy Themes</b>: @(string.Join(", ", mission.EnemyThemes))
+                        </text>
+                    }
+                    @if (mission.Rules.Count > 0)
+                    {
+                        <br />
+                        <text>
+                            <b>Rules</b>: @(string.Join(", ", mission.Rules))
+                        </text>
+                    }
+                    @if (mission.Objectives.Count > 0)
+                    {
+                        <br />
+                        <text>
+                            <b>Objectives</b>: @(string.Join(", ", mission.Objectives))
+                        </text>
+                    }
+                    @if (mission.Tokens.Count > 0)
+                    {
+                        <br />
+                        <text>
+                            <b>Tokens</b>: @(string.Join(", ", mission.Tokens))
+                        </text>
+                    }
+                </li>
+            }
+        </ul>
+    </div>
+
+}

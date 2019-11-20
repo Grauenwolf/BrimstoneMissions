@@ -1,0 +1,87 @@
+﻿@page "/mission/random"
+@page "/mission/{id}/{number}"
+@inherits MissionViewBase
+
+@if (Model != null)
+{
+    <h2>@Model.Mission.Name</h2>
+
+    <p>
+        @if (Model.Mission.Number != 0)
+        {
+            <text>
+                Mission #@(Model.Mission.Number) from @(Model.MissionsSet.Name)
+            </text>
+            if (Model.Mission.Page.HasValue)
+            {
+                <text>
+                    on page @(Model.Mission.Page)
+                </text>
+            }
+        }
+        @if (!string.IsNullOrEmpty(Model.MissionsSet.DownloadUrl))
+        {
+            <a href="@Model.MissionsSet.DownloadUrl">Download</a>
+        }
+        <br />
+    </p>
+    <p>
+        <span style="font-style:italic">   @(Model.Mission.Intro)</span>
+    </p>
+
+    <p>
+        @if (Model.Mission.Locations.Count > 0)
+        {
+            <text>
+                <b>Locations</b>: @(Model.Mission.Locations)
+            </text>
+            <br />
+        }
+        @if (Model.OtherWorlds.Count > 0)
+        {
+            <text>
+                <b>Random Locations</b>: @(string.Join(", ", Model.OtherWorlds))
+            </text>
+            <br />
+        }
+        @if (Model.Mission.EnemyThemes.Count > 0)
+        {
+            <text>
+                <b>Enemy Themes</b>: @(string.Join(", ", Model.Mission.EnemyThemes))
+            </text>
+            <br />
+        }
+        @if (Model.Mission.Rules.Count > 0)
+        {
+            <text>
+                <b>Rules</b>: @(string.Join(", ", Model.Mission.Rules))
+            </text>
+            <br />
+        }
+        @if (Model.Mission.Objectives.Count > 0)
+        {
+            <text>
+                <b>Objectives</b>: @(string.Join(", ", Model.Mission.Objectives))
+            </text>
+            <br />
+        }
+        @if (Model.Mission.Tokens.Count > 0)
+        {
+            <text>
+                <b>Tokens</b>: @(string.Join(", ", Model.Mission.Tokens))
+            </text>
+            <br />
+        }
+        @if (!string.IsNullOrEmpty(Model.Mission.Notes))
+        {
+            <text>
+                <b>Notes</b>: @(Model.Mission.Notes)
+            </text>
+            <br />
+        }
+    </p>
+}
+else
+{
+    <h1>Loading</h1>
+}

@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
 
 namespace BrimstoneMissionGenerator.Models
 {
@@ -12,8 +11,9 @@ namespace BrimstoneMissionGenerator.Models
         /// <paramref name="list" /> is null.</exception>
         public StringCollection(IList<string> list) : base(list)
         {
-
         }
+
+        public static StringCollection Empty { get; } = new StringCollection(new List<string>());
 
         public override string ToString()
         {

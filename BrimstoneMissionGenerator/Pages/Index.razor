@@ -1,0 +1,62 @@
+﻿@page "/"
+
+@using BrimstoneMissionGenerator.Services
+@using BrimstoneMissionGenerator.Models
+@using Cloudcrate.AspNetCore.Blazor.Browser.Storage;
+@inherits EngineBase
+
+@inject MissionService MissionService
+@inject LocalStorage LocalStorage
+
+<h1>Shadows of Brimstone Mission Generator</h1>
+
+<h2>Setup</h2>
+<p>Please select expansions from the list below.</p>
+<div>
+
+    @* Sets will be null when we are pre-rendering. *@
+    @if (Sets != null)
+        @foreach (BrimstoneMissionGenerator.Models.CheckList item in Sets)
+        {
+            <label title="@(item.MissionsSet.MissionNamesHtml)">
+                <input type="checkbox" id="Mission_{item.MissionsSet.Id}" checked="@(item.Available)"
+                       @onchange="(eventArgs ) => CheckboxClicked(item, eventArgs.Value)" />
+
+                @item.MissionsSet.Name
+                @if (!string.IsNullOrEmpty(item.MissionsSet.Locations))
+                {
+                    <text>
+                        (@item.MissionsSet.Locations)
+                    </text>
+                }
+                @if (!string.IsNullOrEmpty(item.MissionsSet.DownloadUrl))
+                {
+                    <a target="_blank" href="@item.MissionsSet.DownloadUrl">Download</a>
+                }
+            </label>
+            <br />
+        }
+        else
+        {
+            <h1>Loading</h1>
+        }
+</div>
+
+@functions {
+
+    override protected async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        Sets = await MissionService.FindSetsAsync(IsConnected ? LocalStorage : null);
+    }
+
+    List<CheckList>? Sets;
+
+    async void CheckboxClicked(CheckList item, object checkedValue)
+    {
+        item.Available = (bool)checkedValue;
+
+        await MissionService.SaveSetsAsync(LocalStorage, Sets);
+    }
+
+}

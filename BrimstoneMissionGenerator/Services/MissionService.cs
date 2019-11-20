@@ -120,7 +120,7 @@ namespace BrimstoneMissionGenerator.Services
             if (localStorage != null)
             {
                 var listRaw = await localStorage.GetItemAsync("missions");
-                if (listRaw != null)
+                if (!string.IsNullOrWhiteSpace(listRaw))
                 {
                     var list = listRaw.Split(',').Select(x => int.Parse(x)).ToList();
 

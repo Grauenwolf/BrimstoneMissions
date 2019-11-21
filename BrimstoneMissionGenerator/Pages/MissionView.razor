@@ -2,7 +2,11 @@
 @page "/mission/{id}/{number}"
 @inherits MissionViewBase
 
-@if (Model != null)
+@if (LoadFailed)
+{
+    <h1>Error loading page.</h1>
+}
+else if (Model != null)
 {
     <h2>@Model.Mission.Name</h2>
 

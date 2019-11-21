@@ -1,12 +1,6 @@
 ﻿@page "/"
 
-@using BrimstoneMissionGenerator.Services
-@using BrimstoneMissionGenerator.Models
-@using Cloudcrate.AspNetCore.Blazor.Browser.Storage;
-@inherits EngineBase
-
-@inject MissionService MissionService
-@inject LocalStorage LocalStorage
+@inherits IndexBase
 
 <h1>Shadows of Brimstone Mission Generator</h1>
 
@@ -42,46 +36,3 @@
             <h1>Loading</h1>
         }
 </div>
-
-@functions {
-
-    override protected async Task OnInitializedAsync()
-    {
-        await base.OnInitializedAsync();
-        Sets = await MissionService.FindSetsAsync(IsConnected ? LocalStorage : null);
-    }
-
-    List<CheckList>? Sets;
-    bool m_DeferEvents;
-
-    async void CheckboxClicked(CheckList item, object checkedValue)
-    {
-        if (m_DeferEvents)
-            return;
-
-        item.Available = (bool)checkedValue;
-
-        await MissionService.SaveSetsAsync(LocalStorage, Sets);
-    }
-
-    async void CheckAllAsync()
-    {
-        if (Sets == null)
-            return;
-
-        m_DeferEvents = true;
-
-        var action = true;
-
-        if (Sets.All(x => x.Available))
-            action = false;
-
-        foreach (var item in Sets)
-            item.Available = action;
-
-        m_DeferEvents = false;
-
-        await MissionService.SaveSetsAsync(LocalStorage, Sets);
-    }
-
-}

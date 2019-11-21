@@ -26,10 +26,8 @@ namespace BrimstoneMissionGenerator.Pages
 
         public MissionPicker? Model { get; set; }
 
-        protected override async Task OnParametersSetAsync()
+        protected override async Task ParametersSetAsync()
         {
-            await base.OnParametersSetAsync();
-
             if (Id == null && Number == null)
             {
                 Model = await MissionService.GenerateMissionAsync(IsConnected ? LocalStorage : null);

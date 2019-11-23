@@ -3,12 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrimstoneMissionGenerator", "BrimstoneMissionGenerator\BrimstoneMissionGenerator.csproj", "{036687C3-9591-44EC-86FE-F96DBDC4D220}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrimstoneMissionGenerator", "BrimstoneMissionGenerator\BrimstoneMissionGenerator.csproj", "{036687C3-9591-44EC-86FE-F96DBDC4D220}"
 	ProjectSection(ProjectDependencies) = postProject
 		{64697C8B-60FD-4EE7-8560-37C4BD58580A} = {64697C8B-60FD-4EE7-8560-37C4BD58580A}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentationDocNet", "DocumentationDocNet\DocumentationDocNet.csproj", "{64697C8B-60FD-4EE7-8560-37C4BD58580A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrimstoneTests", "BrimstoneTests\BrimstoneTests.csproj", "{8F9AF174-12B4-4859-8D80-996F26DD78D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{64697C8B-60FD-4EE7-8560-37C4BD58580A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64697C8B-60FD-4EE7-8560-37C4BD58580A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64697C8B-60FD-4EE7-8560-37C4BD58580A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9AF174-12B4-4859-8D80-996F26DD78D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9AF174-12B4-4859-8D80-996F26DD78D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9AF174-12B4-4859-8D80-996F26DD78D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9AF174-12B4-4859-8D80-996F26DD78D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

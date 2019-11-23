@@ -2,6 +2,7 @@
 using Cloudcrate.AspNetCore.Blazor.Browser.Storage;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
@@ -17,16 +18,20 @@ namespace BrimstoneMissionGenerator.Services
     {
         public ReadOnlyCollection<MissionSet> Sets;
 
-        public MissionService(IWebHostEnvironment environment)
+        public MissionService(IWebHostEnvironment environment) : this(environment?.WebRootPath ?? throw new ArgumentNullException(nameof(environment)))
         {
-            var file = new FileInfo(Path.Combine(environment.WebRootPath, @"App_Data/Missions.xml"));
+        }
+
+        public MissionService(string rootPath)
+        {
+            var file = new FileInfo(Path.Combine(rootPath, @"App_Data/Missions.xml"));
             var settingXmlSerializer = new XmlSerializer(typeof(Models.Xml.Missions));
 
             Models.Xml.Missions sets;
             using (var stream = file.OpenRead())
                 sets = (Models.Xml.Missions)settingXmlSerializer.Deserialize(stream);
 
-            var products = XElement.Load(Path.Combine(environment.WebRootPath, @"App_Data/Products.xml"));
+            var products = XElement.Load(Path.Combine(rootPath, @"App_Data/Products.xml"));
 
             var realSets = new List<MissionSet>();
             foreach (var item in sets.Set)

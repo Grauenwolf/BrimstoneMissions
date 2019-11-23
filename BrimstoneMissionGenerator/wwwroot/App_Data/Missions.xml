@@ -383,7 +383,7 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
       <Rule Name="Odin's Watchful Eye" />
     </Mission>
 
-    <Mission Name="Broken Amulet - Den of the Goryu" Number="5" Page="14" Location="Forest of the Dead" Intro="Legend tells of a mystic amulet that once had the key to immortality. After warring over this powerful relic for decades, the four noble tribes that laid claim to it had nearly exhausted their forces in the prolonged conflict. When a truce was called, the four Warlords made a pact to shatter the Amulet, each taking one fragment and going their separate ways. Now countless centuries later, the sacred Yamabushi monks have divined the locations of these four lost fragments. If they can be found and reforged into a single piece… it could change the fortunes in the wars to come!">
+    <Mission Name="Broken Amulet - Den of the Goryu" Number="6" Page="14" Location="Forest of the Dead" Intro="Legend tells of a mystic amulet that once had the key to immortality. After warring over this powerful relic for decades, the four noble tribes that laid claim to it had nearly exhausted their forces in the prolonged conflict. When a truce was called, the four Warlords made a pact to shatter the Amulet, each taking one fragment and going their separate ways. Now countless centuries later, the sacred Yamabushi monks have divined the locations of these four lost fragments. If they can be found and reforged into a single piece… it could change the fortunes in the wars to come!">
       <Rule Name="No Gates" />
       <Rule Name="Hungry Darkness" />
       <Objective Name="Finding the Location of the Amulet Fragment" />
@@ -392,7 +392,7 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
       <Rule Name="Shredded Bodies" />
     </Mission>
 
-    <Mission Name="Broken Amulet - Consumed by Shadows" Number="5" Page="14" Location="Forest of the Dead" Intro="Legend tells of a mystic amulet that once had the key to immortality. After warring over this powerful relic for decades, the four noble tribes that laid claim to it had nearly exhausted their forces in the prolonged conflict. When a truce was called, the four Warlords made a pact to shatter the Amulet, each taking one fragment and going their separate ways. Now countless centuries later, the sacred Yamabushi monks have divined the locations of these four lost fragments. If they can be found and reforged into a single piece… it could change the fortunes in the wars to come!">
+    <Mission Name="Broken Amulet - Consumed by Shadows" Number="7" Page="14" Location="Forest of the Dead" Intro="Legend tells of a mystic amulet that once had the key to immortality. After warring over this powerful relic for decades, the four noble tribes that laid claim to it had nearly exhausted their forces in the prolonged conflict. When a truce was called, the four Warlords made a pact to shatter the Amulet, each taking one fragment and going their separate ways. Now countless centuries later, the sacred Yamabushi monks have divined the locations of these four lost fragments. If they can be found and reforged into a single piece… it could change the fortunes in the wars to come!">
       <Rule Name="No Gates" />
       <Rule Name="Hungry Darkness" />
       <Objective Name="Finding the Location of the Amulet Fragment" />
@@ -401,7 +401,7 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
       <Rule Name="By the Lantern's Light" />
     </Mission>
 
-    <Mission Name="Broken Amulet - Bloodbane" Number="5" Page="14" Location="Forest of the Dead" Intro="Legend tells of a mystic amulet that once had the key to immortality. After warring over this powerful relic for decades, the four noble tribes that laid claim to it had nearly exhausted their forces in the prolonged conflict. When a truce was called, the four Warlords made a pact to shatter the Amulet, each taking one fragment and going their separate ways. Now countless centuries later, the sacred Yamabushi monks have divined the locations of these four lost fragments. If they can be found and reforged into a single piece… it could change the fortunes in the wars to come!">
+    <Mission Name="Broken Amulet - Bloodbane" Number="8" Page="14" Location="Forest of the Dead" Intro="Legend tells of a mystic amulet that once had the key to immortality. After warring over this powerful relic for decades, the four noble tribes that laid claim to it had nearly exhausted their forces in the prolonged conflict. When a truce was called, the four Warlords made a pact to shatter the Amulet, each taking one fragment and going their separate ways. Now countless centuries later, the sacred Yamabushi monks have divined the locations of these four lost fragments. If they can be found and reforged into a single piece… it could change the fortunes in the wars to come!">
       <Rule Name="No Gates" />
       <Rule Name="Hungry Darkness" />
       <Objective Name="Finding the Location of the Amulet Fragment" />
@@ -411,7 +411,7 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
       <Rule Name="Fresh Blood to Feed" />
     </Mission>
 
-    <Mission Name="Once a Hero" Number="6" Page="17" Location="Forbidden Fortress" Intro="With all four fragments of the mystic Amulet recovered and restored, the Yamabushi monks of the mountain village have set their plans in motion. If the war against the great Dragon King, Sho-Riu, is to have any chance of victory, the forces of light will need powerful champions to lead the charge. Though many brave new Heroes have risen to the challenge in these dark days, legend tells of one such Hero that would be a great ally to the cause. Killed in battle, the spirit of this fallen Hero still lingers in the shadow between worlds - the Forest of the Dead! With the power of the Amulet, it may be possible to bring them back to the world of the living.">
+    <Mission Name="Once a Hero" Number="9" Page="17" Location="Forbidden Fortress" Intro="With all four fragments of the mystic Amulet recovered and restored, the Yamabushi monks of the mountain village have set their plans in motion. If the war against the great Dragon King, Sho-Riu, is to have any chance of victory, the forces of light will need powerful champions to lead the charge. Though many brave new Heroes have risen to the challenge in these dark days, legend tells of one such Hero that would be a great ally to the cause. Killed in battle, the spirit of this fallen Hero still lingers in the shadow between worlds - the Forest of the Dead! With the power of the Amulet, it may be possible to bring them back to the world of the living.">
       <Rule Name="All Gates Lead to the Forest of the Dead" />
       <Rule Name="Fortress Clues Add a Gate" />
       <Rule Name="Haunting Voices" />
@@ -558,7 +558,7 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
       <Rule Name="Fields of the Dead" />
     </Mission>
 
-    <Mission Name="Showdown - Tengu Blind Master" Number="1" Page="24" Intro="All of the villages in the area have been ransacked and raided by the armies of a legendary villain. Now the Surviving townspeople have gathered together a large reward to pay any Heroes brave enough to hunt down and stop the fiend from continuing his reign of terror.&#xA;The last several groups of Heroes that embarked on this mission have not been heard from, since, but good news...the reward is still unclaimed!">
+    <Mission Name="Showdown - Tengu Blind Master" Number="2" Page="24" Intro="All of the villages in the area have been ransacked and raided by the armies of a legendary villain. Now the Surviving townspeople have gathered together a large reward to pay any Heroes brave enough to hunt down and stop the fiend from continuing his reign of terror.&#xA;The last several groups of Heroes that embarked on this mission have not been heard from, since, but good news...the reward is still unclaimed!">
       <EnemyTheme Name="Tengu" />
       <EnemyTheme Name="Tengu Blind Master (Boss)" />
       <Rule Name="Loyal Bodyguards" />
@@ -567,7 +567,7 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
       <Rule Name="Towering Perch" />
     </Mission>
 
-    <Mission Name="Showdown - Red Ronin" Number="1" Page="24" Intro="All of the villages in the area have been ransacked and raided by the armies of a legendary villain. Now the Surviving townspeople have gathered together a large reward to pay any Heroes brave enough to hunt down and stop the fiend from continuing his reign of terror.&#xA;The last several groups of Heroes that embarked on this mission have not been heard from, since, but good news...the reward is still unclaimed!">
+    <Mission Name="Showdown - Red Ronin" Number="3" Page="24" Intro="All of the villages in the area have been ransacked and raided by the armies of a legendary villain. Now the Surviving townspeople have gathered together a large reward to pay any Heroes brave enough to hunt down and stop the fiend from continuing his reign of terror.&#xA;The last several groups of Heroes that embarked on this mission have not been heard from, since, but good news...the reward is still unclaimed!">
       <EnemyTheme Name="Red Ronin (Boss)" />
       <Rule Name="Loyal Bodyguards" />
       <Rule Name="Fast Darkness" />
@@ -575,7 +575,7 @@ And tonight he comes for you! Your investigations has finally roused the Horsema
       <Rule Name="Hunter or Hunted" />
     </Mission>
 
-    <Mission Name="Showdown - Nobu Taskmaster" Number="1" Page="24" Intro="All of the villages in the area have been ransacked and raided by the armies of a legendary villain. Now the Surviving townspeople have gathered together a large reward to pay any Heroes brave enough to hunt down and stop the fiend from continuing his reign of terror.&#xA;The last several groups of Heroes that embarked on this mission have not been heard from, since, but good news...the reward is still unclaimed!">
+    <Mission Name="Showdown - Nobu Taskmaster" Number="4" Page="24" Intro="All of the villages in the area have been ransacked and raided by the armies of a legendary villain. Now the Surviving townspeople have gathered together a large reward to pay any Heroes brave enough to hunt down and stop the fiend from continuing his reign of terror.&#xA;The last several groups of Heroes that embarked on this mission have not been heard from, since, but good news...the reward is still unclaimed!">
       <EnemyTheme Name="Oni" />
       <EnemyTheme Name="Nobu Taskmaster (Boss)" />
       <Rule Name="Loyal Bodyguards" />

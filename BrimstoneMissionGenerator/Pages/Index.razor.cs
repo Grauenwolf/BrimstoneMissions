@@ -13,7 +13,7 @@ namespace BrimstoneMissionGenerator.Pages
 #nullable disable //We're assuming that the runtime handles these
         [Inject] protected MissionService MissionService { get; set; }
 
-        //[Inject] protected NavigationManager Navigation { get; set; }
+        [Inject] protected NavigationManager Navigation { get; set; }
         [Inject] protected LocalStorage LocalStorage { get; set; }
 
 #nullable restore
@@ -39,6 +39,11 @@ namespace BrimstoneMissionGenerator.Pages
             item.Available = (bool)checkedValue;
 
             await MissionService.SaveSetsAsync(LocalStorage, Sets);
+        }
+
+        protected void RandomMission()
+        {
+            Navigation.NavigateTo("mission/random");
         }
 
         protected async void CheckAllAsync()

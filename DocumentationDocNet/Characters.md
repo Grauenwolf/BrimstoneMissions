@@ -3,22 +3,22 @@
 ## New Characters
 
 ### 1. Pick a Hero class
-### 2. Take that class's starting items
+### 2. Take that class's Starting Items
 
 @alert info
-You cannot trade or sell your starting items. If lost or discarded, may be repurchased for the price on the card in town. (No specific location needed.)
+You cannot trade or sell your **Starting Items**. If lost or discarded, may be repurchased for the price on the card in town. (No specific location needed.)
 @end
 
-### 3. **Choose** one starting power. 
+### 3. Choose one starting power. 
 
 @alert warning
 You may never take either of the two starting powers you didn't choose.
 @end
 
-### 4. **Draw** a **Personal Item**.
+### 4. Draw a Personal Item.
 
 @alert info
-You cannot trade, sell, lose, or disard your personal item.
+You cannot trade, sell, lose, or disard your **Personal Item**.
 @end
 
 ### 5. Take 1 [Side Bag Item](SideBag.htm) from this list:

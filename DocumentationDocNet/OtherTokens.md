@@ -47,6 +47,6 @@ See Jorogumo Enemy Record Sheet.
 
 ## Lava Marker
 
-See [Lava Spaces](Maps.htm)
+See [Lava Spaces](Maps.htm#lava-spaces)
 
 

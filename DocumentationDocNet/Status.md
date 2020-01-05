@@ -32,7 +32,7 @@ Optional Rule **Hard-Core Mode**: If not recovered by start of next turn, hero i
   * Cannot Move
   * Defense rolls are -1
   * Strength Test (5+) to remove token when activating (6+ on D6 if model has no Strength)
-* **Exertion**: See [Barriers](Maps.htm)
+* **Exertion**: See [Barriers](Maps.htm#exertion-token-heroes-only)
 * **Noise Marker**:  See below
 * **Poison**: Roll D6 for each token when activating:
   * 1-2: Take 1 Wound, ignoring Defense

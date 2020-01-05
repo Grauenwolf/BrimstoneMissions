@@ -1,6 +1,8 @@
 ﻿
 # XP
 
+These rules are for heros only. [Allies](Allies.htm#ally-xp-and-upgrades) have their own XP rules.
+
 ## XP For Fights
 
 * `A`: Gain `A` XP per model killed
@@ -29,16 +31,16 @@ The original rule for 'A + B each' was "Gain `A` XP for a successful *wounding h
 
 ## Levels
 
-| Level | XP Cost | Running Total  |
-|:-----:|--------:|---------------:|
-| 1     | Start   | 0              |    
-| 2     | 500     | 500            |    
-| 3     | 1,000   | 1,500          |    
-| 4     | 2,000   | 3,500          |    
-| 5     | 3,000   | 6,500          |    
-| 6     | 4,500   | 11,000         |    
-| 7     | 6,000   | 17,000         |    
-| 8     | 8,000   | 25,000         |    
+| Level | XP Cost | Running Total  
+|:-----:|--------:|---------------:
+| 1     | Start   | 0                  
+| 2     | 500     | 500                
+| 3     | 1,000   | 1,500              
+| 4     | 2,000   | 3,500              
+| 5     | 3,000   | 6,500              
+| 6     | 4,500   | 11,000             
+| 7     | 6,000   | 17,000             
+| 8     | 8,000   | 25,000             
 
 Max level: 8
 

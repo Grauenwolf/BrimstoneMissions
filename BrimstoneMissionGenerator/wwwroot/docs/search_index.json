@@ -3,7 +3,7 @@
     {
       "location": "Characters.htm",
       "breadcrumbs": "Home / Characters",
-      "keywords": "1 2 3 4 5 a alert Bag Bandages be Bombs cannot card Characters charts choose Choose class considers danger didn disard discarded Do Draw Dynamite either end Flying for Frogs from hero Hero htm If in info information item Item items Levels list location lose lost may needed never New No not of on one or personal Personal Pick post power powers price repurchased restricted Sake See sell Side SideBag specific starting take Take that the this Tonic town trade two upgrade warning Whiskey XP you You your",
+      "keywords": "1 2 3 4 5 a alert Bag Bandages be Bombs cannot card Characters charts choose Choose class considers danger didn disard discarded Do Draw Dynamite either end Flying for Frogs from hero Hero htm If in info information Item Items Levels list location lose lost may needed never New No not of on one or Personal Pick post power powers price repurchased restricted Sake See sell Side SideBag specific starting Starting take Take that the this Tonic town trade two upgrade warning Whiskey XP you You your",
       "title": "Characters"
     },
     {
@@ -57,19 +57,19 @@
     {
       "location": "Status.htm",
       "breadcrumbs": "Home / Tokens / Status Markers/Tokens",
-      "keywords": "1 2 2D6 3 4 5 6 a A activating activation Add adding additional adjecent Adject alert all All an and another any are as Assisting at At Attack Bag Barriers below Bleeding bomb burning Burning by can Cannot Casting character Check Core cost D6 damage Damage Death Defense denotated drag dynamite e each end enemies Ensnared equal Exertion explosion Extra fight for Free g gives grit Gun Hard has heal health Health hero heroes his htm if If ignoring in Inflicts injury instead is killed KO lowers madness make Making Maps Mark marker Marker Markers max Max may Mid Mode model Move MP Must next no noise Noise not of off on one Optional or per Poison rather recovered Recovery remove Remove removes revive roll Roll rolls Rule same Sanity Scavenge See Side Skill soon Spell square squares start Status Stealth Strength Stunned success Take Test than the their Then There They This tile time tip to token tokens Tokens total turn unless up use using Using usual Webbed when wore Wound Wounds",
+      "keywords": "1 2 2D6 3 4 5 6 a A activating activation Add adding additional adjecent Adject alert all All an and another any are as Assisting at At Attack Bag Barriers below Bleeding bomb burning Burning by can Cannot Casting character Check Core cost D6 damage Damage Death Defense denotated drag dynamite e each end enemies Ensnared equal exertion Exertion explosion Extra fight for Free g gives grit Gun Hard has heal health Health hero heroes his htm if If ignoring in Inflicts injury instead is killed KO lowers madness make Making Maps Mark marker Marker Markers max Max may Mid Mode model Move MP Must next no noise Noise not of off on one only Optional or per Poison rather recovered Recovery remove Remove removes revive roll Roll rolls Rule same Sanity Scavenge See Side Skill soon Spell square squares start Status Stealth Strength Stunned success Take Test than the their Then There They This tile time tip to token tokens Tokens total turn unless up use using Using usual Webbed when wore Wound Wounds",
       "title": "Status Markers/Tokens"
     },
     {
       "location": "OtherTokens.htm",
       "breadcrumbs": "Home / Tokens / Other Tokens",
-      "keywords": "0 1 18 2 2D6 3 4 5 6 a Advanced all Allies an and any are at away Beast before Belly block board bounce bounces Bounces cannot Causes Corpse created damage Damage Dead Defense depends description destoryed Devoured Dishonored Do during dynamite each end enemies Enemies enemy Enemy Fight for from full get Grit health Hellfire hero Heroes Heros hit how htm if If in injury is it Jorogumo Lair Lava like madness Maps Marker markers may more no No NOT Number of on one Onmorake or other Other per Place Plague Record Recover remove Remove removed Replace resolving Restore Revive role roll Roll sanity Scourge See Sheet space Spaces specific spell Spider squares subtract table than the there This to token Token tokens Tokens turn use Use using Vile was when with",
+      "keywords": "0 1 18 2 2D6 3 4 5 6 a Advanced all Allies an and any are at away Beast before Belly block board bounce bounces Bounces cannot Causes Corpse created damage Damage Dead Defense depends description destoryed Devoured Dishonored Do during dynamite each end enemies Enemies enemy Enemy Fight for from full get Grit health Hellfire hero Heroes Heros hit how htm if If in injury is it Jorogumo Lair lava Lava like madness Maps Marker markers may more no No NOT Number of on one Onmorake or other Other per Place Plague Record Recover remove Remove removed Replace resolving Restore Revive role roll Roll sanity Scourge See Sheet space spaces Spaces specific spell Spider squares subtract table than the there This to token Token tokens Tokens turn use Use using Vile was when with",
       "title": "Other Tokens"
     },
     {
       "location": "XP.htm",
       "breadcrumbs": "Home / XP",
-      "keywords": "0 000 1 10 11 17 2 20 25 3 4 5 500 6 7 8 a A Ability above Actions adds Against alert attack B Bearer cancelled card Change charts considers Corruption Cost d damage danger Darkness Depth discarded Do Doors Dread During each Elite end End even Event Exploration Fight Fights Flying for For Frogs Gain get Growing Guiding have Healing hero Hero hit hits if in info information killed KO lantern Lantern level Level Levels Limit Looking make Map Max mission Mission model multple Must not Now occurance of Official once one only or original Path per plus post Recovering redrawn restricted rule Rule Running sanity Standing Start successful the The this This through to token Total upgrade value was whole wound wounding wounds XP you",
+      "keywords": "0 000 1 10 11 17 2 20 25 3 4 5 500 6 7 8 a A Ability above Actions adds Against alert Allies ally and are attack B Bearer cancelled card Change charts considers Corruption Cost d damage danger Darkness Depth discarded Do Doors Dread During each Elite end End even Event Exploration Fight Fights Flying for For Frogs Gain get Growing Guiding have Healing hero Hero heros hit hits htm if in info information killed KO lantern Lantern level Level Levels Limit Looking make Map Max mission Mission model multple Must not Now occurance of Official once one only or original own Path per plus post Recovering redrawn restricted rule Rule rules Running sanity Standing Start successful the The their These this This through to token Total upgrade upgrades value was whole wound wounding wounds xp XP you",
       "title": "XP"
     },
     {
@@ -77,6 +77,12 @@
       "breadcrumbs": "Home / Town",
       "keywords": "02 1 2 28 3 4 5 6 7 8 a A Advanced and are Attention back Basic between Buy by Camp changes chooses class D6 Dangerous day Day desired Difference Each equal Event events Expansion FAQ Feudal for Frontier goods hazard Hazards hero if in Increase Inn large Leave less location locations Locations marker medium More New offical On once one optional or Or page per possible roll Roll rolls rule rules See services small specific Sumo than there These to TODO town Town travel Travel Unwanted v1 Village visit was Wrestling",
       "title": "Town"
+    },
+    {
+      "location": "Allies.htm",
+      "breadcrumbs": "Home / Allies",
+      "keywords": "1 2 200 4 5 500 6 8 a abilities above action Additional Advanced adventure adventures Adventures Allies Ally and Animal any are Armored Ashigaru at Bag Base Basic be before Between board Cannot capacity cards carrying checks cost critical D6 dies Does doors doubled drag draw Duel duplicates Each encounters Expendable Explore for from gain get Grit Health Hero heroes Heroes hits in including instead is Items keep killed KO level Limit Limitations Limited Look Loot make may May mission models move must Must Mutation mutations next not of on once one only or original Other out participate Pay per purchase Purchase radom ranged re remainder remove Remove removed require Reroll Revive Reviving roll Sanity Scavenge Side skill Skill specality speciality spend survive take taken that the they through time to tokens upgrade Upgrades use Veteran weapons Weld XP",
+      "title": "Allies"
     },
     {
       "location": "Rules.htm",

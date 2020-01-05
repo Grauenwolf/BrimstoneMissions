@@ -30,8 +30,10 @@ You cannot trade, sell, lose, or disard your personal item.
 
 ## Levels
 
-
+See [XP](XP.htm).
 
 @alert danger
 **Do not** post hero upgrade charts. Flying Frogs considers this restricted information.
 @end
+
+

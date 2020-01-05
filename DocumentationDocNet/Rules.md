@@ -14,19 +14,16 @@
 
 If 1 or 2 heroes, Epic threats are replaced with High threats. 
 
-| Highest Level | Enemy |
-| :-----------: |-------|
-| 1             |       |
-| 2             |       |
-| 3             |       |
-| 4             |       |
-| 5             |       |
-| 6             |       |
-| 7             |       |
-| 8             |       |
+Every 3 Advanced Allies count as 1 hero for the above chart.
 
-**TODO**
-
+| Highest Level | Enemy Bonus                |
+| :-----------: |----------------------------|
+| 1-2           |                            |
+| 3             | 1 Elite Ability            |
+| 4             | 2 Elite Abilities          |
+| 5-6           | Brutal                     |
+| 7             | Brutal + 1 Elite Ability   |
+| 8             | Brutal + 2 Elite Abilities |
 
 
 ## Limits
@@ -50,6 +47,10 @@ Optional Rule: Heroes cannot equip found (as opposed to starting/bought) items w
 
 @end
  
+
+## Trading Itmes
+
+You may trade items/gold/dark stone is adjectent (in Fight) or on the same map tile (not in Fight).
 
 ## Skills
 

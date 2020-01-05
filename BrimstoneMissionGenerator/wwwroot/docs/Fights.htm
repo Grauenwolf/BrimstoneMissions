@@ -9,33 +9,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Fights - Shadows of Brimstone Reference Guide</title>
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../css/theme.css" type="text/css" />
-    <link rel="stylesheet" href="../css/theme_colors.css" type="text/css" />
-    <link rel="stylesheet" href="../css/styles/vs.css">
-    <link rel="stylesheet" href="../css/font-awesome.4.5.0.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="css/theme_colors.css" type="text/css" />
+    <link rel="stylesheet" href="css/styles/vs.css">
+    <link rel="stylesheet" href="css/font-awesome.4.5.0.min.css">
 </head>
 <body role="document">
     <div class="grid-for-nav">
         <nav data-toggle="nav-shift" class="nav-side stickynav">
             <div class="side-nav-search">
-                <a href="../index.htm"><i class="fa fa-home"></i> Shadows of Brimstone Reference Guide</a>
+                <a href="index.htm"><i class="fa fa-home"></i> Shadows of Brimstone Reference Guide</a>
                 <div role="search">
-                    <form id="search-form" class="form" action="../Docnet_search.htm" method="get">
+                    <form id="search-form" class="form" action="Docnet_search.htm" method="get">
                         <input type="text" name="q" placeholder="Search docs" />
                     </form>
                 </div>
             </div>
             <div class="menu menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
 <ul>
-<li class="tocentry"><a href="../Index.htm">Home</a>
+<li class="tocentry"><a href="Index.htm">Home</a>
 </li>
 
-<li class="tocentry"><a href="../Characters/index.htm">Characters</a>
+<li class="tocentry"><a href="Characters.htm">Characters</a>
 </li>
-<li class="tocentry"><a href="../Turns/index.htm">Turns</a>
+<li class="tocentry"><a href="Turns.htm">Turns</a>
 </li>
-<li class="tocentry current"><a class="current" href="../Fights/index.htm">Fights</a>
+<li class="tocentry current"><a class="current" href="Fights.htm">Fights</a>
 <ul class="currentrelative">
 <li class="tocentry"><a href="#enemy-placement">Enemy Placement</a></li>
 
@@ -48,25 +48,22 @@
 
 
 </ul>
-<li class="tocentry"><a href="../Hits/index.htm">Hits</a>
+<li class="tocentry"><a href="Hits.htm">Hits</a>
 </li>
-<li class="tocentry"><a href="../Enemies/index.htm">Enemies</a>
+<li class="tocentry"><a href="Enemies.htm">Enemies</a>
 </li>
-<li class="tocentry"><a href="../Grit/index.htm">Grit</a>
+<li class="tocentry"><a href="Grit.htm">Grit</a>
 </li>
-<li class="tocentry"><a href="../Maps/index.htm">Maps & Movement</a>
+<li class="tocentry"><a href="Maps.htm">Maps & Movement</a>
 </li>
-<li class="tocentry"><a href="../Statuses/index.htm">Status and Status Tokens</a>
+<li class="tocentry">
+<span class="navigationgroup"><i class="fa fa-caret-right"></i> <a href="Tokens.htm">Tokens</a></span>
 </li>
-<li class="tocentry"><a href="../SideBag/index.htm">Side Bag</a>
+<li class="tocentry"><a href="XP.htm">XP</a>
 </li>
-<li class="tocentry"><a href="../OtherTokens/index.htm">Other Tokens</a>
+<li class="tocentry"><a href="Town.htm">Town</a>
 </li>
-<li class="tocentry"><a href="../XP/index.htm">XP</a>
-</li>
-<li class="tocentry"><a href="../Town/index.htm">Town</a>
-</li>
-<li class="tocentry"><a href="../Rules/index.htm">Other Rules</a>
+<li class="tocentry"><a href="Rules.htm">Other Rules</a>
 </li>
 </ul>
 				<div class="toc-footer">
@@ -81,12 +78,12 @@
         <section data-toggle="nav-shift" class="nav-content-wrap">
             <nav class="nav-top" role="navigation" aria-label="top navigation">
                 <i data-toggle="nav-top" class="fa fa-bars"></i>
-                <a href="../index.htm">Shadows of Brimstone Reference Guide</a>
+                <a href="index.htm">Shadows of Brimstone Reference Guide</a>
             </nav>
             <div class="nav-content">
                 <div role="navigation" aria-label="breadcrumbs navigation">
                     <div class="breadcrumbs">
-<ul><li><a href="../Index.htm">Home</a></li> / <li><a href="../Fights/index.htm">Fights</a></li></ul>
+<ul><li><a href="Index.htm">Home</a></li> / <li><a href="Fights.htm">Fights</a></li></ul>
 					
                     </div>
                     <hr />
@@ -95,12 +92,13 @@
                     <div class="section">
 <h1 id="fights">Fights<a class="headerlink" href="#fights" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h1>
 <h2 id="enemy-placement">Enemy Placement<a class="headerlink" href="#enemy-placement" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h2>
-<p>Place enemies in reverse initiative order (lowest first.)</p>
+<p>Place enemies in reverse initiative order (lowest first.) Enemies with variable initiative are always placed first.</p>
 <p>Place in back-left corner first. The lay out in checker-board pattern left to right, back to front. Skip one square between each model.</p>
 <h3 id="ambush">Ambush<a class="headerlink" href="#ambush" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
 <ul>
 <li>+2 Initiative on first turn</li>
-<li>Place next to randomly selected heroes.</li>
+<li>Place enemies in initiative order.</li>
+<li>Place next to randomly selected heroes, evenly distributed if there are more heroes than enemies of that type.</li>
 <li>
 An ambush immediately ends the current turn.
 <ul>
@@ -108,6 +106,23 @@ An ambush immediately ends the current turn.
 </ul>
 </li>
 </ul>
+<h3 id="ambush--shootout">Ambush + Shootout<a class="headerlink" href="#ambush--shootout" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+<ol>
+<li>Randomly choose 1 hero</li>
+<li>Place all enemies on same tile, but as far away as possible.</li>
+<li>If there isn't enough room, they may be placed in adjecent tiles. Again, as far away as possible.</li>
+</ol>
+<h3 id="ambush--support">Ambush + Support<a class="headerlink" href="#ambush--support" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+<ol>
+<li>Randomly choose 1 hero</li>
+<li>Place all enemies on same tile, but as far away as possible.</li>
+<li>If there isn't enough room, they may be placed in adjecent tiles. Again, as far away as possible.</li>
+</ol>
+<h3 id="ambush--immobile">Ambush + Immobile<a class="headerlink" href="#ambush--immobile" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+<ol>
+<li>Randomly choose 1 hero</li>
+<li>Place all enemies on same tile, but as far away as possible.</li>
+</ol>
 <h2 id="targeting">Targeting<a class="headerlink" href="#targeting" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h2>
 <p>Normal targeting is randomly distributed.</p>
 <p>Evenly distributed random targets if there are more heroes than enemies of that type.</p>
@@ -136,6 +151,28 @@ If no heroes are within attack range, move towards cloest hero until within atta
 <li>Randomly target 'adject' hero. (This shouldn't happen)</li>
 <li>If no adject heroes, randomly target hero in attack range. </li>
 </ol>
+<h3 id="acid-blobs">Acid Blobs<a class="headerlink" href="#acid-blobs" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+<p><strong>Retarget if possible to move to larger group of heroes.</strong></p>
+<ol>
+<li>Move to as many heroes as possible.</li>
+<li>Randomly target if [1] results in a tie.</li>
+</ol>
+<h3 id="shootout">Shootout<a class="headerlink" href="#shootout" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+<p><strong>Retarget every turn.</strong></p>
+<ol>
+<li>If adjecent, attempt to retreat on a D6 (4+). </li>
+<li>If retreating, free move shortest distance to no longer be adjecent. Goto step 4.</li>
+<li>If failed to retreat, melee combat instead of range. Target random adjecent hero.</li>
+<li>If not adjecent, target random hero without a <strong>Shootout</strong> marker. (Or fewest markers if everyone has one.)</li>
+<li>Move shortest distance, up to max move, to put target within attack range. May not end movement adjecent to a hero.</li>
+<li>If target still isn't in range, target random hero in range, perfering target with fewest shootout markers.</li>
+</ol>
+<h3 id="support">Support<a class="headerlink" href="#support" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+<ol>
+<li>If adjecent, move full distance to be as far away as possible without ending turn adjecent to another hero.</li>
+<li>If no adjecent and no heroes on same map tile, move shortest distance to be on same map tile as the closest hero without ending turn adjecent to the hero.</li>
+<li>Never targets a hero or move to Melee attack.</li>
+</ol>
 <h2 id="hero-attacks">Hero Attacks<a class="headerlink" href="#hero-attacks" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h2>
 <h3 id="attack-rolls">Attack Rolls<a class="headerlink" href="#attack-rolls" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
 <ul>
@@ -145,17 +182,15 @@ If no heroes are within attack range, move towards cloest hero until within atta
 </ul>
 <h3 id="free-attacks">Free Attacks<a class="headerlink" href="#free-attacks" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
 <p>Max one free attack per turn, used at any time during the heroe's activation. </p>
+<p>Use the weapon's Combat value instead of the hero's Combat.</p>
 <h3 id="dynamite--bomb">Dynamite / Bomb<a class="headerlink" href="#dynamite--bomb" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+<p>See <a href="SideBag.htm">Dynamite/Bomb</a> token.</p>
+<h3 id="splash-damage-official-rule-change">Splash Damage [Official Rule Change]<a class="headerlink" href="#splash-damage-official-rule-change" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+<p>Splash Damage is extra Damage done as a by-product to other models nearby the original Target model of an Attack.</p>
 <ul>
-<li>This counts as your ranged attack</li>
-<li>
-Roll to-hit. If failed, bounce D3 times. 
-<ul>
-<li>Roll D8 once per bounce.</li>
-<li>Ignore bounces that hit a wall.</li>
-</ul>
-</li>
-<li>Damage is D6 wounds, ignoring Defense.</li>
+<li>Splash Damage may NOT gain Damage modifiers, unless specifically noted as such in the Damage modifier’s text.</li>
+<li>Splash Damage DOES gain XP for the Hero that caused the Damage (unless noted otherwise).</li>
+<li>Attacks with an area of effect (e.g. Dynamite) do not count as Splash Damage.</li>
 </ul>
 <h2 id="end-of-fight">End of Fight<a class="headerlink" href="#end-of-fight" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h2>
 <h3 id="catch-your-breath">Catch Your Breath<a class="headerlink" href="#catch-your-breath" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
@@ -180,10 +215,10 @@ Shadows of Brimstone. Copyright 2019 Flying Frog Productions. <a href='https://g
             </div>
         </section>
     </div>
-    <script src="../js/jquery-2.1.1.min.js"></script>
-    <script src="../js/modernizr-2.8.3.min.js"></script>
-    <script src="../js/highlight.pack.js"></script>
-    <script src="../js/theme.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/modernizr-2.8.3.min.js"></script>
+    <script src="js/highlight.pack.js"></script>
+    <script src="js/theme.js"></script>
 
 </body>
 </html>

@@ -45,6 +45,32 @@ When pushing through other models, the displaced model may move 2 or more square
 
 If you are on a puzzle connector (half-square) you are considered to be on both tiles.
 
+### Barriers
+
+Thick white lines are barriers. 
+
+* Cannot move across barries unless:
+  * You can also move through other models
+  * You can fly
+  * You are XL or larger
+* Does not block line of sight
+* Does not affect adjecency rules (e.g. Escape rolls)
+* Does not block melee attacks
+* Does not block bombs
+
+#### Exertion Token [Heroes Only]
+
+* Gain 1 Exertion token when starting activation completely inside a barrier.
+  * If 3+ tokens, take D6 Wounds, ignoring Defense and Armor.
+* Remove 1 Exertion token when starting activation outside of a barrier.
+
+### Lava Spaces
+
+* Lava spaces have a Dodge value such as 5+. 
+* When Heroes enter a Lava square, Test Agility (Dodge) to avoid taking D3 [Burning tokens](Status.htm).
+* Enemeies are not affected when moving normally. 
+* Enemies take D3 [Burning tokens](Status.htm) if knocked into a Lava Square by a Hero. 
+
 ## Gateways
 
 Movement through gateways is instanteous, as if the sqaures are adjecent. 

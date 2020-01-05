@@ -32,4 +32,4 @@
 
 **Corruption Resistance** starts at 5.  When you *equal* your Corruption Resistance, you take a mutation. 
 
-Old terminology: Your **Max Corruption** is 4. When you *exceed* your Max Corruption, you take a mutation. 
+Old terminology: Your **Max Corruption** or **Corruption Limit** is 4. When you *exceed* your Max Corruption, you take a mutation. 

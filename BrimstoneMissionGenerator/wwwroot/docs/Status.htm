@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Other Tokens - Shadows of Brimstone Reference Guide</title>
+    <title>Status Markers/Tokens - Shadows of Brimstone Reference Guide</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/theme.css" type="text/css" />
     <link rel="stylesheet" href="css/theme_colors.css" type="text/css" />
@@ -52,23 +52,19 @@
 </li>
 <li class="tocentry"><a href="SideBag.htm">Side Bag</a>
 </li>
-<li class="tocentry"><a href="Status.htm">Status Markers/Tokens</a>
-</li>
-<li class="tocentry current"><a class="current" href="OtherTokens.htm">Other Tokens</a>
+<li class="tocentry current"><a class="current" href="Status.htm">Status Markers/Tokens</a>
 <ul class="currentrelative">
-<li class="tocentry"><a href="#corpse-token">Corpse Token</a></li>
+<li class="tocentry"><a href="#kod">KO'd</a></li>
 
-<li class="tocentry"><a href="#hellfire-token">Hellfire Token</a></li>
+<li class="tocentry"><a href="#status-markerstokens">Status Markers/Tokens</a></li>
 
-<li class="tocentry"><a href="#revive-token">Revive Token</a></li>
-
-<li class="tocentry"><a href="#spider-lair-token">Spider Lair Token</a></li>
-
-<li class="tocentry"><a href="#lava-marker">Lava Marker</a></li>
+<li class="tocentry"><a href="#noise-marker">Noise Marker</a></li>
 
 
 
 </ul>
+<li class="tocentry"><a href="OtherTokens.htm">Other Tokens</a>
+</li>
 
 </ul>
 </li>
@@ -96,87 +92,88 @@
             <div class="nav-content">
                 <div role="navigation" aria-label="breadcrumbs navigation">
                     <div class="breadcrumbs">
-<ul><li><a href="Index.htm">Home</a></li> / <li><a href="Tokens.htm">Tokens</a></li> / <li><a href="OtherTokens.htm">Other Tokens</a></li></ul>
+<ul><li><a href="Index.htm">Home</a></li> / <li><a href="Tokens.htm">Tokens</a></li> / <li><a href="Status.htm">Status Markers/Tokens</a></li></ul>
 					
                     </div>
                     <hr />
                 </div>
                 <div role="main">
                     <div class="section">
-<h1 id="other-tokens">Other Tokens<a class="headerlink" href="#other-tokens" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h1>
-<h2 id="corpse-token">Corpse Token<a class="headerlink" href="#corpse-token" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h2>
+<h1 id="status-and-status-markerstokens">Status and Status Markers/Tokens<a class="headerlink" href="#status-and-status-markerstokens" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h1>
+<h2 id="kod">KO'd<a class="headerlink" href="#kod" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h2>
+<p>A hero is KO's as soon as their Wounds or Sanity Damage equal their max.</p>
+<p>A hero may drag another hero at the cost of 2 MP per square (instead of the usual 1/square). Must in the same or adjecent square.</p>
+<h3 id="recovery">Recovery<a class="headerlink" href="#recovery" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+<p>At end of fight, roll for injury/madness. Then heal 2D6 Wounds/Sanity.</p>
+<p>Mid-fight: A hero may revive another character on his turn if:
+* They are adjecent
+* There are no enemies on the same tile
+* Assisting hero gives up Attack.</p>
+<div class="alert alert-tip"><span class="alert-title"><i class="fa fa-info-circle"></i> Tip</span><p>Optional Rule <strong>Hard-Core Mode</strong>: If not recovered by start of next turn, hero is killed.</p>
+</div><h2 id="status-markerstokens">Status Markers/Tokens<a class="headerlink" href="#status-markerstokens" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h2>
 <ul>
 <li>
-Roll at end of each turn during a Fight:
+<strong>Bleeding</strong>: 
 <ul>
-<li>1: Remove token</li>
-<li>5-6: Replace with Dishonored Dead</li>
+<li>-3 Health per token. (This lowers max health rather than adding damage.)</li>
+<li>Remove all tokens if KO'd. </li>
+<li>Remove 1 token for 1 grit at any time. </li>
 </ul>
 </li>
-<li>Use Devoured Dead when in Belly of the Beast</li>
+<li><strong>Burning Marker</strong>: Remove 1 burning marker at start of activation. Inflicts 2 Wound, ignoring Defense. </li>
+<li><strong>Death Mark</strong>: All enemies are +2 damage. Max 1 Death Mark token.</li>
 <li>
-Use Scourge Dead when an Onmorake is on the table
+<strong>Ensnared</strong>: Max 1 Ensnared token.
 <ul>
-<li>Vile Plague is removed if all Scourge Dead and Corpse Tokens are destoryed or removed.</li>
+<li>Cannot Move</li>
+<li>Defense rolls are -1</li>
+<li>Strength Test (5+) to remove token when activating (6+ on D6 if model has no Strength)</li>
 </ul>
 </li>
-<li>If there are no other enemies on the board, remove all Corpse Tokens 18 or more squares away from any hero.</li>
-</ul>
-<h2 id="hellfire-token">Hellfire Token<a class="headerlink" href="#hellfire-token" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h2>
-<ul>
-<li>Bounces like dynamite. (Number of bounces depends on how it was created. See specific spell or enemy description.</li>
-<li>No more than one Hellfire token per space. This may block the bounce of other Hellfire tokens.</li>
-<li>Place all markers before resolving damage</li>
+<li><strong>Exertion</strong>: See <a href="Maps.htm">Barriers</a></li>
+<li><strong>Noise Marker</strong>:  See below</li>
 <li>
-Causes 1 hit for 2D6 damage
+<strong>Poison</strong>: Roll D6 for each token when activating:
 <ul>
-<li>Heros get Defense role</li>
-<li>Enemies subtract Defense from Damage</li>
+<li>1-2: Take 1 Wound, ignoring Defense</li>
+<li>6: Poison wore off, remove token.</li>
+</ul>
+</li>
+<li>
+<strong>Stunned</strong>:
+<ul>
+<li>Defense rolls are -1 (total, not per token)</li>
+<li>Remove all tokens if KO'd. </li>
+<li>Roll D6 when activating. 4+ removes one token.</li>
+</ul>
+</li>
+<li>
+<strong>Webbed</strong>: 
+<ul>
+<li>Move -1/Webbed token</li>
+<li>Strength Test (5+) when activating. Remove 1 token per success</li>
+<li>Adject heroes can use their Attack to make additional Strength Test</li>
 </ul>
 </li>
 </ul>
-<h2 id="revive-token">Revive Token<a class="headerlink" href="#revive-token" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h2>
-<p>Use at end of turn to:</p>
+<h2 id="noise-marker">Noise Marker<a class="headerlink" href="#noise-marker" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h2>
 <ul>
-<li>Restore full health/sanity</li>
-<li>Recover 1 Grit</li>
+<li>Remove D6 noise tokens when activating</li>
+<li>Remove D6 noise tokens if an explosion (e.g. dynamite/bomb) is denotated</li>
+<li>
+Add 1 noise marker for each of
+<ul>
+<li>Move 3+ squares (unless Stealth)</li>
+<li>Making an Attack </li>
+<li>Extra noise marker is using a Gun</li>
+<li>Casting a Spell</li>
+<li>Making a Free Attack</li>
+<li>Using a Side Bag token</li>
+<li>Making a Skill Check</li>
+<li>Making a Scavenge Roll</li>
 </ul>
-<p>Do NOT roll for injury/madness when using a Revive token.</p>
-<table class="table table-bordered-all table-responsive">
-<thead>
-<tr>
-	<th align="center">Heroes</th>
-	<th align="center">Revive Tokens</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-	<td align="center">1</td>
-	<td align="center">2</td>
-</tr>
-<tr>
-	<td align="center">2-3</td>
-	<td align="center">2</td>
-</tr>
-<tr>
-	<td align="center">4</td>
-	<td align="center">0</td>
-</tr>
-<tr>
-	<td align="center">5</td>
-	<td align="center">1</td>
-</tr>
-<tr>
-	<td align="center">6</td>
-	<td align="center">0</td>
-</tr>
-</tbody>
-</table>
-<p>Advanced Allies cannot use Revive tokens.</p>
-<h2 id="spider-lair-token">Spider Lair Token<a class="headerlink" href="#spider-lair-token" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h2>
-<p>See Jorogumo Enemy Record Sheet.</p>
-<h2 id="lava-marker">Lava Marker<a class="headerlink" href="#lava-marker" title="Permalink to this headline"><i class="fa fa-link" aria-hidden="true"></i></a></h2>
-<p>See <a href="Maps.htm">Lava Spaces</a></p>
+</li>
+</ul>
 
                     </div>
                 </div>

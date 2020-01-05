@@ -2,22 +2,39 @@
 
 The side bag can normally hold 5 tokens. 
 
-Gold and Dark Stone are not considered side bag tokens, though may be placed on the side bag for convenience.
+**Gold** and **Dark Stone** are not considered side bag tokens, though may be placed on the side bag for convenience.
 
 * During a fight, tokens may only be used on adjecent heroes.
 * Outside a fight, tokens may only be used on any hero.
 
-## Tokens
+## Side Bag Tokens
 
-* Spice: Adds D3 Damage to a single Hit. Inflicts 1 Wound, ignoring defense, on user.
-* Potion: +2 to a Skill until end of turn
-* Hatchet: Free ranged attack: Range Strength+3, Shots 1, +2 Damage, Uses Melee to hit
-* Lantern Oil: Re-roll one die in a failed Hold Back the Darkness roll
-* Exotic Herbs: Removes D3 Corruption
-* Tequila: Heals 2D6 Sanity
-* Fine Cigar: Armor 3+ until end of turn
-* Dark Stone Shiv: TODO [Official Rule Change]
-* Dynamite: (see below)
+* **Bandages**: Heal D6 Wounds
+* **Bomb**: (see *Dynamite / Bomb* below)
+* **Dark Stone Shiv**: (see below) [Official Rule Change]
+* **Dynamite**: (see below)
+* **Exotic Herbs**: Removes D3 Corruption
+* **Fine Cigar**: Armor 3+ until end of turn
+* **Fire Sake**: D3 Fury Tokens (Samurai Only)
+* **Flash**: All enemies -2 Initiative until end of next turn
+* **Hatchet**: Free ranged attack: Range Strength+3, Shots 1, +2 Damage, Uses Melee to hit
+* **Herbs**: Heal 2D6 Wounds
+* **Lantern Oil**: Re-roll one die in a failed Hold Back the Darkness roll
+* **Potion**: +2 to one Skill (max 6) until end of turn
+* **Sake**: Heal D6 Sanity Damage
+* **Shatter Gernade**: 
+  * Throw and bounce like Dynamite / Bomb.
+  * Causes D6 Wounds, ignoring Defense, and [Stunned token](Status.htm).
+* **Spice**: Adds D3 Damage to a single Hit. Inflicts 1 Wound, ignoring defense, on user.
+* **Strong Sake**: Heal 2D6 Sanity Damage
+* **Tequila**: Heals 2D6 Sanity
+* **Tonic**: Recover 1 Grit
+* **Whiskey**: Heal D6 Sanity Damage
+
+## Dark Stone Shiv [Official Rule Change]
+
+* Counts as 1 Dark Stone carried
+* Saloon Girl Only.
 
 ## Dynamite / Bomb
 
@@ -26,8 +43,15 @@ Gold and Dark Stone are not considered side bag tokens, though may be placed on 
   * Roll D8 once per bounce.
   * Ignore bounces that hit a wall.
 * Damage is D6 wounds, ignoring Defense, to sqaure and all adjecent squares.
+* **Corpse tokens** in range are automatically destroyed
 
 @alert tip
 Optional Rule **Dangerous Dynamite**: If you take 10+ wounds from a single source, roll D6 per Dyanmite token. On a 1-2, roll damage as per normal.
 @end
+
+## Roku Demon Bag
+
+Starts each adventure with D6 Arcane Powder tokens.
+
+* **Arcane Powder**: +1 to casting roll per token. May be used after rolling.
 

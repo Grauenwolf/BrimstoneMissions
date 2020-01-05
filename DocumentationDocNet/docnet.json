@@ -5,11 +5,21 @@
   "IncludeSource": "Includes",
   "Theme": "Light",
   "Footer": "Shadows of Brimstone. Copyright 2019 Flying Frog Productions. <a href='https://github.com/Grauenwolf/BrimstoneMissions/' target='_blank'>Visit us at GitHub</a>.",
+  "PathSpecification": "RelativeAsFolder",
   "Pages": {
     "__index": "Index.md",
+    "Characters": "Characters.md",
+    "Turns": "Turns.md",
+    "Fights": "Fights.md",
+    "Hits": "Hits.md",
     "Enemies": "Enemies.md",
+    "Grit": "Grit.md",
+    "Maps & Movement": "Maps.md",
     "Status and Status Tokens": "Statuses.md",
     "Side Bag": "SideBag.md",
-    "Other Tokens": "OtherTokens.md"
+    "Other Tokens": "OtherTokens.md",
+    "XP": "XP.md",
+    "Town": "Town.md",
+    "Other Rules": "Rules.md"
   }
 }

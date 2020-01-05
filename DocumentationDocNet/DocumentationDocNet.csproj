@@ -48,10 +48,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Hits.md" />
+    <None Include="Town.md" />
+    <None Include="XP.md" />
+    <None Include="Fights.md" />
+    <None Include="Rules.md" />
+    <None Include="Grit.md" />
+    <None Include="Turns.md" />
     <None Include="Enemies.md" />
     <None Include="Index.md" />
     <None Include="docnet.json" />
     <None Include="OtherTokens.md" />
+    <None Include="Characters.md" />
+    <None Include="Maps.md" />
     <None Include="Statuses.md" />
     <None Include="SideBag.md" />
   </ItemGroup>

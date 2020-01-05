@@ -18,7 +18,7 @@
 * May not use Grit
 * May not draw Loot cards
 * May not Explore (Look through doors or Scavenge)
-* Does not participate in radom skill checks from encounters
+* Does not participate in random skill checks from encounters
 * Limited carrying capacity
 * Limit 8 models on board at one time (Heroes + Advanced Allies)
 * Cannot be KO'd, are killed/out-of-action for remainder of mission instead.
@@ -31,8 +31,8 @@
 
 ### Ashigaru 
 
-* Expendable: Must re-purchase to keep for next adventure, including cost of any specality
-* Armored Ashigaru: May not take a speciality. 
+* Expendable: Must re-purchase to keep for next adventure, including cost of any specialty
+* Armored Ashigaru: May not take a specialty. 
 
 ### Animal Allies Additional Limitations
 
@@ -50,7 +50,7 @@ Other abilities that remove mutations require the above roll.
 
 ### Reviving Between Adventures
 
-* Pay original cost + speciality cost + $200/upgrade
+* Pay original cost + specialty cost + $200/upgrade
 
 ### Veteran Ally
 

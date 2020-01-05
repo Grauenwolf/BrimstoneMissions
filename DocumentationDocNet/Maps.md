@@ -22,7 +22,7 @@ Roll once per turn and keep the roll in case you move next to other enemies late
 
 ## KO'd
 
-A hero may drag a KO'd hero at the cost of 2 MP per square (instead of the usual 1/square). Must in the same or adjecent square.
+A hero may drag a KO'd hero at the cost of 2 MP per square (instead of the usual 1/square). Must in the same or adjacent square.
 
 
 ## Large (L) Models
@@ -49,12 +49,12 @@ If you are on a puzzle connector (half-square) you are considered to be on both 
 
 Thick white lines are barriers. 
 
-* Cannot move across barries unless:
+* Cannot move across barriers unless:
   * You can also move through other models
   * You can fly
   * You are XL or larger
 * Does not block line of sight
-* Does not affect adjecency rules (e.g. Escape rolls)
+* Does not affect adjacency rules (e.g. Escape rolls)
 * Does not block melee attacks
 * Does not block bombs
 
@@ -68,16 +68,16 @@ Thick white lines are barriers.
 
 * Lava spaces have a Dodge value such as 5+. 
 * When Heroes enter a Lava square, Test Agility (Dodge) to avoid taking D3 [Burning tokens](Status.htm).
-* Enemeies are not affected when moving normally. 
+* Enemies are not affected when moving normally. 
 * Enemies take D3 [Burning tokens](Status.htm) if knocked into a Lava Square by a Hero. 
 
 ## Gateways
 
-Movement through gateways is instanteous, as if the sqaures are adjecent. 
+Movement through gateways is instantons, as if the squares are adjacent. 
 
 ### Melee Attacks
 
-Melee attacks through gates work as if adjecent.
+Melee attacks through gates work as if adjacent.
 
 ### Line of Sight
 
@@ -85,4 +85,4 @@ You may only trance line-of-sight through a gateway if you are standing next to 
 
 ### Lantern
 
-The lantern works through a gateway as if the tiles were adjecent.
+The lantern works through a gateway as if the tiles were adjacent.

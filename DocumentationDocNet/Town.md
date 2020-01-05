@@ -25,7 +25,7 @@ TODO: Advanced town changes
 
 ## More Dangerous Unwanted Attention
 
-See offical FAQ v1.02 for optional rule.
+See official FAQ v1.02 for optional rule.
 
 ## Feudal Village New Locations
 

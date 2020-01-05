@@ -1,4 +1,4 @@
-﻿# Enemeies
+﻿# Enemies
 
 @alert danger
 **Do not** post enemy stats. Flying Frogs considers this restricted information.

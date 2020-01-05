@@ -2,7 +2,7 @@
 
 If all characters are KO'd at the same time, the mission is failed and KO'd heroes must roll for injury/madness.
 
-**Run away**, ending the missiong immediately. The mission is failed and KO'd heroes must roll for injury/madness.
+**Run away**, ending the mission immediately. The mission is failed and KO'd heroes must roll for injury/madness.
 
 
 ## 1. Hold Back the Darkness
@@ -23,7 +23,7 @@ If the **Darkness** marker reaches the mine entrance, the mission is failed.
 Optional Rule **Below the Darkness**: If Darkness marker is higher than the Depth marker, all enemies gain a free Elite ability.
 @end
 
-## 2. Models Activate in Initiaitve Order
+## 2. Models Activate in Initiative Order
 
 If two models are tied and one is an enemy, the enemy moves first.
 
@@ -37,7 +37,7 @@ Equip/un-equip items. (This happens *before* anything else.)
 
 Roll D6 for [movement](Maps.htm). If you roll a 1, gain one [Grit](Grit.htm).
 
-If you are not within 1 tile of the lantern (i.e. same or adjectent tile), take **D6 Horror Hits**.
+If you are not within 1 tile of the lantern (i.e. same or adjacent tile), take **D6 Horror Hits**.
 
 Perform other **Start of Activation** tasks.
 
@@ -88,7 +88,7 @@ Reveal the **Exploration** token if at least one character is in the room.
 All non-enemy encounters are resolved first. Then resolve all enemies as a single Fight.
 
 @alert tip
-House Rule: If themantically appropriate, resolve the non-enemy encounter after the fight. For example, when anything that involves searching the room would be done after killing the enemies guarding the room.
+House Rule: If thematically appropriate, resolve the non-enemy encounter after the fight. For example, when anything that involves searching the room would be done after killing the enemies guarding the room.
 @end
 
 Note: If the last **Clue** is revealed, usually the mission will have you ignore the rest of the Exploration token. See the specific mission for details.

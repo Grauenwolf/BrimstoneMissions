@@ -4,7 +4,7 @@
 
 A hero is KO's as soon as their Wounds or Sanity Damage equal their max.
 
-A hero may drag another hero at the cost of 2 MP per square (instead of the usual 1/square). Must in the same or adjecent square.
+A hero may drag another hero at the cost of 2 MP per square (instead of the usual 1/square). Must in the same or adjacent square.
 
 
 ### Recovery
@@ -12,7 +12,7 @@ A hero may drag another hero at the cost of 2 MP per square (instead of the usua
 At end of fight, roll for injury/madness. Then heal 2D6 Wounds/Sanity.
 
 Mid-fight: A hero may revive another character on his turn if:
-* They are adjecent
+* They are adjacent
 * There are no enemies on the same tile
 * Assisting hero gives up Attack.
 

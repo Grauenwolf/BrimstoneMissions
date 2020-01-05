@@ -16,8 +16,8 @@
 2. Roll **Willpower** for each **Hit** (not for each wound).
 3. *Reroll **Willpower** if allowed. May use [Grit](Grit.htm).*
 4. Last chance for instant healing such as [whiskey/sake](SideBag.htm).
-5. Take the indicated sanity damage. If not stated on the enemy or effect, **1 Sainity Damage per Hit**.
-6. Roll **Spirit Armor** (if available) for each **Sainity Damage**.
+5. Take the indicated sanity damage. If not stated on the enemy or effect, **1 Sanity Damage per Hit**.
+6. Roll **Spirit Armor** (if available) for each **Sanity Damage**.
 7. *Reroll **Spirit Armor** if allowed. May use [Grit](Grit.htm).*
 
 ## Corruption Hits
@@ -32,4 +32,4 @@
 
 **Corruption Resistance** starts at 5.  When you *equal* your Corruption Resistance, you take a mutation. 
 
-Old terminology: Your **Max Corruption** or **Corruption Limit** is 4. When you *exceed* your Max Corruption, you take a mutation. 
+Old terminology: Your **Max Corruption** or **Corruption Limit** is 4. When you *exceed* your Max Corruption, you take a mutation.

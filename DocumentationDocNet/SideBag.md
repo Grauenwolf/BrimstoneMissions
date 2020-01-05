@@ -4,7 +4,7 @@ The side bag can normally hold 5 tokens.
 
 **Gold** and **Dark Stone** are not considered side bag tokens, though may be placed on the side bag for convenience.
 
-* During a fight, tokens may only be used on adjecent heroes.
+* During a fight, tokens may only be used on adjacent heroes.
 * Outside a fight, tokens may only be used on any hero.
 
 ## Side Bag Tokens
@@ -22,7 +22,7 @@ The side bag can normally hold 5 tokens.
 * **Lantern Oil**: Re-roll one die in a failed Hold Back the Darkness roll
 * **Potion**: +2 to one Skill (max 6) until end of turn
 * **Sake**: Heal D6 Sanity Damage
-* **Shatter Gernade**: 
+* **Shatter Grenade**: 
   * Throw and bounce like Dynamite / Bomb.
   * Causes D6 Wounds, ignoring Defense, and [Stunned token](Status.htm).
 * **Spice**: Adds D3 Damage to a single Hit. Inflicts 1 Wound, ignoring defense, on user.
@@ -42,11 +42,11 @@ The side bag can normally hold 5 tokens.
 * Roll to-hit. If failed, bounce D3 times. 
   * Roll D8 once per bounce.
   * Ignore bounces that hit a wall.
-* Damage is D6 wounds, ignoring Defense, to sqaure and all adjecent squares.
+* Damage is D6 wounds, ignoring Defense, to square and all adjacent squares.
 * **Corpse tokens** in range are automatically destroyed
 
 @alert tip
-Optional Rule **Dangerous Dynamite**: If you take 10+ wounds from a single source, roll D6 per Dyanmite token. On a 1-2, roll damage as per normal.
+Optional Rule **Dangerous Dynamite**: If you take 10+ wounds from a single source, roll D6 per Dynamite token. On a 1-2, roll damage as per normal.
 @end
 
 ## Roku Demon Bag

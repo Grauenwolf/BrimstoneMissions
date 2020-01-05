@@ -1,7 +1,7 @@
 ﻿
 # XP
 
-These rules are for heros only. [Allies](Allies.htm#ally-xp-and-upgrades) have their own XP rules.
+These rules are for heroes only. [Allies](Allies.htm#ally-xp-and-upgrades) have their own XP rules.
 
 ## XP For Fights
 
@@ -11,14 +11,14 @@ These rules are for heros only. [Allies](Allies.htm#ally-xp-and-upgrades) have t
 
 
 @alert info
-The original rule for 'A + B each' was "Gain `A` XP for a successful *wounding hit* plus `B` XP per wound." Now you only get the `A` value once even if you make multple hits in one attack.
+The original rule for 'A + B each' was "Gain `A` XP for a successful *wounding hit* plus `B` XP per wound." Now you only get the `A` value once even if you make multiple hits in one attack.
 @end
 
 ## XP For Actions
 
 * Healing wounds: 5 XP/wound
 * Healing sanity: 5 XP/sanity damage
-* Healing Corruption: 10 XP per occurance (Limit 3)
+* Healing Corruption: 10 XP per occurrence (Limit 3)
 * Looking through Doors: 5 XP
 * Recovering a KO’d Hero During a Fight: 25 XP (Limit 1)
 * Guiding the Path: 10 XP per Exploration token or Map card discarded/redrawn (Limit 3)

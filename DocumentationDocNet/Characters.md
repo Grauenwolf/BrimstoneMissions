@@ -18,7 +18,7 @@ You may never take either of the two starting powers you didn't choose.
 ### 4. Draw a Personal Item.
 
 @alert info
-You cannot trade, sell, lose, or disard your **Personal Item**.
+You cannot trade, sell, lose, or discard your **Personal Item**.
 @end
 
 ### 5. Take 1 [Side Bag Item](SideBag.htm) from this list:

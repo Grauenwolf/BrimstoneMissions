@@ -48,9 +48,9 @@ Optional Rule: Heroes cannot equip found (as opposed to starting/bought) items w
 @end
  
 
-## Trading Itmes
+## Trading Items
 
-You may trade items/gold/dark stone is adjectent (in Fight) or on the same map tile (not in Fight).
+You may trade items/gold/dark stone is adjacent (in Fight) or on the same map tile (not in Fight).
 
 ## Skills
 

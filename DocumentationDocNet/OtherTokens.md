@@ -8,7 +8,7 @@
   * 5-6: Replace with Dishonored Dead
 * Use Devoured Dead when in Belly of the Beast
 * Use Scourge Dead when an Onmorake is on the table
-  * Vile Plague is removed if all Scourge Dead and Corpse Tokens are destoryed or removed.
+  * Vile Plague is removed if all Scourge Dead and Corpse Tokens are destroyed or removed.
 * If there are no other enemies on the board, remove all Corpse Tokens 18 or more squares away from any hero.
 
 
@@ -19,7 +19,7 @@
 * No more than one Hellfire token per space. This may block the bounce of other Hellfire tokens.
 * Place all markers before resolving damage
 * Causes 1 hit for 2D6 damage
-  * Heros get Defense role
+  * Heroes get Defense role
   * Enemies subtract Defense from Damage
 
 ## Revive Token

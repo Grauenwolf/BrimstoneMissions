@@ -72,6 +72,9 @@ namespace BrimstoneMissionGenerator.Pages
             catch (NullReferenceException)
             {
             }
+            catch (InvalidOperationException)
+            {
+            }
 
             try
             {

@@ -101,6 +101,14 @@ Max one free attack per turn, used at any time during the hero’s activation.
 
 Use the weapon's Combat value instead of the hero's Combat.
 
+### Dual Wielding
+
+A Hero can equip two Single-Handed ranged weapons and use both for a ranged attack at the cost of not being able to score any Critical Hits with either weapon.
+In addition the weapon considered their Off-Hand weapon needs to roll one number higher then normal when hitting. As an example if a Hero has a To Hit Range 3+ they need to roll 4+ instead for the Off-Hand weapon.
+It is recommended that you use two colors of dice for this roll.
+
+These penalties do not apply to melee dual wielding.
+
 ### Dynamite / Bomb
 
 See [Dynamite/Bomb](SideBag.htm) token.

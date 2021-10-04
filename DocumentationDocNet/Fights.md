@@ -93,7 +93,7 @@ Evenly distributed random targets if there are more heroes than enemies of that 
 
 * Min target number: 2+
 * Max target number: 6+ (unless rolling D8 for attacks)
-* Max dice: 6 Combat or 6 Shots in a single attack. [Official Rule Change]
+* Max dice: 8 Combat or 8 Shots in a single attack. [Official Rule Change]
 
 ### Free Attacks
 

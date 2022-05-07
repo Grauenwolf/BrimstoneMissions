@@ -34,7 +34,7 @@ Do NOT roll for injury/madness when using a Revive token.
 | Heroes | Revive Tokens |
 | :----: |:-------------:|
 | 1      | 2             |
-| 2-3    | 2             |
+| 2-3    | 1             |
 | 4      | 0             |
 | 5      | 1             |
 | 6      | 0             |

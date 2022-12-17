@@ -24,7 +24,7 @@ The side bag can normally hold 5 tokens.
 * **Sake**: Heal D6 Sanity Damage
 * **Shatter Grenade**: 
   * Throw and bounce like Dynamite / Bomb.
-  * Causes D6 Wounds, ignoring Defense, and [Stunned token](Status.htm).
+  * Causes D3 Wounds, ignoring Defense, and [Stunned token](Status.htm) to square and all adjacent squares.
 * **Spice**: Adds D3 Damage to a single Hit. Inflicts 1 Wound, ignoring defense, on user.
 * **Strong Sake**: Heal 2D6 Sanity Damage
 * **Tequila**: Heals 2D6 Sanity

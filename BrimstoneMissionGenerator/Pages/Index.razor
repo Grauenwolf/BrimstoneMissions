@@ -15,7 +15,7 @@
         {
             <label title="@(item.MissionsSet.MissionNamesHtml)">
                 <input type="checkbox" id="Mission_{item.MissionsSet.Id}" checked="@(item.Available)"
-                       @onchange="(eventArgs ) => CheckboxClicked(item, eventArgs.Value)" />
+                       @onchange="(eventArgs ) => CheckboxClicked(item, eventArgs.Value!)" />
 
                 @item.MissionsSet.Name
                 @if (!string.IsNullOrEmpty(item.MissionsSet.Locations))

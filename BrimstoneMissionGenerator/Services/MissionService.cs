@@ -29,14 +29,14 @@ namespace BrimstoneMissionGenerator.Services
 
             Models.Xml.Missions sets;
             using (var stream = file.OpenRead())
-                sets = (Models.Xml.Missions)settingXmlSerializer.Deserialize(stream);
+                sets = (Models.Xml.Missions)settingXmlSerializer.Deserialize(stream)!;
 
             var products = XElement.Load(Path.Combine(rootPath, @"App_Data/Products.xml"));
 
             var realSets = new List<MissionSet>();
             foreach (var item in sets.Set)
             {
-                var product = products.Elements().SingleOrDefault(x => x.Attribute("Id").Value == item.Id.ToString());
+                var product = products.Elements().SingleOrDefault(x => x.Attribute("Id")?.Value == item.Id.ToString());
 
                 var productHtml = product != null ? new MarkupString(product.Value) : (MarkupString?)null;
 
@@ -61,6 +61,30 @@ namespace BrimstoneMissionGenerator.Services
             }
 
             Sets = new ReadOnlyCollection<MissionSet>(realSets);
+        }
+
+        public async Task<List<CheckList>> FindSetsAsync(LocalStorage? localStorage)
+        {
+            var sets = Sets.Select(x => new CheckList(x)).ToList();
+
+            if (localStorage != null)
+            {
+                var listRaw = await localStorage.GetItemAsync("missions");
+                if (!string.IsNullOrWhiteSpace(listRaw))
+                {
+                    var list = listRaw.Split(',').Select(x => int.Parse(x)).ToList();
+
+                    foreach (var set in sets)
+                    {
+                        if (list.Contains(set.MissionsSet.Id))
+                            set.Available = true;
+                    }
+                }
+            }
+
+            if (!sets.Any(x => x.Available))
+                sets[0].Available = true;
+            return sets;
         }
 
         public async Task<MissionPicker> GenerateMissionAsync(LocalStorage? localStorage, int setting, int mission)
@@ -95,6 +119,13 @@ namespace BrimstoneMissionGenerator.Services
             return selectedMission;
         }
 
+        public async Task SaveSetsAsync(LocalStorage localStorage, List<CheckList>? sets)
+        {
+            var selectedSets = string.Join(",", sets!.Where(x => x.Available).Select(x => x.MissionsSet.Id.ToString()));
+
+            await localStorage.SetItemAsync("missions", selectedSets);
+        }
+
         void Fixup(RandomExtended dice, List<CheckList> sets, MissionPicker missionPicker)
         {
             if (missionPicker.Mission.RandomWorlds > 0)
@@ -109,37 +140,6 @@ namespace BrimstoneMissionGenerator.Services
                 else if (myWorlds.Count > 0)
                     missionPicker.OtherWorlds.AddRange(dice.Choose(myWorlds, missionPicker.Mission.RandomWorlds.Value)); //duplicates needed
             }
-        }
-
-        public async Task SaveSetsAsync(LocalStorage localStorage, List<CheckList>? sets)
-        {
-            var selectedSets = string.Join(",", sets.Where(x => x.Available).Select(x => x.MissionsSet.Id.ToString()));
-
-            await localStorage.SetItemAsync("missions", selectedSets);
-        }
-
-        public async Task<List<CheckList>> FindSetsAsync(LocalStorage? localStorage)
-        {
-            var sets = Sets.Select(x => new CheckList(x)).ToList();
-
-            if (localStorage != null)
-            {
-                var listRaw = await localStorage.GetItemAsync("missions");
-                if (!string.IsNullOrWhiteSpace(listRaw))
-                {
-                    var list = listRaw.Split(',').Select(x => int.Parse(x)).ToList();
-
-                    foreach (var set in sets)
-                    {
-                        if (list.Contains(set.MissionsSet.Id))
-                            set.Available = true;
-                    }
-                }
-            }
-
-            if (!sets.Any(x => x.Available))
-                sets[0].Available = true;
-            return sets;
         }
     }
 }

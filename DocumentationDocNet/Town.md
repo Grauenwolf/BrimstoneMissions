@@ -13,6 +13,7 @@ TODO: Difference between small/medium/large town.
 ## A Day in Town
 
 1. Each hero chooses Camp or Inn
+2. Draw a single **Daily Event** card.
 2. Roll for Camp events, once per hero.
 3. Each hero chooses location to visit
 4. Roll for location events, once per hero

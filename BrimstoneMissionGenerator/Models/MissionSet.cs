@@ -7,7 +7,7 @@ namespace BrimstoneMissionGenerator.Models
 {
     public class MissionSet
     {
-        public MissionSet(int id, string name, IList<Mission> missions, string bggUrl, string downloadUrl, string otherWorld, MarkupString? productHtml)
+        public MissionSet(int id, string name, IList<Mission> missions, string bggUrl, string downloadUrl, string otherWorld/*, MarkupString? productHtml*/)
         {
             Id = id;
             Name = name;
@@ -15,7 +15,14 @@ namespace BrimstoneMissionGenerator.Models
             BggUrl = bggUrl;
             DownloadUrl = downloadUrl;
             OtherWorld = otherWorld;
-            ProductHtml = productHtml;
+            //ProductHtml = productHtml;
+
+            if (name.StartsWith("The ", System.StringComparison.OrdinalIgnoreCase))
+                NameForSorting = name.Substring(4) + ", The";
+            else if (name.StartsWith("A ", System.StringComparison.OrdinalIgnoreCase))
+                NameForSorting = name.Substring(4) + ", A";
+            else
+                NameForSorting = name;
         }
 
         public string BggUrl { get; }
@@ -37,13 +44,14 @@ namespace BrimstoneMissionGenerator.Models
             {
                 var values = Missions.Select(x => (x.Number != 0 ? x.Number + ". " : "") + x.Name);
                 //return new MarkupString(string.Join("<br>", values));
-                return new MarkupString(string.Join("&#013;", values));
+                return new MarkupString(string.Join("\r\n", values));
             }
         }
 
         public ReadOnlyCollection<Mission> Missions { get; }
         public string Name { get; }
+        public string NameForSorting { get; }
         public string OtherWorld { get; }
-        public MarkupString? ProductHtml { get; }
+        //public MarkupString? ProductHtml { get; }
     }
 }

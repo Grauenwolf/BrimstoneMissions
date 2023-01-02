@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <None Remove="wwwroot\App_Data\Missions.xml" />
-    <None Remove="wwwroot\App_Data\Products.xml" />
   </ItemGroup>
 
 
@@ -25,9 +24,6 @@
 
   <ItemGroup>
     <Content Update="wwwroot\App_Data\Missions.xml">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Content>
-    <Content Update="wwwroot\App_Data\Products.xml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

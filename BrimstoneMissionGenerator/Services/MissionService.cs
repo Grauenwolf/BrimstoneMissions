@@ -1,6 +1,5 @@
 ﻿using BrimstoneMissionGenerator.Models;
 using Cloudcrate.AspNetCore.Blazor.Browser.Storage;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
 using System;
 using System.Collections.Generic;
@@ -8,7 +7,6 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 using System.Xml.Serialization;
 using Tortuga.Anchor;
 
@@ -31,14 +29,14 @@ namespace BrimstoneMissionGenerator.Services
             using (var stream = file.OpenRead())
                 sets = (Models.Xml.Missions)settingXmlSerializer.Deserialize(stream)!;
 
-            var products = XElement.Load(Path.Combine(rootPath, @"App_Data/Products.xml"));
+            //var products = XElement.Load(Path.Combine(rootPath, @"App_Data/Products.xml"));
 
             var realSets = new List<MissionSet>();
             foreach (var item in sets.Set)
             {
-                var product = products.Elements().SingleOrDefault(x => x.Attribute("Id")?.Value == item.Id.ToString());
+                //var product = products.Elements().SingleOrDefault(x => x.Attribute("Id")?.Value == item.Id.ToString());
 
-                var productHtml = product != null ? new MarkupString(product.Value) : (MarkupString?)null;
+                //var productHtml = product != null ? new MarkupString(product.Value) : (MarkupString?)null;
 
                 realSets.Add(new MissionSet(item.Id,
                                  item.Name,
@@ -56,11 +54,10 @@ namespace BrimstoneMissionGenerator.Services
                                                               )).ToList(),
                                  item.BggUrl,
                                  item.DownloadUrl,
-                                 item.OtherWorld,
-                                 productHtml));
+                                 item.OtherWorld));
             }
 
-            Sets = new ReadOnlyCollection<MissionSet>(realSets);
+            Sets = new ReadOnlyCollection<MissionSet>(realSets.OrderBy(s => s.NameForSorting).ToList());
         }
 
         public async Task<List<CheckList>> FindSetsAsync(LocalStorage? localStorage)

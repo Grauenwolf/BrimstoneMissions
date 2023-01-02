@@ -6,6 +6,8 @@ You may not reroll the same die more than once.
 
 Use one **Grit** to move +1D6 squares. 
 
+If you have max grit and earn another one, it may be spent on movement rather than being lost.
+
 ## Restrictions
 
 You may not use Grit for any of the following:
@@ -19,7 +21,7 @@ You may not use Grit for any of the following:
   * Any roll to pick a Random Hero/Item/Etc.
   * Rolls made by other Heroes
 * Hold Back the Darkness
-* Any roll on a Chart
+* Any roll on a Chart except...
   * A Hero MAY use Grit to Re-roll any Chart roll that would kill the Hero outright.
   * A Hero MAY use Grit to Re-roll any Chart roll for an attempt to remove an Injury/Madness/Mutation/Curse/Parasite.
 * Roll to determine Corruption Hits at the end of an Adventure from Dark Stone Carried

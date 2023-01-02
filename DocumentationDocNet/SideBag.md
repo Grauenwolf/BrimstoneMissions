@@ -1,6 +1,6 @@
 ﻿# Side Bag
 
-The side bag can normally hold 5 tokens. 
+The side bag can normally hold 5 tokens. **Large** tokens take 2 spaces.
 
 **Gold** and **Dark Stone** are not considered side bag tokens, though may be placed on the side bag for convenience.
 
@@ -9,17 +9,23 @@ The side bag can normally hold 5 tokens.
 
 ## Side Bag Tokens
 
+* **Amulet of Light**: Cancel Darkness card and all Darkness cards in play. Large.
 * **Bandages**: Heal D6 Wounds
 * **Bomb**: (see *Dynamite / Bomb* below)
 * **Dark Stone Shiv**: (see below) [Official Rule Change]
 * **Dynamite**: (see below)
+* **Elixir of Fortitude**: Remove one Madness or +1 Sanity. Large.
+* **Elixir of Purity**: Remove one Madness/Curse or +1 Corruption Resistance. Large.
+* **Elixir of Vitality**: Remove one Injury or +1 Health. Large.
 * **Exotic Herbs**: Removes D3 Corruption
 * **Fine Cigar**: Armor 3+ until end of turn
 * **Fire Sake**: D3 Fury Tokens (Samurai Only)
 * **Flash**: All enemies -2 Initiative until end of next turn
 * **Hatchet**: Free ranged attack: Range Strength+3, Shots 1, +2 Damage, Uses Melee to hit
+* **Hellfire Sake**: Gain 1D6 [Fury Tokens](AbilityTokens.htm) (Samurai Only)
 * **Herbs**: Heal 2D6 Wounds
 * **Lantern Oil**: Re-roll one die in a failed Hold Back the Darkness roll
+* **Magik Tonic**: Discard to Recover a Grit.
 * **Potion**: +2 to one Skill (max 6) until end of turn
 * **Sake**: Heal D6 Sanity Damage
 * **Shatter Grenade**: 
@@ -27,9 +33,12 @@ The side bag can normally hold 5 tokens.
   * Causes D3 Wounds, ignoring Defense, and [Stunned token](Status.htm) to square and all adjacent squares.
 * **Spice**: Adds D3 Damage to a single Hit. Inflicts 1 Wound, ignoring defense, on user.
 * **Strong Sake**: Heal 2D6 Sanity Damage
+* **Tea**: Heal 1d6 Health/Sanity or Recover 1 Ability token. Limit 1/turn.
 * **Tequila**: Heals 2D6 Sanity
 * **Tonic**: Recover 1 Grit
+* **Void Sake**: Take 1 Corruption Hit to remove D3 [Status Effect markers](Status.htm). 
 * **Whiskey**: Heal D6 Sanity Damage
+* **Wine**: Heal Peril die Sanity. 
 
 ## Dark Stone Shiv [Official Rule Change]
 

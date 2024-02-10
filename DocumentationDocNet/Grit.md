@@ -28,6 +28,12 @@ You may not use Grit for any of the following:
 * Variable Mission Rewards
 * Rolls for adding Travel Hazards
 
+## Growing Dread
+
+Spend [characters] Grit to remove one Growing Dead card. 
+
+House rule: Grit may be placed on the Growing Dead deck. Once placed, it may not be removed except when spent to remove a card. 
+
 ## Class Rules
 
 ### Trederran Sunset (Trederran Veteran)

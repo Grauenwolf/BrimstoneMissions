@@ -13,7 +13,7 @@ namespace BrimstoneMissionGenerator.Models
         {
         }
 
-        public static StringCollection Empty { get; } = new StringCollection(new List<string>());
+        public static new StringCollection Empty { get; } = new StringCollection(new List<string>());
 
         public override string ToString()
         {

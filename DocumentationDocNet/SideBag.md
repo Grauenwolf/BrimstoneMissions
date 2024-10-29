@@ -40,7 +40,7 @@ The side bag can normally hold 5 tokens. **Large** tokens take 2 spaces.
   * Causes D3 Wounds, ignoring Defense, and [Stunned token](Status.htm) to square and all adjacent squares.
 * **Spice**: Adds D3 Damage to a single Hit. Inflicts 1 Wound, ignoring defense, on user.
 * **Strong Sake**: Heal 2D6 Sanity Damage
-* **Swamp Fungus**: Discard to Heal D6 Wounds and D6 Sanity.
+* **Swamp Fungus**: Heal D6 Wounds and D6 Sanity.
 * **Tea**: Heal 1d6 Health/Sanity or Recover 1 Ability token. Limit 1/turn.
 * **Tequila**: Heals 2D6 Sanity
 * **Tonic**: Recover 1 Grit

@@ -13,9 +13,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrimstoneTests", "BrimstoneTests\BrimstoneTests.csproj", "{8F9AF174-12B4-4859-8D80-996F26DD78D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A73A840F-671B-4779-BEDA-C7A953C2ED70}"
-	ProjectSection(SolutionItems) = preProject
-		.github\workflows\BrimstoneMissionGenerator.yml = .github\workflows\BrimstoneMissionGenerator.yml
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

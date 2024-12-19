@@ -32,7 +32,7 @@ The side bag can normally hold 5 tokens. **Large** tokens take 2 spaces.
 * **Hellfire Sake**: Gain 1D6 [Fury Tokens](AbilityTokens.htm) (Samurai Only)
 * **Herbs**: Heal 2D6 Wounds
 * **Lantern Oil**: Re-roll one die in a failed Hold Back the Darkness roll
-* **Magik Tonic**: Discard to Recover a Grit.
+* **Magik Tonic**: Discard to Recover a Grit and, until the end of the turn, you may Re-roll dice with Grit even if they have already been Re-rolled. Limit 1 per turn.
 * **Potion**: +2 to one Skill (max 6) until end of turn
 * **Sake**: Heal D6 Sanity Damage
 * **Shatter Grenade**: 

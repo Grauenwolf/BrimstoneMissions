@@ -20,7 +20,7 @@ Submissions are welcome, but **do not** include anything that Flying Frogs consi
   * [Status Markers/Tokens](Status.htm)
   * [Other Tokens](OtherTokens.htm)
 * [XP](XP.htm)
-* [Town](.htm)
+* [Town](Town.htm)
 * [Allies](Allies.htm)
 * [Other Rules](Rules.htm)
 
